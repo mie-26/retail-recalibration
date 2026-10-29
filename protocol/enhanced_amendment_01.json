@@ -1,0 +1,31 @@
+{
+  "created": "2026-10-21T11:24:21.331436+08:00",
+  "original_freeze_sha256": "e517f8b849be2cc9fef2072f8be2ad8eb7ce0149f40a3baac887bcc740e591d7",
+  "reason": "Causal review found that hyperparameters chosen using warmup validation cannot have been available for forecasts issued before validation labels matured. Those shadow forecasts must never enter calibration history.",
+  "change": "Each source/H/family first valid issued origin = validation_last_target+1. All earlier initial-bank forecasts are retained as unused shadow cache only. Calibrators start from zero at first valid issue. Evaluation origins,selected configurations,cohort,methods,windows,delays and update calendars remain fixed. Limited initial mature-window counts are reported; no invented residuals.",
+  "evidence_timing": "Repair after protected Dominicks raw target decode, but BEFORE any Dominicks external model fit,forecast scoring,or outcome comparison. Only M5 H7 firstseed initial pilot outputs had completed. No external score used in repair. Initial protocol and invalidated pilot outputs retained; do not claim that final implementation hash preceded raw decode.",
+  "invalidated_completed_cases": 18,
+  "replacement_code_sha256": {
+    "common.py": "0ae9121ff86a63355a8adedd1c90218871f9e2f0e9dccd5c78dd81ef96d27441",
+    "replay.py": "e47ee0315144fb0b38fdc11a958e81ac6be1c87f24a0bb5619d0fb6260d5bf00",
+    "test_core.py": "a22fb24dfe70073c7cec0cd663c40ab0bbb237959f18cb9a7b054cf39da15e1b"
+  },
+  "first_issued": {
+    "m5_h7_lgbm": 1556,
+    "m5_h7_mlp": 1556,
+    "m5_h14_lgbm": 1563,
+    "m5_h14_mlp": 1563,
+    "retail_h7_lgbm": 429,
+    "retail_h7_mlp": 429,
+    "retail_h14_lgbm": 436,
+    "retail_h14_mlp": 436,
+    "dominicks_h1_lgbm": 280,
+    "dominicks_h1_mlp": 280,
+    "dominicks_h2_lgbm": 281,
+    "dominicks_h2_mlp": 281,
+    "m5_weekly_h1_lgbm": 224,
+    "m5_weekly_h1_mlp": 224,
+    "m5_weekly_h2_lgbm": 225,
+    "m5_weekly_h2_mlp": 225
+  }
+}

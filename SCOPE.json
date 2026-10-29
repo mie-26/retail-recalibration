@@ -1,0 +1,25 @@
+{
+  "identifier": "paper-core-20261029",
+  "full_package_sha256": "f8b6199ee14035abcc7a22aacc9136fd2f00c7e84a072530f374b137fa2d82a0",
+  "included": [
+    "Core primary daily scores including original-unit loss",
+    "All controlled E1/E2/E3 daily scores and result tables",
+    "All Italian selected co-primary and feedback-bridge arms, all seeds/configurations",
+    "Italian E3 daily scores and feedback-availability arrays",
+    "All archived final numerical result tables, including negative and fixed-grid results",
+    "Four main and eleven supplementary figure inputs, plotting sources and Figure 1 PPT",
+    "Eight representative original checkpoints (twelve logical models), exact MLP array export and prediction anchors"
+  ],
+  "omitted": [
+    "Complete original-model banks",
+    "Robustness full-grid daily scores",
+    "Daily original-unit extended arrays outside core",
+    "Full daily-stratum arrays",
+    "Non-core old-source history/mechanism/phase daily arrays",
+    "Italian fixed-candidate daily arrays and selected E1/global/sorted daily arms",
+    "Training-budget and MultiQT control daily-score arrays",
+    "Complete per-stratum summary rows used for subgroup reaggregation",
+    "Controlled E2/E3 stratum arrays; final subgroup summary tables retained"
+  ],
+  "exclusions_note": "Final summary tables for omitted daily arrays are retained. They can be inspected and plotted but their daily-score aggregation/resampling is not independently repeated by this compact package. Full submitted Supplementary_Code.zip supports those additional audits. No new fits, reselection or result changes."
+}

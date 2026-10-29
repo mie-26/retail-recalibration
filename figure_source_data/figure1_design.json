@@ -1,0 +1,50 @@
+{
+  "kind": "analytical timing schematic, not empirical data",
+  "H": 14,
+  "U": 28,
+  "d": 0,
+  "illustration_origins": "0 through 83; interval endpoint 84",
+  "window_assumption": "W >= H; checked with W=56",
+  "initial_residuals": 0,
+  "missing_observations": 0,
+  "one_finite_group_residual_suffices": true,
+  "reuse_active_intervals_half_open": [
+    [
+      14,
+      84
+    ]
+  ],
+  "isolation_active_intervals_half_open": [
+    [
+      14,
+      28
+    ],
+    [
+      42,
+      56
+    ],
+    [
+      70,
+      84
+    ]
+  ],
+  "feedback_before_issue": true,
+  "timing_enumeration_passed": true,
+  "new_empirical_results": 0,
+  "source": "Current manuscript Methods 3.4–3.5 and Eq. (3)",
+  "render": "Figure 1 is authored in editable PowerPoint; code/figure1_design.py verifies and restores the fixed publication exports. Optional PPT regeneration uses figure_assets/build_pptx.mjs.",
+  "dimensions_inches": [
+    7.2,
+    5.85
+  ],
+  "png_dpi": 600,
+  "caption": "Figure 1. Shared forecasts, feedback eligibility and calibration availability. (a) Periodically refitted base models provide common cumulative-sales quantile forecasts; R0 issues nonnegative, sorted Raw predictions. (b) R2 reuses eligible mature normalized residuals from historically issued ordered Raw across model versions within the rolling window, whereas R3 retains only current-version residuals. Marks illustrate eligibility; their values and counts are schematic. The two policies share frequency groups, the residual window and output sorting. (c) A target issued at s completes after H periods and is released after delay d; feedback is usable at t only if s+H+d≤t. (d) Analytical example with H=14 days, U=28 days and d=0. With initially empty pools, complete observations and W≥H, R2 retains feedback after day 14, while R3 waits after each model update. Binary traces indicate eligible feedback availability (1) or an empty pool (0), when Raw is issued. Availability does not imply a nonzero correction. The illustration contains no measured performance results. Full policy definitions and protocol qualifications are given in Methods and the Supplementary Information.",
+  "source_pptx": "figure_assets/Figure_1.pptx",
+  "editable_shapes": "figure_assets/Figure_1_shapes.json",
+  "ai_reference": "Built-in image generation provided visual inspiration only; no generated pixels in final figure.",
+  "layout": "Four panels: shared forecasting; feedback eligibility; delayed labels; availability across updates",
+  "residual_tokens": "Illustrative residual eligibility marks; values and counts are schematic",
+  "panel_d": "Binary availability traces with unchanged analytical timing assumptions",
+  "revision_note": "Functional scientific glyphs, matched residual eligibility marks and binary availability traces. Scientific definitions and timing are unchanged.",
+  "visual_revision": "figure1-scholarly-20261028"
+}

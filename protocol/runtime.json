@@ -1,0 +1,16 @@
+{
+  "created": "2026-10-21T11:39:55.587197+08:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "lightgbm": "4.7.0",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "model_diagnostics": "1.5.0 isolated diagnostic_deps",
+  "torch": "2.7.1+cu128 separate transfer_env",
+  "cost_warning": "Two family pipelines plus optional sensitivity/diagnostics may execute concurrently. Summed fit durations are measured process durations, not end-to-end wall time or dedicated-device benchmark."
+}

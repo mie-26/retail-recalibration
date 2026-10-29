@@ -1,0 +1,13 @@
+Licence status
+
+No reuse or redistribution licence has yet been selected by the authors for
+the original code and numerical materials. This notice is not a licence grant.
+Data-provider and third-party rights remain with their respective holders.
+
+Complete raw sales from M5, Online Retail II and Dominick's and the third-party
+MultiQT implementation are not redistributed. The Italian source CSV is
+included with its provider attribution and CC BY-NC 3.0 notice; that notice
+does not grant a licence to the entire repository.
+
+Provider links: docs/DATA_SOURCES.md.
+Reference implementation identity: protocol/multiqt_reference.json.

@@ -1,0 +1,37 @@
+{
+  "main": {
+    "Figure_1": "Shared forecasting, paired feedback pools, label release and analytical availability timeline; figure_assets/Figure_1.pptx",
+    "Figure_2": "two primary paired contrasts, identical archived estimates",
+    "Figure_3": "fixed-target delay and calibration availability",
+    "Figure_4": "Italian prespecified q90/q95 rule-by-sharing interactions with 97.5% intervals"
+  },
+  "supplementary": {
+    "S1_complete_policy_effects": "previous Figure 2, including secondary R5 contrasts",
+    "S2_parameter_sensitivity": "previous Supplementary Figure S1",
+    "S3_coverage": "previous Figure 4, strict and weak coverage",
+    "S4_training_budget": "previous Figure 5, matched optimizer updates",
+    "S5_three_seed_feedback": "previous Supplementary Figure S2",
+    "S6_simulation": "previous Supplementary Figure S3",
+    "S7_selection_history": "E1 same-cutoff short versus long selection; structurally equivalent R3 marked",
+    "S8_residual_reference": "E3 new/old and new/Raw paired reference contrasts",
+    "S9_discovery_sharing": "Earlier discovery sharing effects, previously main Figure 4",
+    "S10_external_interactions": "Italian selected-path interactions, all configurations",
+    "S11_external_feedback": "Italian reuse/isolation relative to Raw"
+  },
+  "tables": {
+    "Main Table 1": "unchanged cohort and support table",
+    "Main Table 2": "primary loss and coverage means across six related H/U settings; figure_source_data/table2_primary_summary.csv",
+    "Supplementary Table S1": "previous Main Table 2, complete R1\u2013R5 loss summaries",
+    "Supplementary Tables S2\u2013S14": "previous Supplementary Tables S1\u2013S13 in the same order",
+    "Supplementary Tables S15\u2013S19": "Controlled E1\u2013E3 design, choices, scalar sharing, fixed steps and residual references",
+    "Main Table 3": "Italian primary four arms versus Raw",
+    "Supplementary Tables S20\u2013S24": "Italian support, fixed-grid reversals, E3 contrasts, reuse/isolation and feedback availability"
+  },
+  "new_model_fits": 0,
+  "numerical_estimates_changed": false,
+  "new_base_model_fits": 0,
+  "controlled_follow_up_added": true,
+  "reproduction_new_model_fits": 0,
+  "italian_original_models": 702,
+  "presentation_units": "Italian interaction axes explicitly use percentages of Raw scaled pinball loss; S10 is retrospective confirmation. Scientific arrays and intervals are unchanged."
+}

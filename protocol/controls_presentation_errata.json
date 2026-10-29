@@ -1,0 +1,10 @@
+{
+  "created": "2026-10-21T14:02:47.183356+08:00",
+  "original_file": "outputs\\sr_enhanced_20261021\\tables\\source_design.csv",
+  "original_sha256": "0200287f7afd377ab65e69096a0ecf45f4ceeadc2471e7f98d128abb7275b231",
+  "old_text": "External confirmation reserved targets weeks296..399; common H1/H2 origins295..397 (103); no protected MOVE parsed before final freeze",
+  "corrected_display_text": "Reserved target weeks296..399, common103origins. Initial protocol before protected numeric read; startup implementation erratum AFTER that read but BEFORE external fits/scoring. See original amendment_01.json. Not an untouched preregistration.",
+  "original_unchanged": true,
+  "amendment_sha256": "b48284057aa1aafdf4656566d4a2900b4b35568bd993614ad3d2ae8bde1b0d66",
+  "narrative_correction": "Prior statement about no new-enterprise gain applies to R2 rolling-group calibration, not to all methods. R5 is a prespecified secondary nonnegative MultiQT implementation and shows different directions."
+}

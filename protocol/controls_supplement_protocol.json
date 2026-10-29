@@ -1,0 +1,94 @@
+{
+  "title": "Post-review optimization-budget and MultiQT feedback controls",
+  "status": "FIXED_SUPPLEMENT",
+  "created": "2026-10-21T13:51:02.042632+08:00",
+  "evidence": "Post-review supplement after all enhanced-study outcomes were inspected; not a new independent confirmation or preregistration",
+  "original_freeze_sha256": "e517f8b849be2cc9fef2072f8be2ad8eb7ce0149f40a3baac887bcc740e591d7",
+  "original_amendment_sha256": "b48284057aa1aafdf4656566d4a2900b4b35568bd993614ad3d2ae8bde1b0d66",
+  "code_sha256": {
+    "study.py": "63f6b3645308f9410fb8822ad766fffdf778b7e9e8bcb98c9d5965260ba62ba1",
+    "test_study.py": "9478f787e89a1b48f798e325898dcbfc75ee1c65886eb1290eb7c1f34cf347b5"
+  },
+  "selected": {
+    "7": {
+      "path": "outputs\\sr_enhanced_20261021\\selection\\m5_h7_mlp\\selected.json",
+      "sha256": "a981b25bf76197813a36d47b63756d22a1c2ca92589e5d935a376d5071b5b3ae",
+      "configuration": {
+        "width": 128,
+        "epochs": 10
+      },
+      "target_steps": 2680
+    },
+    "14": {
+      "path": "outputs\\sr_enhanced_20261021\\selection\\m5_h14_mlp\\selected.json",
+      "sha256": "c918b17fe7368c6595da9f6459c2ce67ee6aec3fc93a15ef86876e0d8102d19a",
+      "configuration": {
+        "width": 128,
+        "epochs": 5
+      },
+      "target_steps": 1340
+    }
+  },
+  "training": {
+    "source": "original sampled M5 development cohort",
+    "H": [
+      7,
+      14
+    ],
+    "U": 28,
+    "history": [
+      42,
+      84
+    ],
+    "seeds": [
+      20261021,
+      20261022,
+      20261023
+    ],
+    "deployments": 12,
+    "expected_actual_models": 156,
+    "methods": [
+      "R0_raw",
+      "R2_reuse",
+      "R3_isolate"
+    ],
+    "optimizer_steps": {
+      "7": 2680,
+      "14": 1340
+    },
+    "optimization": "Original AdamW/lr/standardization/shuffling/batch4096; full shuffled epochs plus final partial epoch until exact target number of updates. No early stop or new selection.",
+    "interpretation": "Same optimizer updates, not identical unique data or example visits. Short history still changes recency and standardized feature statistics."
+  },
+  "multiqt": {
+    "sources": [
+      "m5",
+      "retail",
+      "dominicks"
+    ],
+    "Hs": "original two horizons",
+    "U": "middle original calendar U28/U4",
+    "seed": 20261021,
+    "anchors": 12,
+    "variants": [
+      "Q0_unclamped",
+      "Q1_output_clamp_shadow",
+      "Q2_output_clamp_played"
+    ],
+    "unchanged": "Original ordered nonnegative raw reference, normalization, adaptive eta, lazy release, isotonic projection and start time",
+    "comparison": "Q1-Q0 isolates final output clamping with identical shadow recursion; Q2-Q1 changes feedback used in subsequent updates. Q2 must match saved original R5 exactly."
+  },
+  "statistics": {
+    "draws": 3000,
+    "seed": 20261021,
+    "reference_block": "2H",
+    "sensitivity_blocks": "H,2H,4H,56 days or8 weeks, only T>=4L",
+    "seed_handling": "Average scores, not predictions, then shared paired time blocks",
+    "scope": "Descriptive intervals conditional on source/cohort/time; no new multiple-testing or independence claims"
+  },
+  "presentation": {
+    "full_methods": "All prespecified R0-R5, each against same-calendar Raw; R5 retains original secondary status",
+    "dominicks": "Recompute pooled, equal-category and equal-date weighting; no recovery of missing targets",
+    "metadata": "Correct presentation copies only; original frozen archive immutable",
+    "simulation": "Retain original misspecified-distribution simulation in appendix; no oracle additions or new real dataset"
+  }
+}

@@ -1,0 +1,11 @@
+Reproducibility materials for:
+Benefits and risks of online recalibration after retraining in retail quantile forecasting
+
+Repository: https://github.com/mie-26/retail-recalibration
+Package identifier: paper-core-20261029
+Date: 2026-10-29
+Intended journal: Scientific Reports.
+
+No article DOI, publication status or public GitHub release is asserted.
+Author information is supplied to the journal separately and is not included here.
+Use the published article citation when it becomes available.

@@ -1,0 +1,8 @@
+{
+  "m5": "data/raw/m5.zip",
+  "retail": "data/raw/online_retail_ii.zip",
+  "cer": "data/raw/wcer.zip",
+  "frd": "data/raw/wfrd.zip",
+  "lnd": "data/raw/wlnd.zip",
+  "tti": "data/raw/wtti.zip"
+}

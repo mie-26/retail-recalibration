@@ -1,0 +1,297 @@
+{
+  "checkpoints": [
+    {
+      "id": "m5_h7_lgbm_c1492",
+      "source": "m5",
+      "H": 7,
+      "family": "lgbm",
+      "seed": 20261021,
+      "cutoff": 1492,
+      "models": 2,
+      "feature_count": 42,
+      "anchor_rows": 48,
+      "source_model_paths": [
+        "outputs/sr_enhanced_20261021/banks/m5/h7_lgbm_s20261021_hist365_delay0/c1492/q90.txt",
+        "outputs/sr_enhanced_20261021/banks/m5/h7_lgbm_s20261021_hist365_delay0/c1492/q95.txt"
+      ],
+      "files": [
+        {
+          "path": "m5_h7_lgbm_c1492/inference_anchor.npz",
+          "bytes": 3860,
+          "sha256": "7b7624bf17134c9315aa3f189d3895628e57a32672fec03ccfe911dc8751dd78"
+        },
+        {
+          "path": "m5_h7_lgbm_c1492/q90.txt",
+          "bytes": 799539,
+          "sha256": "3c089e10bf33190e38ac7afde7c01a839d0720e3f31ce5f4ada73229e2db6454"
+        },
+        {
+          "path": "m5_h7_lgbm_c1492/q95.txt",
+          "bytes": 794166,
+          "sha256": "d2cb96080d8e5875375b2c372dbaeb043eedd149b871a9a3fc5f6f0f7d8e5330"
+        },
+        {
+          "path": "m5_h7_lgbm_c1492/training_record.json",
+          "bytes": 861,
+          "sha256": "a4249510441228ee0cd82f8b05225715d6ea7d9b36b4fb1dbf7093f263d28cae"
+        }
+      ]
+    },
+    {
+      "id": "m5_h7_mlp_c1492",
+      "source": "m5",
+      "H": 7,
+      "family": "mlp",
+      "seed": 20261021,
+      "cutoff": 1492,
+      "models": 1,
+      "feature_count": 42,
+      "anchor_rows": 48,
+      "source_model_paths": [
+        "outputs/sr_enhanced_20261021/banks/m5/h7_mlp_s20261021_hist365_delay0/c1492/model.pt"
+      ],
+      "files": [
+        {
+          "path": "m5_h7_mlp_c1492/inference_anchor.npz",
+          "bytes": 3858,
+          "sha256": "1fc994450af1de13cdaf62ef709fbb2bbefcc91e06140a75bc777f52bbb6acd6"
+        },
+        {
+          "path": "m5_h7_mlp_c1492/model.pt",
+          "bytes": 92541,
+          "sha256": "9e77899f35d0e6934419bf9a536fceb15dc455d84f0e6c6ade25ac05f5df5ce7"
+        },
+        {
+          "path": "m5_h7_mlp_c1492/training_record.json",
+          "bytes": 795,
+          "sha256": "3cddb690497f5dc90e3f00e9195c08477caaa0d1d19988cc57146d5f9e8aca20"
+        },
+        {
+          "path": "m5_h7_mlp_c1492/weights.npz",
+          "bytes": 84833,
+          "sha256": "3e6d04ca470a217c811c38bdde877475a3fc4e9b364e64691ea8eaf78e9b884b"
+        }
+      ]
+    },
+    {
+      "id": "retail_h7_lgbm_c365",
+      "source": "retail",
+      "H": 7,
+      "family": "lgbm",
+      "seed": 20261021,
+      "cutoff": 365,
+      "models": 2,
+      "feature_count": 38,
+      "anchor_rows": 48,
+      "source_model_paths": [
+        "outputs/sr_enhanced_20261021/banks/retail/h7_lgbm_s20261021_hist365_delay0/c365/q90.txt",
+        "outputs/sr_enhanced_20261021/banks/retail/h7_lgbm_s20261021_hist365_delay0/c365/q95.txt"
+      ],
+      "files": [
+        {
+          "path": "retail_h7_lgbm_c365/inference_anchor.npz",
+          "bytes": 3830,
+          "sha256": "62c599e03c1fd51ce2df507d80f6d4daa65e36ee25db67fdd0286141ba1961db"
+        },
+        {
+          "path": "retail_h7_lgbm_c365/q90.txt",
+          "bytes": 1558964,
+          "sha256": "0e1fd34b6fd88b6f47999a76ce31b2aa0d372303fb021d5fc1527f8b49aaf9f4"
+        },
+        {
+          "path": "retail_h7_lgbm_c365/q95.txt",
+          "bytes": 1550404,
+          "sha256": "93cafbb692a5ad23c4d8ab50d73ca5b6c40f9bafdc594af45d0a22fa166e0e4e"
+        },
+        {
+          "path": "retail_h7_lgbm_c365/training_record.json",
+          "bytes": 857,
+          "sha256": "a4bb9cd4b35a0ef7c46bd442a2ce812fffd2ddcc482bb494f2862d353154d110"
+        }
+      ]
+    },
+    {
+      "id": "retail_h7_mlp_c365",
+      "source": "retail",
+      "H": 7,
+      "family": "mlp",
+      "seed": 20261021,
+      "cutoff": 365,
+      "models": 1,
+      "feature_count": 38,
+      "anchor_rows": 48,
+      "source_model_paths": [
+        "outputs/sr_enhanced_20261021/banks/retail/h7_mlp_s20261021_hist365_delay0/c365/model.pt"
+      ],
+      "files": [
+        {
+          "path": "retail_h7_mlp_c365/inference_anchor.npz",
+          "bytes": 3829,
+          "sha256": "e7e83e2baa5eb4b9861a43c7944370075a79a3d17beb4268ae1ac26f6d16cff2"
+        },
+        {
+          "path": "retail_h7_mlp_c365/model.pt",
+          "bytes": 90429,
+          "sha256": "33913017122085840907a365f2009c9074ebb82c6c15c23e673b79c6f68eaf65"
+        },
+        {
+          "path": "retail_h7_mlp_c365/training_record.json",
+          "bytes": 791,
+          "sha256": "9e17b395f0388d1937413504f770e6a17ed5cd618352271097dedc0cb74d1c38"
+        },
+        {
+          "path": "retail_h7_mlp_c365/weights.npz",
+          "bytes": 82985,
+          "sha256": "fc99e69fbb3d959a467e56517bedd257ab5908e558903569fdd028df5e6f30fa"
+        }
+      ]
+    },
+    {
+      "id": "dominicks_h1_lgbm_c262",
+      "source": "dominicks",
+      "H": 1,
+      "family": "lgbm",
+      "seed": 20261021,
+      "cutoff": 262,
+      "models": 2,
+      "feature_count": 122,
+      "anchor_rows": 48,
+      "source_model_paths": [
+        "outputs/sr_enhanced_20261021/banks/dominicks/h1_lgbm_s20261021_hist104_delay0/c262/q90.txt",
+        "outputs/sr_enhanced_20261021/banks/dominicks/h1_lgbm_s20261021_hist104_delay0/c262/q95.txt"
+      ],
+      "files": [
+        {
+          "path": "dominicks_h1_lgbm_c262/inference_anchor.npz",
+          "bytes": 3164,
+          "sha256": "2953dffa161cb3d305b84ce400a6edda733fe8bb1f003b52cc94d06158ca733e"
+        },
+        {
+          "path": "dominicks_h1_lgbm_c262/q90.txt",
+          "bytes": 790646,
+          "sha256": "b3950c861b36feb653934c981807329b910bac73d68ce1039751d804a3ef2193"
+        },
+        {
+          "path": "dominicks_h1_lgbm_c262/q95.txt",
+          "bytes": 792999,
+          "sha256": "34b83ebc72c6da64ec76ad043317acb7a81b369fa477065e18d5e30825946a92"
+        },
+        {
+          "path": "dominicks_h1_lgbm_c262/training_record.json",
+          "bytes": 862,
+          "sha256": "92bb803e0950c7de01627309661dda9d2499a5eb04b2eaa3dac6f586e1299efe"
+        }
+      ]
+    },
+    {
+      "id": "dominicks_h1_mlp_c262",
+      "source": "dominicks",
+      "H": 1,
+      "family": "mlp",
+      "seed": 20261021,
+      "cutoff": 262,
+      "models": 1,
+      "feature_count": 122,
+      "anchor_rows": 48,
+      "source_model_paths": [
+        "outputs/sr_enhanced_20261021/banks/dominicks/h1_mlp_s20261021_hist104_delay0/c262/model.pt"
+      ],
+      "files": [
+        {
+          "path": "dominicks_h1_mlp_c262/inference_anchor.npz",
+          "bytes": 3202,
+          "sha256": "562f06437cbc7d1e2fd3a6afeda06dd521079b3525dc776ebee9b8fd56367943"
+        },
+        {
+          "path": "dominicks_h1_mlp_c262/model.pt",
+          "bytes": 52925,
+          "sha256": "4a439c25706718b905626574ee9b0d21f0712f47b698f20ab10cd74fa932f0c7"
+        },
+        {
+          "path": "dominicks_h1_mlp_c262/training_record.json",
+          "bytes": 791,
+          "sha256": "ad6ad4b69d6b0f0adbcdfbc2eb7ec45bfe830c22ce048b5ab1bec9d3c556a6dc"
+        },
+        {
+          "path": "dominicks_h1_mlp_c262/weights.npz",
+          "bytes": 47507,
+          "sha256": "60e573cb822297f42c655faf27ba0268eac33f146d6af96d04176ede32576beb"
+        }
+      ]
+    },
+    {
+      "id": "italian_h14_lgbm_c1095",
+      "source": "italian",
+      "H": 14,
+      "family": "lgbm",
+      "seed": 20261021,
+      "cutoff": 1095,
+      "models": 2,
+      "feature_count": 40,
+      "anchor_rows": 48,
+      "source_model_paths": [
+        "outputs/sr_external_italy_20261028/bank/h14_lgbm_s20261021/c1095/q90.txt",
+        "outputs/sr_external_italy_20261028/bank/h14_lgbm_s20261021/c1095/q95.txt"
+      ],
+      "files": [
+        {
+          "path": "italian_h14_lgbm_c1095/inference_anchor.npz",
+          "bytes": 5131,
+          "sha256": "da79a7ff08395db80da433c5d91ae91f524963105f4ab6b8327a5be1671e02b4"
+        },
+        {
+          "path": "italian_h14_lgbm_c1095/q90.txt",
+          "bytes": 770468,
+          "sha256": "92091abc211919cb3cb6d1db9aa8746e9ac4d6d7ee43063be7da4493912cc342"
+        },
+        {
+          "path": "italian_h14_lgbm_c1095/q95.txt",
+          "bytes": 776386,
+          "sha256": "ae1279a2d989a11d4844df4048adf4dc23911274042876ae0ac9566da2f12b97"
+        },
+        {
+          "path": "italian_h14_lgbm_c1095/training_record.json",
+          "bytes": 871,
+          "sha256": "237ea0c82c594de67c0f88919d6d1d84e82e82210b42acd30ae02207fd8297ae"
+        }
+      ]
+    },
+    {
+      "id": "italian_h14_mlp_c1095",
+      "source": "italian",
+      "H": 14,
+      "family": "mlp",
+      "seed": 20261021,
+      "cutoff": 1095,
+      "models": 1,
+      "feature_count": 40,
+      "anchor_rows": 48,
+      "source_model_paths": [
+        "outputs/sr_external_italy_20261028/bank/h14_mlp_s20261021/c1095/model.pt"
+      ],
+      "files": [
+        {
+          "path": "italian_h14_mlp_c1095/inference_anchor.npz",
+          "bytes": 5124,
+          "sha256": "0143d71a4a6ad1e47da3aa7fd66de3ac76518fa4f6d44764674deb8474d0eec7"
+        },
+        {
+          "path": "italian_h14_mlp_c1095/model.pt",
+          "bytes": 91453,
+          "sha256": "e61054ec40d65d0ec434b8a4c8591bfa5adcbf4579998b44581bd2912a78e1f7"
+        },
+        {
+          "path": "italian_h14_mlp_c1095/training_record.json",
+          "bytes": 807,
+          "sha256": "8a937d5667579fa3e38074cf32e140f8e8e4d280bda9aac2ceae694e602c15aa"
+        },
+        {
+          "path": "italian_h14_mlp_c1095/weights.npz",
+          "bytes": 83559,
+          "sha256": "ef7c5e518211731fd7449da2bc471e16eb80aa258f0f731a7ea53022ed67aa92"
+        }
+      ]
+    }
+  ],
+  "scope": "Four sources x two model families, one original checkpoint each, seed 20261021. Twelve logical fitted models; not the full retraining bank. Anchors contain three origins and sixteen series per checkpoint. NumPy MLP weights are exact tensor/normalization exports of the included original model.pt; no quantization or refitting."
+}

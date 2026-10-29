@@ -1,0 +1,4271 @@
+{
+  "archives": [
+    {
+      "archive": "core_data.tar.xz",
+      "bytes": 8707088,
+      "sha256": "d21ebff12d8b067fe720b16fe771a078ba82bae9f53f44940705eff25387867e",
+      "files": [
+        {
+          "path": "cold_fit/reference/banks/dominicks/h1_lgbm_s20261021_hist104_delay0/c262/complete.json",
+          "bytes": 1166,
+          "sha256": "e17e7e1b45f7b2210cfc1dec7b633f85037ae2c193ea4ac68d87af407c75043a"
+        },
+        {
+          "path": "cold_fit/reference/banks/dominicks/h1_lgbm_s20261021_hist104_delay0/c262/predictions.npz",
+          "bytes": 63370,
+          "sha256": "cfc9f7f70c43eb606243dd0112835ee49eec28109fd3481f9d2f4ab1fe5f2ecd"
+        },
+        {
+          "path": "cold_fit/reference/banks/dominicks/h1_mlp_s20261021_hist104_delay0/c262/complete.json",
+          "bytes": 1095,
+          "sha256": "ccd7e22ae9c22e28b52fc826591217178567a290c17c3dc19998cba8842a7f10"
+        },
+        {
+          "path": "cold_fit/reference/banks/dominicks/h1_mlp_s20261021_hist104_delay0/c262/predictions.npz",
+          "bytes": 74272,
+          "sha256": "d37a887c49457e4a92a7036fcadcf595dd73a2f0a6e682ee3a5ad3761d7a63b8"
+        },
+        {
+          "path": "cold_fit/reference/banks/m5/h7_lgbm_s20261021_hist365_delay0/c1492/complete.json",
+          "bytes": 1165,
+          "sha256": "b921ca6fe2eb89c90e7f6e387f18b33f3cea62cab63b06e45c8a0ffb7200dd75"
+        },
+        {
+          "path": "cold_fit/reference/banks/m5/h7_lgbm_s20261021_hist365_delay0/c1492/predictions.npz",
+          "bytes": 108595,
+          "sha256": "78b871a33b5b41231d241d3bd9c7b552b7200a4976af6ce30079d1df490385a3"
+        },
+        {
+          "path": "cold_fit/reference/banks/m5/h7_mlp_s20261021_hist365_delay0/c1492/complete.json",
+          "bytes": 1099,
+          "sha256": "07b11b442eb20c8e296eebc93ed1dd44738a962bb253a9331e799b46b6d2040d"
+        },
+        {
+          "path": "cold_fit/reference/banks/m5/h7_mlp_s20261021_hist365_delay0/c1492/predictions.npz",
+          "bytes": 108642,
+          "sha256": "1a65c6606a5a131a7eef7b774302e688bd6bb9ce01a1eff13025213959090bae"
+        },
+        {
+          "path": "cold_fit/reference/banks/retail/h7_lgbm_s20261021_hist365_delay0/c365/complete.json",
+          "bytes": 1161,
+          "sha256": "9657b4c859c56c1305203a15850ece73cfc6047a6f6255ce6eb57748111d8274"
+        },
+        {
+          "path": "cold_fit/reference/banks/retail/h7_lgbm_s20261021_hist365_delay0/c365/predictions.npz",
+          "bytes": 62444,
+          "sha256": "c0949ba1a00564dcfc2b56558a3e6d543a93c3089d5dddb80aa9646fbb29ca8d"
+        },
+        {
+          "path": "cold_fit/reference/banks/retail/h7_mlp_s20261021_hist365_delay0/c365/complete.json",
+          "bytes": 1095,
+          "sha256": "c5d885bda4e24a347ded4e5ade6639e90102a303f7bc50ad3be11dc6a756edb4"
+        },
+        {
+          "path": "cold_fit/reference/banks/retail/h7_mlp_s20261021_hist365_delay0/c365/predictions.npz",
+          "bytes": 62589,
+          "sha256": "08a28af39c107273340dd302e5298c61d4ffe128b60aba16580e081023c1faac"
+        },
+        {
+          "path": "cold_fit/reference/cold_reproduction.json",
+          "bytes": 8757,
+          "sha256": "093facef98a6a365bd621890636f1fd3fe21e0479cacbba932d8d1f09945af36"
+        },
+        {
+          "path": "cold_fit/reference/full_environment_versions.json",
+          "bytes": 512,
+          "sha256": "5494c7a15d48fbc5e8095fb53ed4c2b56dcd28d76b3e4f612ad110541448a6c7"
+        },
+        {
+          "path": "cold_fit/reference/panel_reconstruction.json",
+          "bytes": 1644,
+          "sha256": "9f01d141550acefd1abc69f9214ee6c76c3a5d6f5dcb1dd2c2f77f38383f2e7e"
+        },
+        {
+          "path": "cold_fit/reference/panels/dominicks/calendar.csv",
+          "bytes": 4797,
+          "sha256": "15491032f2e69c653ba1aee565b5fcfa219d15a40cac2766b8b9e8ae2bd9ce95"
+        },
+        {
+          "path": "cold_fit/reference/panels/dominicks/cohort.csv",
+          "bytes": 111759,
+          "sha256": "b2ff66cbc603d95fc204e5ced1295c465316457837dbcb5d43ff94bea572261f"
+        },
+        {
+          "path": "cold_fit/reference/panels/dominicks/spec.json",
+          "bytes": 1374,
+          "sha256": "3c3be2e05129ef39c0bddf6ab7b4e4c9075a8425d225181901a9813f629565a5"
+        },
+        {
+          "path": "cold_fit/reference/panels/m5/calendar.csv",
+          "bytes": 23301,
+          "sha256": "22000345b0156ffa34dbb5d46f379dfddc1d388adee219c9cb3bb654c48e0759"
+        },
+        {
+          "path": "cold_fit/reference/panels/m5/cohort.csv",
+          "bytes": 320148,
+          "sha256": "d8f5309ef773d80360a79c81e80a55e896cf321959fc05a6dc6f24fcd531fbc7"
+        },
+        {
+          "path": "cold_fit/reference/panels/m5/spec.json",
+          "bytes": 933,
+          "sha256": "e2640f4140a05959f9c09c49a8a19a594014f2115fe1a7a2683916210fc27d71"
+        },
+        {
+          "path": "cold_fit/reference/panels/retail/calendar.csv",
+          "bytes": 8865,
+          "sha256": "87758d07488e6a7ebd3da2c43b872fcb61a797e5f43b856ba5ff542ef74ffe59"
+        },
+        {
+          "path": "cold_fit/reference/panels/retail/cohort.csv",
+          "bytes": 65029,
+          "sha256": "9a8d9999f0b6bfd8ec0063e700a0040e84966b6e1d3e2a490a5817a911a8f793"
+        },
+        {
+          "path": "cold_fit/reference/panels/retail/spec.json",
+          "bytes": 945,
+          "sha256": "c0b7da6945cb8c99ea2f325be5baee9294fd3cff38bf7e2e1df2e36f08791272"
+        },
+        {
+          "path": "cold_fit/reference/pinned_torch_wheel.json",
+          "bytes": 241,
+          "sha256": "36b74f590467d4296542e6b934792d5ba340d3b0b8195d201913f3a2355fc6b4"
+        },
+        {
+          "path": "cold_fit/reference/selection/dominicks_h1_lgbm/selected.json",
+          "bytes": 564,
+          "sha256": "d31d175c1684e50b23c500c5cab7ab9ebebfaaa55b9970e8d9f3d77608259a7b"
+        },
+        {
+          "path": "cold_fit/reference/selection/dominicks_h1_mlp/selected.json",
+          "bytes": 579,
+          "sha256": "fa7974fc04da7fd25d3ee2460941f25dc38495aadbe028a61eece22af221b36c"
+        },
+        {
+          "path": "cold_fit/reference/selection/m5_h7_lgbm/selected.json",
+          "bytes": 565,
+          "sha256": "c2e68a634e76c6cea60909f440394a0aff8a68483b93426531d6093b4f3e0da0"
+        },
+        {
+          "path": "cold_fit/reference/selection/m5_h7_mlp/selected.json",
+          "bytes": 583,
+          "sha256": "a981b25bf76197813a36d47b63756d22a1c2ca92589e5d935a376d5071b5b3ae"
+        },
+        {
+          "path": "cold_fit/reference/selection/retail_h7_lgbm/selected.json",
+          "bytes": 559,
+          "sha256": "898afc09786e98f18c9466135adf440179dbd5a618530d07909905cd574c7781"
+        },
+        {
+          "path": "cold_fit/reference/selection/retail_h7_mlp/selected.json",
+          "bytes": 576,
+          "sha256": "e60a1ea250c550c49b19a230a8182911f80d0f767c2e28c9497f20ca057aa7b7"
+        },
+        {
+          "path": "robustness/heterogeneity/block_effects.csv",
+          "bytes": 87127,
+          "sha256": "30be55f58c2f647560ecd21c22a9506531951787a444b448c0022700299192cc"
+        },
+        {
+          "path": "robustness/heterogeneity/block_intervals.csv",
+          "bytes": 1700816,
+          "sha256": "83d45673c2bd5b0bf79aa166435ee04da32229bebc4c8757dd18554734f298b1"
+        },
+        {
+          "path": "robustness/heterogeneity/strata_recombination.csv",
+          "bytes": 462540,
+          "sha256": "07dc35846fca7e3f9543d438aa39f562c36e405574ea75f6808eb3099cc3b90b"
+        },
+        {
+          "path": "robustness/heterogeneity/stratum_effects.csv",
+          "bytes": 678775,
+          "sha256": "c8ac11ea080bb7dc8b608a9ea920023c237be0b1ed9184149272dd4276b9f8cb"
+        },
+        {
+          "path": "robustness/heterogeneity/support.csv",
+          "bytes": 2251,
+          "sha256": "ebf242446d2a9abe1dd0884ff75c3ad4b1b0ec5909f45d07d1a16fc97d2a6d5a"
+        },
+        {
+          "path": "robustness/heterogeneity/time_thirds.csv",
+          "bytes": 856741,
+          "sha256": "91812a066dcd31e309019b89e4ff610d73aea466d2095677eb321efa3bcd0e7b"
+        },
+        {
+          "path": "robustness/simulation/effects.csv",
+          "bytes": 2135,
+          "sha256": "72b134dfc8ba0b1584f9b7514a700aa7f069774f86a6a1086fbdf0a79efe1384"
+        },
+        {
+          "path": "robustness/simulation/path_scores.csv",
+          "bytes": 652237,
+          "sha256": "8bf41c6abaaf674103229f763794b9b74143730be60f871cb5a8833eaf8f7aef"
+        },
+        {
+          "path": "robustness/simulation/protocol.json",
+          "bytes": 2361,
+          "sha256": "41a11839c213d4343e34a47aaffa7424e5b712f0b8d0c47c18cbeeca95aef9ed"
+        },
+        {
+          "path": "robustness/tables/effects.csv",
+          "bytes": 365379,
+          "sha256": "759a07c5a196f527530bc38175d15fb28eec887c22540cc4f283f7063a7ed6e3"
+        },
+        {
+          "path": "robustness/tables/intervals.csv",
+          "bytes": 7717050,
+          "sha256": "964987034a78083afe40c4f8a4383db86efba52adaca45b18e43e0a9cb445143"
+        },
+        {
+          "path": "robustness/tables/paper_cold_reproduction.csv",
+          "bytes": 394,
+          "sha256": "bac52e060031a9de6b0b047a69002206a6369610ce61e656f6ea8d8ae57d3d3f"
+        },
+        {
+          "path": "robustness/tables/paper_effects.csv",
+          "bytes": 385600,
+          "sha256": "51004fd537f3bd3545ddf1aa072bb222f49a1964d174418233d4a8b486fb39d3"
+        },
+        {
+          "path": "robustness/tables/paper_parameter_summary.csv",
+          "bytes": 2440,
+          "sha256": "38ba313ca19762fc27a0e1c05161c6da3a476b43f8a107a3f269d8629d297eb5"
+        },
+        {
+          "path": "robustness/tables/paper_recursive_grid.csv",
+          "bytes": 826,
+          "sha256": "4544d2f3188dedfba2c3869a75dc4dcae5cd1798e19bc8e437187b1f8c3bd492"
+        },
+        {
+          "path": "robustness/tables/paper_three_seed_mechanism.csv",
+          "bytes": 6241,
+          "sha256": "1f8973e173377a4ee6cd3220d2e8b05e0b312473c4c6ffe69e18847f18fe3146"
+        },
+        {
+          "path": "robustness/tables/quantile_summary.csv",
+          "bytes": 209322,
+          "sha256": "c9ed6f218598a18b25d4a0218d9ec4a10aa1caebdec6614c7c46bf89d77d1ca6"
+        },
+        {
+          "path": "robustness/tables/replay_internal_timings.csv",
+          "bytes": 180820,
+          "sha256": "1857652fb80d48dc4d8fa0798e1bcec1342e494fb25a3d150cac0dfafed3cac5"
+        },
+        {
+          "path": "robustness/tables/seed_effects.csv",
+          "bytes": 394359,
+          "sha256": "15f17a7c26a0a081a1598e379df74a7001f60588c424a9844822fe376b684f6d"
+        },
+        {
+          "path": "robustness/tables/selected_parameters.csv",
+          "bytes": 3951,
+          "sha256": "d6c03af844be69bcac238b59e5045c2d760c5ff36dc8050e19834526fd0808fc"
+        },
+        {
+          "path": "robustness/tables/validation_candidates.csv",
+          "bytes": 52206,
+          "sha256": "1443f67310b47738891f5a784082a87a3637e857aac6de687546a42b3c3f5ef6"
+        },
+        {
+          "path": "score_data/enhanced_daily.parquet",
+          "bytes": 5228158,
+          "sha256": "930cbb1eeb93d0759c192bfa6f02563a43238a2e6277a4e2c11b2a6a5209f960"
+        },
+        {
+          "path": "score_data/enhanced_quantile_scores.csv",
+          "bytes": 989631,
+          "sha256": "6c84b63d39265c83f99407d1bd3128852440e868d4fb39ca174d24aa00d8d258"
+        },
+        {
+          "path": "score_data/multiqt_scores.csv",
+          "bytes": 19812,
+          "sha256": "1db7f59b2b1bf10ea4933451a27d96230a91c8fdb15ec950344eaf78e585af9a"
+        },
+        {
+          "path": "score_data/training_scores.csv",
+          "bytes": 13492,
+          "sha256": "87b4b29353449efd7fb2b54166e52922c81beb02dd8fb5af592c22c4ec5b6615"
+        },
+        {
+          "path": "supplementary_data/Data1_core_absolute.csv",
+          "bytes": 55657,
+          "sha256": "90798b2451db1b7dde17d53fd91921a7f27c2ef88a8683750395a3742b218a87"
+        },
+        {
+          "path": "supplementary_data/Data1_core_effects.csv",
+          "bytes": 83653,
+          "sha256": "dfc961957f788b35032f028f7804850a21f5c7392cf1179587ad77acb1202b0f"
+        },
+        {
+          "path": "supplementary_data/Data1_core_intervals_all_blocks.csv",
+          "bytes": 1756127,
+          "sha256": "0264a5be8e97781518cd5905856defba5408157cf5b813767f15b8d712fdca15"
+        },
+        {
+          "path": "supplementary_data/Data1_primary_contrasts.csv",
+          "bytes": 12356,
+          "sha256": "c8be5cbad36df4e5b063d68f217ef5f4ed808fd2f03c73f95e55224e83405b6a"
+        },
+        {
+          "path": "supplementary_data/Data2_all_intervals.csv",
+          "bytes": 12596292,
+          "sha256": "3d2e2725c84488940b2be27c1bd74b0b353aafbb4c1d3ae6f50dc7626c417428"
+        },
+        {
+          "path": "supplementary_data/Data2_feedback_availability.csv",
+          "bytes": 150254,
+          "sha256": "14d77478c51c5a726ad2b9d467a5d9fc8706356a61a4b6ce342e79a8a0860a52"
+        },
+        {
+          "path": "supplementary_data/Data2_feedback_effects.csv",
+          "bytes": 576128,
+          "sha256": "1a06255606ce15623d524a26780edb74ae4b69e28044d85f6725f40dfdb0da73"
+        },
+        {
+          "path": "supplementary_data/Data2_strata_effects.csv",
+          "bytes": 285403,
+          "sha256": "41bd98366fdb9ed3b89cc9eebad81b1476e7f6eaf58d0820ff213ee0e0cf800c"
+        },
+        {
+          "path": "supplementary_data/Data2_time_thirds.csv",
+          "bytes": 2309916,
+          "sha256": "f04ef2904f5783c493d66c95b7837a8a3e688363cf8aee6152d94f01c29fd1f8"
+        },
+        {
+          "path": "supplementary_data/Data3_multiqt_effects.csv",
+          "bytes": 27859,
+          "sha256": "2561f6c7d7256e88542d1fc0e17f01c992f4262e6b5aab3e134c1b525e30924e"
+        },
+        {
+          "path": "supplementary_data/Data3_multiqt_intervals.csv",
+          "bytes": 575073,
+          "sha256": "b2f4d368cbec970a0fc845f47f2834b3c21d834d0cbe4d2b749e98040df158ce"
+        },
+        {
+          "path": "supplementary_data/Data3_multiqt_scores.csv",
+          "bytes": 19812,
+          "sha256": "1db7f59b2b1bf10ea4933451a27d96230a91c8fdb15ec950344eaf78e585af9a"
+        },
+        {
+          "path": "supplementary_data/Data3_optimizer_budgets.csv",
+          "bytes": 297,
+          "sha256": "68a615cb4809eae38ba36f4ca11ade12f56efd28ad20194abb3efcc377586b2d"
+        },
+        {
+          "path": "supplementary_data/Data3_training_effects.csv",
+          "bytes": 15288,
+          "sha256": "31730a8cf6b58942052e2b9fe1539090c80b0d543ea63eab143438ff35f42fc6"
+        },
+        {
+          "path": "supplementary_data/Data3_training_interactions.csv",
+          "bytes": 4067,
+          "sha256": "1c93135d3bf8543b9432e87feee96b736f51f72f930cc16bea7c54a734b40f21"
+        },
+        {
+          "path": "supplementary_data/Data3_training_intervals.csv",
+          "bytes": 271998,
+          "sha256": "e0ab287e6337baf9541b8c755a1f7ada95f55078d297694fea4650ec45da5379"
+        },
+        {
+          "path": "supplementary_data/Data4_decomposition.csv",
+          "bytes": 28446,
+          "sha256": "94d8bcd13fcca17fb6858f7d1fd726fe7e4621ff6b177ecc12d5278c714d1f9e"
+        },
+        {
+          "path": "supplementary_data/Data4_missing_support.csv",
+          "bytes": 23194,
+          "sha256": "296fed8fc5d373b3fdbdef1d7313186986012a9cb3c72d800425282e47ea66b2"
+        },
+        {
+          "path": "supplementary_data/Data4_reliability_bins.csv",
+          "bytes": 279829,
+          "sha256": "f374871bbdbf374cff504aa6094a2908f5973a4021f3a8e5bcea74120e6aa3be"
+        },
+        {
+          "path": "supplementary_data/Data4_weight_sensitivity.csv",
+          "bytes": 55795,
+          "sha256": "c64c80cede29a90cfc3e5528ab9370e1ce1d664b70281b33c7aea34138a6c12d"
+        },
+        {
+          "path": "supplementary_data/Data5_core_fits.csv",
+          "bytes": 213346,
+          "sha256": "bdab1122544bdf225ccdd6211492d07fb5bb04f88d96656c141269602ea4bd7d"
+        },
+        {
+          "path": "supplementary_data/Data5_logical_costs.csv",
+          "bytes": 51618,
+          "sha256": "dd6f1cf368a6c3bc7c770bacf7452fe565bab16f5f4cd40e6969c314c63a2dc4"
+        },
+        {
+          "path": "supplementary_data/Data5_model_selection.csv",
+          "bytes": 579,
+          "sha256": "047f968903ad0deb120270f5ae3b777b2ea03f75a62d3bfca9056c01db33deb6"
+        },
+        {
+          "path": "supplementary_data/Data5_new_fits.csv",
+          "bytes": 29406,
+          "sha256": "d013dbcc0ce8d76de7090c755e24cc08951d64c1b15f68fd8c00d5b671285621"
+        },
+        {
+          "path": "supplementary_data/Data5_replay_costs.csv",
+          "bytes": 308973,
+          "sha256": "6682bacf697178ef63ea409d36557082e9547e6eafa791fe85d13ee8c5780ced"
+        },
+        {
+          "path": "supplementary_data/Data5_source_design.csv",
+          "bytes": 982,
+          "sha256": "7326d1fa0fcf18cd499848bed2cd373f91e10ed73c11a3def00cfa761f98900b"
+        },
+        {
+          "path": "supplementary_data/Data6_block_sensitivity.csv",
+          "bytes": 3351,
+          "sha256": "93b6661d565c897488ed7b9d34e893c64eb73b987168b5bb5b2c01350b218947"
+        },
+        {
+          "path": "supplementary_data/Data6_fit_scope.csv",
+          "bytes": 549,
+          "sha256": "7ed679bb6dd6ad1bd0e8daf6e0027ab31f85fac1dc3e1a74b4ee5713dccfb70c"
+        },
+        {
+          "path": "supplementary_data/Data6_interval_position_changes.csv",
+          "bytes": 903,
+          "sha256": "84cb49bc614a2e655045fd6654646ffd110632461a15c07d6ad17bf06bba16a5"
+        },
+        {
+          "path": "supplementary_data/Data6_replay_cost_summary.csv",
+          "bytes": 3061,
+          "sha256": "d1f5a937ae371d85097bd17d60188232f7d0c14f195acab007256a75190df750"
+        }
+      ]
+    },
+    {
+      "archive": "controlled_analyses.tar.xz",
+      "bytes": 6901376,
+      "sha256": "4852b3eb6572a447e3c1734081d77c127981deb1efb5e69dd92d009acc931f12",
+      "files": [
+        {
+          "path": "controlled/analysis_complete.json",
+          "bytes": 430,
+          "sha256": "a25965a18662c98ff230abae742472fa1e4ceb58d211541026f7592b10c6a3b9"
+        },
+        {
+          "path": "controlled/E1/complete.json",
+          "bytes": 305,
+          "sha256": "5067cb61e38b1abff1ee86bce4dc1b18f90c361e3fb32816dfdb6739e6db6c9e"
+        },
+        {
+          "path": "controlled/E1/daily.parquet",
+          "bytes": 3449070,
+          "sha256": "c0737595a2a0d63a645c3132d277c8dbb38ad9d33263b75d5310ab8980d0fe06"
+        },
+        {
+          "path": "controlled/E1/historical_costs.csv",
+          "bytes": 4682,
+          "sha256": "c866aa007f9b5e268b86e66948d806778789dd8a4eb74455f848da7ef5332145"
+        },
+        {
+          "path": "controlled/E1/selection.csv",
+          "bytes": 35913,
+          "sha256": "03328c03d41f43ec5a32020d9517fe29dda7f00e97f023eda30fb3710f70c6b0"
+        },
+        {
+          "path": "controlled/E1/validation_candidates.csv",
+          "bytes": 177801,
+          "sha256": "93446815dc33514a82d6c931959cc876598dee2730ab9678ee52b1720f773811"
+        },
+        {
+          "path": "controlled/E2/complete.json",
+          "bytes": 283,
+          "sha256": "c5b74ffbb48220b9ae9e649cd56c2ce79d7126d3b4d2f50b5f01cc61528e05f1"
+        },
+        {
+          "path": "controlled/E2/costs.csv",
+          "bytes": 83281,
+          "sha256": "3cd61ed837c13c595a2a28483e3cd9f8b89de7fe95a1a559c8ba42a97083385d"
+        },
+        {
+          "path": "controlled/E2/daily.parquet",
+          "bytes": 3049143,
+          "sha256": "a3322104f0187169af28c5acb7bfd6633a58a815f2819794f6ab4b3e1557cbd7"
+        },
+        {
+          "path": "controlled/E2/feedback_selected.parquet",
+          "bytes": 65523,
+          "sha256": "3e2fad8949a510c09eebf654917ce662740732389e8a985769029ba9032132f0"
+        },
+        {
+          "path": "controlled/E2/selection.csv",
+          "bytes": 19175,
+          "sha256": "f0fc65f2d01e749774fa604fd90dd0ab8e55d0f094d47d36fe448f3f2dd2733d"
+        },
+        {
+          "path": "controlled/E2/validation_candidates.csv",
+          "bytes": 93857,
+          "sha256": "25bb83604f41301392ceb9f9023af88a59dc0aa14b35f9061907eb6e4aeaf2f7"
+        },
+        {
+          "path": "controlled/E3/costs.csv",
+          "bytes": 4169,
+          "sha256": "98d5dbced1a83cac7bfcafaf4962633b3fd0a792bb539b77d3ffb61ed83bf9cd"
+        },
+        {
+          "path": "controlled/E3/daily.parquet",
+          "bytes": 1004578,
+          "sha256": "19f4f345ea1fe755fb16c1756d5e41a8184004bf9b376fdc65e7e4d8560cfaed"
+        },
+        {
+          "path": "controlled/E3/events.csv",
+          "bytes": 679957,
+          "sha256": "bf4a915e955bbf5e16b471961afc30fe2740b71465d9fb949e4ba216c547e387"
+        },
+        {
+          "path": "controlled/E3/feedback.parquet",
+          "bytes": 27507,
+          "sha256": "26d903b3da322d2f879fbce774305051b2475da59374da7289f8c28a8448863d"
+        },
+        {
+          "path": "controlled/E3/pairs.csv",
+          "bytes": 57863,
+          "sha256": "455934a0ac9cd6938fdc1ce27b2a1b5a2152dde61062ad133895d6b5b287def8"
+        },
+        {
+          "path": "controlled/environment.json",
+          "bytes": 165,
+          "sha256": "478aa560afd34b5c6a98bbb322cccdcdb5a59d239f28f2f837c9e502c73c0b63"
+        },
+        {
+          "path": "controlled/execution_notes.json",
+          "bytes": 826,
+          "sha256": "57e26aee7cff4a1993866cd3e312da0a6ace16d5d5805e755716d8c9c60c93e2"
+        },
+        {
+          "path": "controlled/freeze_manifest.json",
+          "bytes": 60140,
+          "sha256": "7708dcac7c6ba3a2c03d5bbe47817fcb3cb4f8e659579a16c129a1f438761601"
+        },
+        {
+          "path": "controlled/MANIFEST.json",
+          "bytes": 9420,
+          "sha256": "90f07eb39ec6dc667417610795363d94fb8f5a9c2b2d922063622dd8d0ed6fe4"
+        },
+        {
+          "path": "controlled/preflight.json",
+          "bytes": 412287,
+          "sha256": "3a6a70410cb793fe03f17097ee3b3983b34cde0b43feacdc6cf3e9e6cef8556b"
+        },
+        {
+          "path": "controlled/proposed_protocol.json",
+          "bytes": 54149,
+          "sha256": "54c2a141f4b09ef660ce2076645aec41eac1fe43eb2e08adfd1f7dcf900c1c84"
+        },
+        {
+          "path": "controlled/readiness_checks.json",
+          "bytes": 690,
+          "sha256": "569de3d2f8a6078db35577672c680577ec380b9cb8040873e25800834375f016"
+        },
+        {
+          "path": "controlled/result_digest.json",
+          "bytes": 7504,
+          "sha256": "d8ce8197b726ada2e048aa2c8375aa39b1a6ca86322bf78c853701108a40dab7"
+        },
+        {
+          "path": "controlled/review_checks/audit.json",
+          "bytes": 7147,
+          "sha256": "85d92c75ab52161e169d15efc14dad8beb27b7de5ee165cb77ccade6b147c8d0"
+        },
+        {
+          "path": "controlled/review_checks/E1_R3_candidate_equivalence.csv",
+          "bytes": 9480,
+          "sha256": "d00533cc592fd06129128074f2d2830f8f7d9a95c46a226995de7ad5427d3636"
+        },
+        {
+          "path": "controlled/review_checks/E1_validation_version_counts.csv",
+          "bytes": 6637,
+          "sha256": "c367b14b6b33d5e37f55b592cd357506b592ef1002c04ceed3377219c2d192ac"
+        },
+        {
+          "path": "controlled/review_checks/E2_fixed_QT_sharing.csv",
+          "bytes": 1509,
+          "sha256": "906ec8077cdae01a4be7f418a256753adb2143f402ca08e629706c172a168550"
+        },
+        {
+          "path": "controlled/review_checks/E2_recomputed_interaction_intervals.csv",
+          "bytes": 7413,
+          "sha256": "dbb08af1bae35313311ebbbce2478f343edd9d537de4a5d7930a2eaecb20f6e5"
+        },
+        {
+          "path": "controlled/review_checks/E2_single_quantile_sharing.csv",
+          "bytes": 2154,
+          "sha256": "2c668ac28d4fd83944abce9bf1cbf34cd228f125bd7bc37f77e976f0f1e26d14"
+        },
+        {
+          "path": "controlled/review_checks/E3_all_three_contrasts.csv",
+          "bytes": 965,
+          "sha256": "a61e116386ce88a04ba1c95c1a13cc61a111c28e03e9bf964f50e332e1d47110"
+        },
+        {
+          "path": "controlled/source/analysis.py",
+          "bytes": 7181,
+          "sha256": "4972b42dfd2d8d95e63ab4188838a022d892b98045e411303a58e02d3a5e7065"
+        },
+        {
+          "path": "controlled/source/audit_outputs.py",
+          "bytes": 5328,
+          "sha256": "44eb48957602783e7ef9575d52a6fce2f5fae8341b417331ee607506e9a9b782"
+        },
+        {
+          "path": "controlled/source/core.py",
+          "bytes": 6936,
+          "sha256": "fe0cd6cc27fa57219279de5547100d28443093b609c33b5c6b2f526ea654cbdc"
+        },
+        {
+          "path": "controlled/source/experiments.py",
+          "bytes": 14411,
+          "sha256": "43a94e4553b19b20af731783444e5a541cd2c4c4dd38a4b1730ac4ba2f7e8b36"
+        },
+        {
+          "path": "controlled/source/original_code/analyze.py",
+          "bytes": 9291,
+          "sha256": "c797036a6328f6df7f9354a9e3019b5572aeb8e9a579bd08ea5e227e3f9fc216"
+        },
+        {
+          "path": "controlled/source/original_code/calibration.py",
+          "bytes": 4540,
+          "sha256": "3ff0a8b7fb522713c6a4e76f63b6a8ec9fbe4e3d66f7eb2392eba667fad1c73b"
+        },
+        {
+          "path": "controlled/source/original_code/common.py",
+          "bytes": 2416,
+          "sha256": "0ae9121ff86a63355a8adedd1c90218871f9e2f0e9dccd5c78dd81ef96d27441"
+        },
+        {
+          "path": "controlled/source/original_code/models.py",
+          "bytes": 10333,
+          "sha256": "69a874ba467c4f9e0dba6d398fc2d612121de834ee3d29ba0207b1ee74d7e32d"
+        },
+        {
+          "path": "controlled/source/preflight.py",
+          "bytes": 6558,
+          "sha256": "6abaaf0495a6a1ca2848c1814d062469d498949e64b45f7389ba205d800d30c8"
+        },
+        {
+          "path": "controlled/source/recompute_from_scores.py",
+          "bytes": 3951,
+          "sha256": "10c36e5af8054b3da97cce6715a0ca7dd540dc26df277d6cc6b0fdc5ae3ed74f"
+        },
+        {
+          "path": "controlled/source/test_kernels.py",
+          "bytes": 4552,
+          "sha256": "7e5f1cdcf8fde6112c92fdf1d4da0ad855e2096804f6f12351aff99c4106201d"
+        },
+        {
+          "path": "controlled/tables/compact_findings.csv",
+          "bytes": 2237,
+          "sha256": "264346ba8fdcc3447af6410e810ea1580c79e7da73db4423e7fc80d112af0305"
+        },
+        {
+          "path": "controlled/tables/E1_quantile_scores.csv",
+          "bytes": 86008,
+          "sha256": "c41b832bd255ee5b0e87a45a2ef5fa5ac886ae98517516269c794d5a77aeda92"
+        },
+        {
+          "path": "controlled/tables/E2_fixed_grid_scores.csv",
+          "bytes": 85189,
+          "sha256": "3fe35811108bbb2b2ad4d9e5013a1a906a5a8c0cc839270a7d2982b688f6f75b"
+        },
+        {
+          "path": "controlled/tables/E2_interaction_intervals.csv",
+          "bytes": 8275,
+          "sha256": "8581442f16a6a16f59f7088fd2977e8f3e7bd0c1aeebf34fb53f5ce1ecea57fa"
+        },
+        {
+          "path": "controlled/tables/E2_interactions.csv",
+          "bytes": 1410,
+          "sha256": "532a0565a53e1647c1be9855aba97de627fc83c13342ad06cda344d38acf00ae"
+        },
+        {
+          "path": "controlled/tables/E2_quantile_scores.csv",
+          "bytes": 56208,
+          "sha256": "b87c3a875a689821e93306de52113bf55c463e7056d78cd3611fa94195431723"
+        },
+        {
+          "path": "controlled/tables/E2_strata.csv",
+          "bytes": 2013643,
+          "sha256": "8f13bb934e711acea3dfdd9c5926716f21adaad4b558153910753e156fb4cb52"
+        },
+        {
+          "path": "controlled/tables/E3_quantile_scores.csv",
+          "bytes": 12432,
+          "sha256": "4c2eb12a18f52a35a7915b90794a0ead1ae1f78a36f31c29f3a29afd8bb1bc6c"
+        },
+        {
+          "path": "controlled/tables/E3_strata.csv",
+          "bytes": 454767,
+          "sha256": "060d6db0f43a1c49578bc0a6f4b1cf57b05bda9873978d4f8b4ba512e477dfe1"
+        },
+        {
+          "path": "controlled/tables/effects.csv",
+          "bytes": 307826,
+          "sha256": "731ee18e583d3f83a325ed9beefa33a14c6b1fbd81e727f873cea82b5731d9e9"
+        },
+        {
+          "path": "controlled/tables/intervals.csv",
+          "bytes": 14634555,
+          "sha256": "494925dc7b793a9a8c91557d46728683449c80f819dc3b11e768e3a23157248b"
+        },
+        {
+          "path": "controlled/tables/nonoverlap_effects.csv",
+          "bytes": 1001560,
+          "sha256": "9da54b950335d2f036f74c6106387bd6778e6e2ec044b5ee55b6fc4fa9a65105"
+        },
+        {
+          "path": "controlled/tables/seed_effects.csv",
+          "bytes": 442576,
+          "sha256": "7c6225ee18e54ce1059193dbd88434ebc8000d8fa161a338167ce5f7b680f4e0"
+        },
+        {
+          "path": "controlled/tables/segment_effects.csv",
+          "bytes": 890355,
+          "sha256": "2c3bf67d78dbd171ac3b4a00af01bcf0bf64f0793cb09fc06364458134a7a0c2"
+        },
+        {
+          "path": "controlled/tests.json",
+          "bytes": 107,
+          "sha256": "df225455579a34da426e8deeae986749e957acb1b13e408a58bc41199d4a43b8"
+        },
+        {
+          "path": "controlled/verification.json",
+          "bytes": 776,
+          "sha256": "88b54ffd67b13e3ffb8bd815123359c59063085b8b97f41fbca8f7dc6bda01fc"
+        }
+      ]
+    },
+    {
+      "archive": "italian_core.tar.xz",
+      "bytes": 5431000,
+      "sha256": "f71f9be2c5a490d211a6932a62c04b6ccf0754f2bd3211b2a414facade3bbd68",
+      "files": [
+        {
+          "path": "italian/DATA_LICENSE_AND_SOURCE.txt",
+          "bytes": 880,
+          "sha256": "7e7aae4c61d97b75f665d42b36ec074c9126ec542f936340cd4ee97cab2c4126"
+        },
+        {
+          "path": "italian/README_RELEASE.txt",
+          "bytes": 739,
+          "sha256": "f8d7d35f9fab2da63596c1f5b96331924b737eaf256f333b8044b8fd9f5244a1"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1011/complete.json",
+          "bytes": 871,
+          "sha256": "019b94338bd44d5072778f30f67d8f138d13cfa35df7bcf58727a5dc31caa372"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1039/complete.json",
+          "bytes": 872,
+          "sha256": "0be63619f0ffbced7e5ce292b6eb42e329c1a9e963335f91444e62b599521d69"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1067/complete.json",
+          "bytes": 872,
+          "sha256": "8c68fdf37e3f82070fb47a51805ec14ba050f1e1bc4ceaacef7caf8b47b784f6"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1095/complete.json",
+          "bytes": 871,
+          "sha256": "237ea0c82c594de67c0f88919d6d1d84e82e82210b42acd30ae02207fd8297ae"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1123/complete.json",
+          "bytes": 871,
+          "sha256": "55bca973ef8c3d4b755ee03b3a579ac8fb6879653c9b0e09934c0e2b52a3408d"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1151/complete.json",
+          "bytes": 868,
+          "sha256": "110623244f1772166620c53565d206ce84fa5cb833a8d554ecf3b37f960af91c"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1179/complete.json",
+          "bytes": 872,
+          "sha256": "d123dc13d337821ada7eb18dac9225d36fd9654c94a322f11428ec82fb35c91f"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1207/complete.json",
+          "bytes": 872,
+          "sha256": "f226b5a6020df9f6d43b229f2a6a1746a4704693c947ae5455a1be079ea1c04b"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1235/complete.json",
+          "bytes": 872,
+          "sha256": "93e165cb6bdc57b74e0d595586b9ad793d5661bcc5bb4c4c61e6a32190be47ba"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1263/complete.json",
+          "bytes": 872,
+          "sha256": "23ce5353fc1d0798398e9e99dabc4e5dee661f443610855e546e4af2210cccb0"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1291/complete.json",
+          "bytes": 873,
+          "sha256": "0d727bd81e05d573b6f03f5b3c8157cdb98117f9334e57e02b1ecc03bbbca978"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1319/complete.json",
+          "bytes": 871,
+          "sha256": "be3cbed31dc423bfb9aa3d9bb7983f572455e87fdcfab9dc1fe9987f099b9c97"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1347/complete.json",
+          "bytes": 871,
+          "sha256": "4d68b3ea4665195e175be0f8bc523ea004ee7de03641ae5bbad8b2fb71d0ca18"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1375/complete.json",
+          "bytes": 873,
+          "sha256": "f828103cb6c9f1484382ed324d49ac954c87b96f9ce4eb365bc421a64a095985"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1403/complete.json",
+          "bytes": 873,
+          "sha256": "577971e639d640c401df60234c05ce03c6762b341410407dbb7393e4a0029d97"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1431/complete.json",
+          "bytes": 874,
+          "sha256": "373f74c5f19c02a3504bb1ee8756aad604ec553dcd6d6a1139583cd09574e44c"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1459/complete.json",
+          "bytes": 873,
+          "sha256": "d9995a171352888011501b5c5e33746fcb2c7b09588e9295c94c4c93fcc59161"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1487/complete.json",
+          "bytes": 872,
+          "sha256": "7b050f66a8e13f925b9322f6d3eb4f7da9ddc619d88e28648977ff08cddd279f"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1515/complete.json",
+          "bytes": 872,
+          "sha256": "21e67bb9763fe9416967ed2ec8a79f8ea90038a2a545d2c77475796bd35912af"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1543/complete.json",
+          "bytes": 873,
+          "sha256": "b929d7776548a7696dd4c55eba274a7c6ffc298a80aea7072af4ec332ad337e0"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1571/complete.json",
+          "bytes": 873,
+          "sha256": "3e8bd90ddda800077b352ef289dae8ab2b24781f1a5a4415305bb203245ff368"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1599/complete.json",
+          "bytes": 874,
+          "sha256": "47b9c61941c297a51f073d6fc4400cd5a95e49d48be6f53b0ed611bad4c146d1"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1627/complete.json",
+          "bytes": 873,
+          "sha256": "aa5a8f6ee305ce9167b864934781321a94268bd5d5809c8e5d46200e5e5f2052"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1655/complete.json",
+          "bytes": 871,
+          "sha256": "e939bdae409d2a0961768d90b1a09904caaf50f8d74b41e9af9dc74d959bc385"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1683/complete.json",
+          "bytes": 873,
+          "sha256": "fc9573c830121cb0e8390d5fe4f608b2f45936d7b604b8e58562fd3ad10efc2f"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1711/complete.json",
+          "bytes": 873,
+          "sha256": "647efd1c3448b9a17ac827009f93a61b63a8490b084f431fe12b986b46bb8bc2"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1739/complete.json",
+          "bytes": 873,
+          "sha256": "499f01e5e41a4bfb4578015c3896b53981e7b52d391dca96ee5908e89a152190"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1767/complete.json",
+          "bytes": 874,
+          "sha256": "4616c66f01ead5d8371b52b751d8c95ba1741d996e7e595020d3c299ef2564b6"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c1795/complete.json",
+          "bytes": 874,
+          "sha256": "010f737a08a25f5e7235bcae89994a7b55e572e870c5704c148cb86237af5961"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c731/complete.json",
+          "bytes": 867,
+          "sha256": "b78808fcdae1ae5f209b7dc6c4ec8ba2783247066a8946ba793328845cdfe49e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c759/complete.json",
+          "bytes": 868,
+          "sha256": "a5fdd8c136e175583a42dcbe0abd769e1f298c31d628e297f2dd6649469cd13a"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c787/complete.json",
+          "bytes": 869,
+          "sha256": "e97fbbcfca51a674faefd98d14e5ba907b72204c74f0b6489c074ebaf76d19a2"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c815/complete.json",
+          "bytes": 868,
+          "sha256": "a45309f1a8c4b9d54b927ac33ebdbb8595d4609611b9cd612fe156a507388eeb"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c843/complete.json",
+          "bytes": 868,
+          "sha256": "24621dd08fb6c3f7877f0b97f9706a1171634c8238b34ac8effb1b2baeef7b7f"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c871/complete.json",
+          "bytes": 868,
+          "sha256": "021e5eb8d1e61658cb8f5137e65da811c65895b1936ce7b9eb10ec00c83403f9"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c899/complete.json",
+          "bytes": 869,
+          "sha256": "3b8a1d1903e7102ca9171ce644966dacfbcefc5e39d8d2f5dbec38a46955aa45"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c927/complete.json",
+          "bytes": 868,
+          "sha256": "f9cd24f07962ae2579c20b9fecbe8bd1e280820f32faea3a075297b60bd0d3ad"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c955/complete.json",
+          "bytes": 868,
+          "sha256": "4cd801db8fbf28c2a5d52cef4cee035541b508e8853dce4655187719582cec96"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261021/c983/complete.json",
+          "bytes": 867,
+          "sha256": "92754b4cadf131e578b304e5800bb27205168834718e37e5360e767cb12102dd"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1011/complete.json",
+          "bytes": 872,
+          "sha256": "2726e98e77b62db890ec6e4fe85c4020d5abf984d158f964e6eefe98b66686f3"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1039/complete.json",
+          "bytes": 871,
+          "sha256": "3bffcd83d546326ec7530172b40475e6bdb4e48be82fc114ebe22e1054673e4c"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1067/complete.json",
+          "bytes": 872,
+          "sha256": "303bf582515a7f3ea5ab5498193623c832d80739435f1b436d87a01c027c3ffb"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1095/complete.json",
+          "bytes": 872,
+          "sha256": "8b07e6800ef5b0a3b8fd79320e4e1ea6c1d9a06b5eef9e3a46949d1a1a46612b"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1123/complete.json",
+          "bytes": 871,
+          "sha256": "a0d39d18c8b5668ab8980aebc714f5a34939b8b5491219e233e16f42b958f006"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1151/complete.json",
+          "bytes": 872,
+          "sha256": "63e77ad4fcdfad3822316d7c731b795140fd3e775cc0ba93007319d65c2b883d"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1179/complete.json",
+          "bytes": 873,
+          "sha256": "d10def18a02cfd725bfa4bb0255ee4ff881380c45e12eeb0b2b6d572665ae7e9"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1207/complete.json",
+          "bytes": 873,
+          "sha256": "490d016198bffde58f386fe20dc55e5baabeb4543f199ff125f41f4c40719eaf"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1235/complete.json",
+          "bytes": 872,
+          "sha256": "5027d4dc1c175dd9e339fd67fa242d149ae35f96a327bee7c682dc60fd46e5b6"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1263/complete.json",
+          "bytes": 871,
+          "sha256": "76b314a677adca84c825c7841154d45404a073c3c58811b879c2e843656fefdd"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1291/complete.json",
+          "bytes": 873,
+          "sha256": "d2f0662909bb89c577a88ee0b56078f9cb3c36bc21c1c77b2095f08238934e5c"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1319/complete.json",
+          "bytes": 872,
+          "sha256": "1e0d115b0e5f25cda51747ed7914568121e090c1823e274761df0f29a7aeeaee"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1347/complete.json",
+          "bytes": 872,
+          "sha256": "f3dd8784592b88d76bbb61941b06837ec0e5f071be1da872a3dc9937fa0bfafc"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1375/complete.json",
+          "bytes": 872,
+          "sha256": "75021b94cb9f2dda7f31ec154659dcd5825b9254dda0815afea3c3b15526bc7c"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1403/complete.json",
+          "bytes": 873,
+          "sha256": "7ab04bf01ad24e9d33edc73c8a97d6c541a522756062e0cb32d4684c1554d90d"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1431/complete.json",
+          "bytes": 873,
+          "sha256": "977fe2d76f998e974c51eeb8e904f7e723366174ad6cabda11fa0b0993591fcf"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1459/complete.json",
+          "bytes": 871,
+          "sha256": "5746281c8c148a570bdd0257ba33a92900dd12a9b2bdbc0d66bc006c5358aee4"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1487/complete.json",
+          "bytes": 873,
+          "sha256": "6fe762852cddd67995b45e102e1308c3e1a02abc5b4245d07ad201a6ef5f24bf"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1515/complete.json",
+          "bytes": 873,
+          "sha256": "7282c724b4ac4eae574e7f9b8ce46d4dc59c1c7e45705c4248485439ba5874ef"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1543/complete.json",
+          "bytes": 873,
+          "sha256": "e942a98e1802f473894cf01b8eb2970cfe71ca428f26a6f3c38e6cb4535afe4f"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1571/complete.json",
+          "bytes": 874,
+          "sha256": "491285258240704a95e9a21e347344b12d0916ab69e86b3da16ba7db305cd996"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1599/complete.json",
+          "bytes": 873,
+          "sha256": "14d795455df8422c2544e92a1e07dc8501922916b04908ed44abc88dcac0e640"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1627/complete.json",
+          "bytes": 873,
+          "sha256": "c6824489f3ce6d3e2d91133e76c905f3f22b09ea67dfd97ba6a4b4e4e34389b1"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1655/complete.json",
+          "bytes": 874,
+          "sha256": "6cffd739128611f1922c91776597d0234d844cc42e66b5137d1657f6b35aab39"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1683/complete.json",
+          "bytes": 873,
+          "sha256": "12ecfc305fa14ff1ec44165d160deff986d991df68e49cbc597c14c516336a80"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1711/complete.json",
+          "bytes": 873,
+          "sha256": "59164ff081019589769c5a30932cbc99419e98b087888a77610d91010dd447fc"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1739/complete.json",
+          "bytes": 873,
+          "sha256": "faaefbb64c1515418bef5a3a2b70d91f9c2d504137d52f5a3bacbbf92e96a306"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1767/complete.json",
+          "bytes": 873,
+          "sha256": "fd994f3a448b3e36b27e788df3747dcef73b6da81df445e19783a7b63c1b9af0"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c1795/complete.json",
+          "bytes": 874,
+          "sha256": "bb5b3108bd872d7b1b4a2a2a20a1e13c51aae5c416430530393fa4d36eb99f2e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c731/complete.json",
+          "bytes": 868,
+          "sha256": "25c8618180f6bcf64c0ac4711e172a278ef0e6d3bf27d1d8a175395778ea1f17"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c759/complete.json",
+          "bytes": 868,
+          "sha256": "fa1baa77d4f018bdbaf696d4824d6b6352df8646a822ef22ef071961d98ff82e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c787/complete.json",
+          "bytes": 868,
+          "sha256": "0e52fdd4b4daab665ef54c02dcbb5572666a276565af6300256ba381805228e3"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c815/complete.json",
+          "bytes": 868,
+          "sha256": "7eed1c06556296404c6bc8df43ff4449879def22a3cbafd76e4a517cab837a8a"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c843/complete.json",
+          "bytes": 867,
+          "sha256": "1edbdfcbdbd702dd69fb23991c2178606c5b73f74913a6d1aca3a7768ddc6208"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c871/complete.json",
+          "bytes": 867,
+          "sha256": "c75320bb976ddf377e2159f604c861de01f16fd30744bbca4327cdc94d9b50d1"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c899/complete.json",
+          "bytes": 869,
+          "sha256": "c1e446883ead0f8121281deb0fccccb38e86acfc93a1a6c75a8cc499d549b645"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c927/complete.json",
+          "bytes": 867,
+          "sha256": "3d3078f5439133da917bee4e3a21410878fa77e7a6d086fa18dcac2c28bd96f0"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c955/complete.json",
+          "bytes": 869,
+          "sha256": "a3de3f4980781cb749ba10224cc0b9f7a40357c27600428e71a649d0d13f6a9f"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261022/c983/complete.json",
+          "bytes": 867,
+          "sha256": "e6a13e337720609b4c2ee4359bcb0ffd2863bd307b637223d1b05d87f188b877"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1011/complete.json",
+          "bytes": 871,
+          "sha256": "98933d3893552e83a7eb5f87b1fa3aa8328e7c86f51eb3be41172a61ab7ff8f0"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1039/complete.json",
+          "bytes": 872,
+          "sha256": "28fa1beb88fad5721bc9e25037a111dfeaf5e7d79512836df58b590a14267b06"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1067/complete.json",
+          "bytes": 872,
+          "sha256": "c931efea761ec3b7afd954809e20f0e73db323f4d88627ee4c67b3268d4e05e5"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1095/complete.json",
+          "bytes": 873,
+          "sha256": "10afb443536bce0e9e26555733e1913380d64e0255ca7f97566aad3b6549b7a8"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1123/complete.json",
+          "bytes": 873,
+          "sha256": "69882477efb4be7e184f30ce4a680e97282fdb2d12820134ae9dff544894b502"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1151/complete.json",
+          "bytes": 872,
+          "sha256": "80c82bdea42ecf7e3c0433e0a9a2b9b6da67699da47c65d5d6ed5d95a727987c"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1179/complete.json",
+          "bytes": 873,
+          "sha256": "e2d4f1ce33fcf3262b30d67c210b3a56c656e633c927a8ed007646d260c7aeec"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1207/complete.json",
+          "bytes": 871,
+          "sha256": "32bf2e3caf423967381528df97904510a7482dc26cc7245ca176247b54433f42"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1235/complete.json",
+          "bytes": 872,
+          "sha256": "7f65562df532cde25e3c701ea218689b695a1348e99594e13231449091950e2f"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1263/complete.json",
+          "bytes": 872,
+          "sha256": "b708cbe2e06f0367d03e92bb716fe1f81cea8066b54b8d93c051321f619b330d"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1291/complete.json",
+          "bytes": 871,
+          "sha256": "d18b4e1e1cbcc6b1bada7f9ad6955b75cb5803ec3cff569eb64d604e313d4a7b"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1319/complete.json",
+          "bytes": 873,
+          "sha256": "1d5a7d03b019d257986d2d932401243683fca998d75e7008f2852488f2be5282"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1347/complete.json",
+          "bytes": 873,
+          "sha256": "ceebef914a62a005b7cf9e64f5a508f7eb475e8c245b11691ec44b5fbbfc6fad"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1375/complete.json",
+          "bytes": 872,
+          "sha256": "7745a8b4e6873041ed63f4cbbd7b0b74e78df021fadf2e814086b8b12dbe3696"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1403/complete.json",
+          "bytes": 873,
+          "sha256": "e0f022a5000c9d8c5340af49b873e11b15c0f0334f3c5563753e21a7ab1b405e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1431/complete.json",
+          "bytes": 874,
+          "sha256": "ba14a24b090fa7710e3601d6ab5a7b5cb8b15113e5325f1c65d839e6859232e2"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1459/complete.json",
+          "bytes": 873,
+          "sha256": "c032aa24fdc62fbc34ab760bd63f99d6cca646d61e81180b1ba7116ef695191f"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1487/complete.json",
+          "bytes": 873,
+          "sha256": "0b9d590355f20712aa510ba56d708a1a3fdf02ddfda8db5e3357b7cd89dbeb4e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1515/complete.json",
+          "bytes": 872,
+          "sha256": "021f6962cbd2c7e9ebf378bbfcf646c35a90ac5e576d941eae65f6b149050f92"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1543/complete.json",
+          "bytes": 873,
+          "sha256": "24aef10c5681adf85ba447966181c1c80f075059421c4ed831ac9342eff6bac0"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1571/complete.json",
+          "bytes": 873,
+          "sha256": "61ca28aa5fa4f1abe8aaf19ef4b7dc0e8ae450cc387749d36883ac3af3df4743"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1599/complete.json",
+          "bytes": 874,
+          "sha256": "e72c4dfd20a16a021469279e59ce214e38b0fc9c7fe3d463d7d9362d058b6b40"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1627/complete.json",
+          "bytes": 873,
+          "sha256": "642221cf5084ff8c06de0521837ff7397700cc95c4201571cd10ceff3698c015"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1655/complete.json",
+          "bytes": 873,
+          "sha256": "875826d29cd645f3b43e714f96885276affe9cb567076c515815561c71adf445"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1683/complete.json",
+          "bytes": 874,
+          "sha256": "2e092f60ac3cb1a4ec4b0ae7ee1b3a72ad206528ab83bda05a2e9631415623dc"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1711/complete.json",
+          "bytes": 873,
+          "sha256": "9e556c16897dfaf33d9fc7184177138e8430c7ef40dbb28511101b0b8aebc61c"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1739/complete.json",
+          "bytes": 874,
+          "sha256": "a9be0e3e203d29095caefe10cf4cbb17305f407de1a7e5ba41cea6fffe4beccf"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1767/complete.json",
+          "bytes": 874,
+          "sha256": "3dcb0463812dbd36420f116baf64c95b1eb48aa796505b640199733dc75afa37"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c1795/complete.json",
+          "bytes": 875,
+          "sha256": "414ed0e9b4a69c35b625e94798050ef8f7775abcb4aa1563477f9b90a42c5602"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c731/complete.json",
+          "bytes": 869,
+          "sha256": "0f14452e370bd00f4b90d24ee74ca681da7f9ab5b7aa6b92de7c513e385ff608"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c759/complete.json",
+          "bytes": 866,
+          "sha256": "e1fe671d68f8c7c46c9f0db32b15b18ee0859f4a873c4d9e53d4401ba1ca0970"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c787/complete.json",
+          "bytes": 869,
+          "sha256": "29b5d012caf31e93cd572367bc4e2f1b6424a5afe5454878dbf8d5b12798831e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c815/complete.json",
+          "bytes": 869,
+          "sha256": "bf0fd7dd89ea14ee1c16e57030697872ccde10a5fe06fd74167f2a31ce695e81"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c843/complete.json",
+          "bytes": 869,
+          "sha256": "eb64282f0d51c5cabb7a4433453104e9da1d043e8fc618bd9b8888309aa147e1"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c871/complete.json",
+          "bytes": 869,
+          "sha256": "539dc981c1d65ad1af383215959e2a4459daf238b3cdd3f832390dfaae1d3a2e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c899/complete.json",
+          "bytes": 868,
+          "sha256": "c5f8b8d64a92a99472aaafccd8570d55ee60d9c33c2d629af1f5f863449304bb"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c927/complete.json",
+          "bytes": 866,
+          "sha256": "032f04e135a6eafd3f9823464f6a6ebbc89c9bea41fa4ab8dca221c08de4692a"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c955/complete.json",
+          "bytes": 868,
+          "sha256": "7e33c6251b68a53948db1d2a5ad4af28bdc7efe8c922895c3c9a6f156f1141b9"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_lgbm_s20261023/c983/complete.json",
+          "bytes": 869,
+          "sha256": "833b75a349625cbc3e0dfbc5ab8ac9324d8089933806f5fdca235826371ba8cc"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1011/complete.json",
+          "bytes": 806,
+          "sha256": "d57c1b676902cd33beff530181f8deb45cc293bc58122f0a104c73432548d2dd"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1039/complete.json",
+          "bytes": 808,
+          "sha256": "8c62cd4080b17cd03f25565415900478f383c8250b047d540ff81d5e516ee3b2"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1067/complete.json",
+          "bytes": 807,
+          "sha256": "aac1b3379ad27ea1d025d9f87149dbffb3d4df46761ee91af6c300a4a96868c9"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1095/complete.json",
+          "bytes": 807,
+          "sha256": "8a937d5667579fa3e38074cf32e140f8e8e4d280bda9aac2ceae694e602c15aa"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1123/complete.json",
+          "bytes": 808,
+          "sha256": "eb38f9145a6d2e8e5427dd430e9516640e1fb4be5ce7dc3b2f4ee8ae48040e91"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1151/complete.json",
+          "bytes": 809,
+          "sha256": "6d01ce34cfdc8b014962cf8610eeb62c7a00e0de07442098042bb3f3ec536b5f"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1179/complete.json",
+          "bytes": 806,
+          "sha256": "bcbeb00673f8d02b1422bace743fa493db425f6ba15bdf25386def353c34fbc9"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1207/complete.json",
+          "bytes": 808,
+          "sha256": "f9b4f4e6767d23b3fd2a52836dd48465430ecdb8824896b7e54b401e93153699"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1235/complete.json",
+          "bytes": 808,
+          "sha256": "cb87f4a1f86fc7e2a5efef59ee1821d3cf61ad42d7516c9837fc59f711235cfc"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1263/complete.json",
+          "bytes": 807,
+          "sha256": "853f8c1d9b05008d9925fff599823c19f28463070326b942c6e5b83857e4ea2f"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1291/complete.json",
+          "bytes": 807,
+          "sha256": "74a6400978445bc9abe07400e0276b334aeaf937f3d29b7fef5a21237f28137d"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1319/complete.json",
+          "bytes": 808,
+          "sha256": "ebc62a4b51f5be664429b76775e5b125c42707d1463a3ba625e2790eb7f18f06"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1347/complete.json",
+          "bytes": 808,
+          "sha256": "861621deb4a8baefd12cd0d17763e64b12d21ef6dcbbbb5a3569b888829950e1"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1375/complete.json",
+          "bytes": 806,
+          "sha256": "2b8c68a26c2198829ffb6abfac0f975439e1d9d377d9e0a6a3026372a11ef19b"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1403/complete.json",
+          "bytes": 809,
+          "sha256": "9ace409fd8f3821ee715f6c928e4c4b3c99eb707f78891742b60dbdddccf71d1"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1431/complete.json",
+          "bytes": 807,
+          "sha256": "4d123a25270c43168d7bb409bb0658c8c73c4c8cb2d7205ec488ba272c54f362"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1459/complete.json",
+          "bytes": 808,
+          "sha256": "5270e608486a13b0066eb3de99b15bd430d0719545258a31c119c58b0b9bf8d5"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1487/complete.json",
+          "bytes": 809,
+          "sha256": "d319057794d0ced3bd87d99d2a8dc86d1761da21d57687045dd712aa34694cf3"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1515/complete.json",
+          "bytes": 809,
+          "sha256": "be32ac806c4ab0ec38a52ad1d740a17fa37de553a9c8dc75aeba534dd0802e30"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1543/complete.json",
+          "bytes": 810,
+          "sha256": "f77f4fe3236c902d9e751a6d435232fd6caa2980904b8e1252df951bc8a84e36"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1571/complete.json",
+          "bytes": 809,
+          "sha256": "d18f10b8a90ecbe10a7be62e0434c2dfca7547b95b6ea4ecf8142c675f58829a"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1599/complete.json",
+          "bytes": 807,
+          "sha256": "75ba6f8030d528b2d5d02645c52924921b42696cc3cc7c4ab2e9afccbc6bb00e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1627/complete.json",
+          "bytes": 809,
+          "sha256": "91d72b713d1e507920b28d9bf8b29542dc9c42f18c1f54b96d805c132b501f11"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1655/complete.json",
+          "bytes": 809,
+          "sha256": "8f3d7e1a15712e9cb7978f47cd9c38e1fed1efafca97f119ce9b6b076b960e5e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1683/complete.json",
+          "bytes": 809,
+          "sha256": "7a22468deb168ed791d7cda7d40b0bb1f57812f542d21eef54b5bc963d384802"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1711/complete.json",
+          "bytes": 810,
+          "sha256": "bd82dfeb501bdd42d7cb7b220d93497ce91843233243dc35e7482c00176e1db5"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1739/complete.json",
+          "bytes": 810,
+          "sha256": "47a33937394e64024d3341949180332ecfba47fb11f96138e558565ef575569b"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1767/complete.json",
+          "bytes": 809,
+          "sha256": "298d1169c1726a6100f1ae236603a3ddf154f42e43268d6e11399462a8cf5b42"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c1795/complete.json",
+          "bytes": 808,
+          "sha256": "b005e87d430ec47854f688da02df06b27e72093802f4d73b801565d2390e4242"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c731/complete.json",
+          "bytes": 804,
+          "sha256": "402403c3fb93bd86303e7116276170d0e9ad37ffc04bfc26c7cac77a53c366b6"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c759/complete.json",
+          "bytes": 804,
+          "sha256": "94b5cac5b70042c99a314db8a77a782993adaee367647f9cc90e629d48136b35"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c787/complete.json",
+          "bytes": 805,
+          "sha256": "1d063a8a42c4d24bef385d66520cf8b802e45caf8711a59a018af3604f1fe591"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c815/complete.json",
+          "bytes": 804,
+          "sha256": "5758095236943bfcf7defe37e21f71a4084e9682ec08eaad271ecf8ea7dc1f8c"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c843/complete.json",
+          "bytes": 805,
+          "sha256": "29d63276e8b602c77136f51d3db1ba96a985fbc25d0d105131fd571bce4fe47e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c871/complete.json",
+          "bytes": 803,
+          "sha256": "ae4572e40c7535c7835fe12e05b78050f0e0bd7cf0b388a581bdc575d56d75f8"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c899/complete.json",
+          "bytes": 805,
+          "sha256": "efb0daea40ecf6ddeb163ac1fb81974449e1521aab722397d9b2887eb629b37e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c927/complete.json",
+          "bytes": 804,
+          "sha256": "c9cc1bee44d2710cbe686cdc74d0ff407514745d31039e2cd4de416b6bae6b84"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c955/complete.json",
+          "bytes": 803,
+          "sha256": "0fabfe73592e3a377b5acd4e90941156effe9dbbfe84ed25ffc7fc377d20cb55"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261021/c983/complete.json",
+          "bytes": 803,
+          "sha256": "82a5394c222b79479e59cdca4f191f99d463e4b94f1b44e14af1b12bee8fe0bc"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1011/complete.json",
+          "bytes": 806,
+          "sha256": "ea7122829c56036c560104a1d3fe9de141e2bfa242964ae88266e628b7b97257"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1039/complete.json",
+          "bytes": 807,
+          "sha256": "13761246b8c62bd4139c7dc9bbd23126a6f7c8ae5c07d1c60b280d506f5fef58"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1067/complete.json",
+          "bytes": 808,
+          "sha256": "c25d5dbf61f0549f410b133987740db371e06c3a7e6f371ab2e795a6660a60cc"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1095/complete.json",
+          "bytes": 808,
+          "sha256": "feb0351e879300b8037562780d3b88daa579e54fdff9fd935d22294b6e6e9baa"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1123/complete.json",
+          "bytes": 807,
+          "sha256": "ea1e60d0687b91a9750fe2cea0af6ff7cbe9f40daa21748c3877fa85c3e55efb"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1151/complete.json",
+          "bytes": 808,
+          "sha256": "4603239f3aab316fd89afddb461f82b0191f3365374909badc000f908bda26a4"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1179/complete.json",
+          "bytes": 806,
+          "sha256": "a7f659b2e46f27bbf6a9e7a187ce54066232ba9914ebd2dd9fa4441c2465c35a"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1207/complete.json",
+          "bytes": 807,
+          "sha256": "a6923de0ca652ffb4ff739d592dd71d62b536c877153d5dfd6225c4be4da26bd"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1235/complete.json",
+          "bytes": 808,
+          "sha256": "9a7ce0a124cf5171492391231581002a96ca7512d29605441c58e2d717eaa2e0"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1263/complete.json",
+          "bytes": 808,
+          "sha256": "efc8785cd7ec64fecd08c888694ac0bb213af683095cace7a89148676fdddaad"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1291/complete.json",
+          "bytes": 808,
+          "sha256": "0e2fa95bdd4581eabf634afd933619b9b3cdb0c749075f7a82cddd176b63595c"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1319/complete.json",
+          "bytes": 809,
+          "sha256": "0b85a3c768a8ef440b16d0cd2a405120781fec0bdfc97ed552edefe72b6959f2"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1347/complete.json",
+          "bytes": 807,
+          "sha256": "09cb28e48dea826bfd7300995f893bcef820cab7f971a5c4f5647f77a6625336"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1375/complete.json",
+          "bytes": 808,
+          "sha256": "ec0aeb0516cfeb81bc3656ac840312729b8fa94c7bb5bc61568dcf850aa454fe"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1403/complete.json",
+          "bytes": 808,
+          "sha256": "a3c4739b171f350d32f6ccfe9ece5d039a80e16a82a628df06751fb45d980c8c"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1431/complete.json",
+          "bytes": 808,
+          "sha256": "dae8f164124642bab012d144d9eab001ef131b13fbeaeac6d97dc9cba3ba30c7"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1459/complete.json",
+          "bytes": 808,
+          "sha256": "81c9334954330f44360787e43d9bd804a83ac7957b6780017f6fa3b6fd6bfc29"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1487/complete.json",
+          "bytes": 809,
+          "sha256": "449c0fc6aee6c4bb815a760aac06ce2d569bb416e5fc895964802747069af45f"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1515/complete.json",
+          "bytes": 808,
+          "sha256": "07ac4052f4d9c38db6c1f3af979550a73b445cf143930b73109113ec776c3006"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1543/complete.json",
+          "bytes": 809,
+          "sha256": "a3c1feaaf0fad4796fac39d056bee17d6f28e244e76b67d9ab8b3aa1336e786f"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1571/complete.json",
+          "bytes": 807,
+          "sha256": "4234f43e6356968fcb7256e69fab2a6f18793dd24163738e63661cffce002b74"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1599/complete.json",
+          "bytes": 809,
+          "sha256": "914fb88f8eb527b916568c110cb9d01efa4a491b26c455e25dbfeb3cf9b75283"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1627/complete.json",
+          "bytes": 809,
+          "sha256": "a96baa753173414636d20d68875f432e88eb8546da9329d9045d59738d2755e3"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1655/complete.json",
+          "bytes": 808,
+          "sha256": "ac9c8759bbe69c3fb86702cef788d9f815c54b2c547ff42727a4ef761536647d"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1683/complete.json",
+          "bytes": 809,
+          "sha256": "1888de7c38bfb572f6720734b4f03063eefff7a7499a2b8ca72f5444670525db"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1711/complete.json",
+          "bytes": 809,
+          "sha256": "6d7939d839f8cd9137ab60e65c964de80edfb10a8075fd3a4db84801d67a8ea1"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1739/complete.json",
+          "bytes": 810,
+          "sha256": "06f5c25d8eccb218bdb12c67cc949c53e1023d551d3513b5a8992d8105380430"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1767/complete.json",
+          "bytes": 810,
+          "sha256": "93bdbfef60ec34aade3a12040bda5bb381e4f37cb4f9439c3139835ef0a4761c"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c1795/complete.json",
+          "bytes": 807,
+          "sha256": "12238b7b57cfb2c0b64bbe719fce8710a1200628fa5360632fc84d0a80883da5"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c731/complete.json",
+          "bytes": 803,
+          "sha256": "990c42e689071087f2aa73a94b1f7ff0a7efe41445d90d9eea46e39a39f9cf89"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c759/complete.json",
+          "bytes": 803,
+          "sha256": "3f434115ebb71fc79ac1d06d93dbd19d7a1c76f5c008af1923d3613a78ca0253"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c787/complete.json",
+          "bytes": 802,
+          "sha256": "ff84aa009d6e4c4f2cefbf301f76a99374981185568ab48f5388e7989668cf76"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c815/complete.json",
+          "bytes": 802,
+          "sha256": "cf42ac70790d8b86493816f649a1b5ab08cf0fab4ae39ee4e30d9c8c6fd11c10"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c843/complete.json",
+          "bytes": 804,
+          "sha256": "d880e80c0df4b2dc10990fa4f35a1be9924dc2358266c243a20172102915f10e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c871/complete.json",
+          "bytes": 803,
+          "sha256": "9f6e5344f3a18225bdc5b85cb8d52c6b697814ade7cb549d1ee0ff5bba904c81"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c899/complete.json",
+          "bytes": 806,
+          "sha256": "cc43b527eca0b88a5a57d36e589fa647a143eb057c097fd76d319014f3e6422a"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c927/complete.json",
+          "bytes": 803,
+          "sha256": "90e8111706d54cf454d5cf0c34e7b767966eb976d5988af12c92d0c6cb87960b"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c955/complete.json",
+          "bytes": 802,
+          "sha256": "858aedbe49109b74c35608b346ed181bac7b960bcde06018316747b6c8f08b95"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261022/c983/complete.json",
+          "bytes": 804,
+          "sha256": "ceae275ecbb81fe047295fe1017f0059239299b2ee4d50c595dd64ed2f2de6b4"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1011/complete.json",
+          "bytes": 807,
+          "sha256": "4ef200ccfa6dd25e63306f01b65ee3afa75e3f55711f86aa91514016ffa90094"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1039/complete.json",
+          "bytes": 806,
+          "sha256": "55a5b485b9cebd98337ca36cda09d90c1685c8c5cfbc6e981da28281b74ec7bb"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1067/complete.json",
+          "bytes": 808,
+          "sha256": "483d5b75820e2cdb00fecb64b8c1eee6104e06dc53a2bc6ae826489b68f08ccb"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1095/complete.json",
+          "bytes": 807,
+          "sha256": "d7d36a45d7082ed98ff2cd1cb6727b6db555147fb8ffe7096f675a3ad12c25ba"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1123/complete.json",
+          "bytes": 807,
+          "sha256": "9b1ec8e7208de82bec24878d63ee0ca4ec68663967385124be969bf6265284cd"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1151/complete.json",
+          "bytes": 808,
+          "sha256": "cb1581cfa9dad2f0513dd32294c1545cac46f1f8b3faeeda574d76dc1a66240c"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1179/complete.json",
+          "bytes": 807,
+          "sha256": "2b49cae1509a60e08e5820755f3b6a835e9ab37ec10ad620bc20210c62ca8b6e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1207/complete.json",
+          "bytes": 808,
+          "sha256": "dbffd6808701f5e9b5e2281aea9da90dd620b0e95235f4cb07a72f56a81512a4"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1235/complete.json",
+          "bytes": 807,
+          "sha256": "cbb369789f2c9818e1a5bb0d8f28168eda15e179e56699bdb631257f7593f2cd"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1263/complete.json",
+          "bytes": 807,
+          "sha256": "b064cab197e2a3e39aff48f36de5276f15e6d0384c583941bb2b7604b4852dc1"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1291/complete.json",
+          "bytes": 808,
+          "sha256": "d2260c2d053b6fe4e25033441a4b18d0f27592d6f698ed17304740f7caf74b21"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1319/complete.json",
+          "bytes": 807,
+          "sha256": "abddeeb048b6c71c4f0901ea0856950efe86c7baf8f9f9df759430db02865bb8"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1347/complete.json",
+          "bytes": 807,
+          "sha256": "ae68a60f4f27ae24454298ac150cb935b322fd91b2e169be46652ba33d510014"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1375/complete.json",
+          "bytes": 809,
+          "sha256": "347a9cc6786d964c7674fb0deb559f08f0c153853b8f4688bfec317704519b46"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1403/complete.json",
+          "bytes": 807,
+          "sha256": "fddc38292cf90ef2aa25f7cfa02bcbaef865bb99f2518008a99d27bb6c5a10be"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1431/complete.json",
+          "bytes": 807,
+          "sha256": "27654161719ac9415352c7c155dd5c2db2a7841bb9c29ae4ec698130a5eb7ec5"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1459/complete.json",
+          "bytes": 809,
+          "sha256": "c0448bcda51160aa1ae127d06bb1afbbdf0c6cce22441ae69a51749f406a4d2e"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1487/complete.json",
+          "bytes": 809,
+          "sha256": "914d3f1317bd5a8cc1dff6b9fd7b48e1065a44687fdbf405b801ea92069b42c4"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1515/complete.json",
+          "bytes": 808,
+          "sha256": "15a2f905400a13b57c255907bb406f17598ec66c58bc725c9436af4324d94abb"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1543/complete.json",
+          "bytes": 808,
+          "sha256": "3ccaea5ed16f1f909201eca42a063bda1cba1699beda202038c7f519febf99ea"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1571/complete.json",
+          "bytes": 809,
+          "sha256": "baffb0bcdb9eb4cc4eff36e91cb36c413a82d94f32b26d0d6f4ef06cb066f849"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1599/complete.json",
+          "bytes": 809,
+          "sha256": "8df389cee5af919dbd2a31bdbf83b4d7248c5b3eee5d1bbe53a14f61bbb71b23"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1627/complete.json",
+          "bytes": 808,
+          "sha256": "29b651547b818592dc0ab760b82e93dcc7f1a14ad42b267a6cfc88b8684859eb"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1655/complete.json",
+          "bytes": 809,
+          "sha256": "8eaa3243cd175a18daa7f5f35dfe84095cfa1cbf2cb81d665129416091f62335"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1683/complete.json",
+          "bytes": 808,
+          "sha256": "9476b3fea5652c8ad3e6ac9097b60b6c09c0a1dd3553fccb41214362405c8c7d"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1711/complete.json",
+          "bytes": 810,
+          "sha256": "0f015c2f183391c2d66a6085622502a754c9c0450e63ebd5e7fd47ca02309174"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1739/complete.json",
+          "bytes": 809,
+          "sha256": "387a8f5109141c13e99f8572a5f65c8ccbde4627cc00e923227403c1172be531"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1767/complete.json",
+          "bytes": 810,
+          "sha256": "4e6e2343806ee0e0b675ebdedd33aade97c579aeb743e8d98b6660363d4a15aa"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c1795/complete.json",
+          "bytes": 810,
+          "sha256": "197e40886faa8f65a086172e28956946feabcade7ab6cedd1db10e2d2c73023b"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c731/complete.json",
+          "bytes": 804,
+          "sha256": "55f83560e080ec77904f7a0fc3b39b12b3f15fcd38b2d6a2debae3388711fe23"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c759/complete.json",
+          "bytes": 804,
+          "sha256": "639c92b5470803f856bb582c2c2d42125b21b06d0af54d9a1cb2cabe98272676"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c787/complete.json",
+          "bytes": 802,
+          "sha256": "169a788875a6fb556dff88c0e2438d9d29552524197752dd068c1cc6153af941"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c815/complete.json",
+          "bytes": 803,
+          "sha256": "4b3286309178a7f23d934fec37ed15f3fe9d1d24a776bd8998b902007ee3bdb9"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c843/complete.json",
+          "bytes": 805,
+          "sha256": "f379e78d59387cb11e8c2e4677f1574a800f86748ca54daec2f8e80e565af509"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c871/complete.json",
+          "bytes": 804,
+          "sha256": "c79f33b8bffa959df48cadc3baae6baecc05d1567c3c604eb08fb9a1e7306aa4"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c899/complete.json",
+          "bytes": 803,
+          "sha256": "4890ae2e38ca48f98c60caf0ed4352fbf170600e44302881293b5fbceb7529c4"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c927/complete.json",
+          "bytes": 802,
+          "sha256": "4da2647eb571cfcf135f7fcb3e06709e68cf1087a8f887a5d38c6a393b6a50b2"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c955/complete.json",
+          "bytes": 805,
+          "sha256": "0eaeee3c7ec9a2bb6194607031713597960d484715e773825801c2fe1a5efdc8"
+        },
+        {
+          "path": "italian/audit_bank_records/h14_mlp_s20261023/c983/complete.json",
+          "bytes": 803,
+          "sha256": "ea882318fddaf446421764b044c809313b8c120b324d2f7aa55809675883738c"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1011/complete.json",
+          "bytes": 871,
+          "sha256": "7aabbedca2d9c0e8027a5fb74ef87a2931b6fe048fecfec3e202100a9b9dd7ed"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1039/complete.json",
+          "bytes": 871,
+          "sha256": "b7a35b7cec7f5aa629a811c9efeba21ce0643b33edb5c25fdb7d70fc6d853645"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1067/complete.json",
+          "bytes": 871,
+          "sha256": "569e00e316665dae9a15c58faccfa9791132daac32b1f0941172aa4f84b560a0"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1095/complete.json",
+          "bytes": 871,
+          "sha256": "67af5ab5a8fa52879c980900456bb3db1d9524d990c9af17dc4eddf66a6d311f"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1123/complete.json",
+          "bytes": 872,
+          "sha256": "af8bd7ba2bf0a9952c79d36dceee8f7d848980c249f1222e6cbb6bf525e907d5"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1151/complete.json",
+          "bytes": 869,
+          "sha256": "60b240dcea6dc076a0cc29012ed38fdba38f7cb48f4ee95f5d589a7eac77ee93"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1179/complete.json",
+          "bytes": 871,
+          "sha256": "e43401af8e7db0fd604bfc5817bb1797b0681b145de8f38c14c60cab006e0b42"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1207/complete.json",
+          "bytes": 872,
+          "sha256": "5495f2c9a525d460c4e1f1907296decfbdaac927b4184c5b03bffabf8951d55c"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1235/complete.json",
+          "bytes": 871,
+          "sha256": "99d3a77f91f7d2bfc058fcbb80d8785d69077fc353236df4a045be367e1f1860"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1263/complete.json",
+          "bytes": 870,
+          "sha256": "9693b2719a27365d3a4b2e45512c81562b4c6a2879937f1b98a62eb9a9a6242b"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1291/complete.json",
+          "bytes": 872,
+          "sha256": "481f1ead65a05f357fc5766c85f476ff8c8b71949ceabc1bcf9b16ba5901b636"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1319/complete.json",
+          "bytes": 871,
+          "sha256": "748685f573a834e4d5f619f09e5eb90f18fd2ba8f8ddd48d55622b24e7b4629c"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1347/complete.json",
+          "bytes": 871,
+          "sha256": "d47647f0d5a528df6d5bc8374ca8c40dfa55f186a31293f1efdaaa79478fed5e"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1375/complete.json",
+          "bytes": 873,
+          "sha256": "5e18c699814e4e74e4a9eb60cc156321337f5f065ad75bbb7460c95778fa594d"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1403/complete.json",
+          "bytes": 872,
+          "sha256": "01a5add01b57d0f39960017c2bd5eb7706bdc50a22ea114292e21d7624bb4017"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1431/complete.json",
+          "bytes": 872,
+          "sha256": "eaecb226b4773e8ae573604795a383714ba81124dc99c4bdf7031c1d25247431"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1459/complete.json",
+          "bytes": 873,
+          "sha256": "0129cddb71bf5e873350754c6f626f4c92fe78d390a0a6184aabf884ae312ec6"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1487/complete.json",
+          "bytes": 873,
+          "sha256": "bf5463e54f04c67b8c29cdece56bf8f727e9fbf9d3cff09457debea9f43cc494"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1515/complete.json",
+          "bytes": 872,
+          "sha256": "221636ab4010863cf00f1a8a0d4c20930755875400cf3cf63e384de028e5d0ee"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1543/complete.json",
+          "bytes": 872,
+          "sha256": "2e914f09df00186b5a05a203b341e66cf22667d7a9598774d7fa991623425af7"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1571/complete.json",
+          "bytes": 871,
+          "sha256": "fc860770f2dd973db6c7e0f390f4642e6c09dc2fd6035fab595ea6ac86007d66"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1599/complete.json",
+          "bytes": 872,
+          "sha256": "074b5df34fc4b931e4cfa17d51969d22eae785d25e04a25f13737f0f496b2c96"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1627/complete.json",
+          "bytes": 871,
+          "sha256": "e81f7528e4dd031a7e8060dd69d5b669153dc5d7d6f347f0b3102d9bc173ab1c"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1655/complete.json",
+          "bytes": 871,
+          "sha256": "8bf30d28828781e8aeaf81895065e387a261a5066a45b09000d3f490b2c7330c"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1683/complete.json",
+          "bytes": 871,
+          "sha256": "c9c709794420d59c19960b83973611e8474608d037bdfaf713181dc8d8a08190"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1711/complete.json",
+          "bytes": 872,
+          "sha256": "595f3d1d4c73f1ec1974c40f65f9997187e9d3135b61fcddff64b44c58780b22"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1739/complete.json",
+          "bytes": 872,
+          "sha256": "c598ee6e0aad3c57cb98e930a79da7fa7090aed03d2f98f6db7139f2f0bcf8e6"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1767/complete.json",
+          "bytes": 873,
+          "sha256": "8a4b526d7b20c5c8e1499362bb60c0d94df02d1d642f3e12026147e7860d77e4"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c1795/complete.json",
+          "bytes": 873,
+          "sha256": "ef21d1ef6a8a9b2de22f5ca8d4bf0df3fe1b1d0683ca795227c9b7e3929ec88f"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c731/complete.json",
+          "bytes": 866,
+          "sha256": "a58ce19a7e2d847a3f139b4e4a12523fdd882673da399cc29404569bca5d7043"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c759/complete.json",
+          "bytes": 867,
+          "sha256": "5516d0fa4388001c4121e4d1907af3daf17dc0ecc8801eb59b79f78823f04d84"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c787/complete.json",
+          "bytes": 867,
+          "sha256": "b593ec7095e89aa31b0ed7826f97e0f5e598256da59c8f6c1bac6b526f3fb4b7"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c815/complete.json",
+          "bytes": 867,
+          "sha256": "428ba41910298624c92c995f717843c78886d699dd9c899cab77b8967ebb6e33"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c843/complete.json",
+          "bytes": 867,
+          "sha256": "eec872691a59f0203059979f587ddbb1f73754dfb5266e602a493600b0432e13"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c871/complete.json",
+          "bytes": 867,
+          "sha256": "324c32eebf3c2a0b5bc706be6acd22f97f92f06968a629b5a75fd4e35d1c7595"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c899/complete.json",
+          "bytes": 868,
+          "sha256": "35d271eac30b4ae00103bb461775e15741be97cb0ecb11a8ea5dba5d5e424202"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c927/complete.json",
+          "bytes": 867,
+          "sha256": "5bfe1b6f171cab7c03ee73780ac949194f6e622fbdcf8089dc1ee5c97dd72f98"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c955/complete.json",
+          "bytes": 866,
+          "sha256": "834e13835b99d93c10d2e652e22e7d1be5b5ba37e258222f14923270ddd23f95"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261021/c983/complete.json",
+          "bytes": 864,
+          "sha256": "f94b600f1972b90edaf5632d46b8bd2375a1b0b6fe8d05a83cd1ac58e601e5b8"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1011/complete.json",
+          "bytes": 872,
+          "sha256": "b8d4f57c11962a53ccae72db4656e285f81680c6c6e70f386fc63e3b540e4144"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1039/complete.json",
+          "bytes": 871,
+          "sha256": "d50e3e91d324aad08d9ca2d10f66d17e595eaf70939296fd786d6932efaf313a"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1067/complete.json",
+          "bytes": 872,
+          "sha256": "f67a4da6bea841ae37810dd734ff10d3d6518fe8ffe9e55524aafa2b10f81dd8"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1095/complete.json",
+          "bytes": 872,
+          "sha256": "eb08daf2be6f2f8afac302236c62ffc38cfba02a92a25b63d6807b8e505431a7"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1123/complete.json",
+          "bytes": 871,
+          "sha256": "1a691303d2b6660a84f19efcd2cef4c7baf03c30a893fbd0665ce528bd9a4b80"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1151/complete.json",
+          "bytes": 871,
+          "sha256": "aab0a6d1aa77a61021842b5973437406199e8360bd5fa8b5520300f176bb27f8"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1179/complete.json",
+          "bytes": 871,
+          "sha256": "d4c23dd21713876e28fe7265624203601d23cc70cb1daf017dba38288f1622d4"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1207/complete.json",
+          "bytes": 869,
+          "sha256": "41aad3628e2c8719b853ce9cf038124bdf1bc207c8d9be02a204dbcc6a1a5490"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1235/complete.json",
+          "bytes": 871,
+          "sha256": "361e5cd63421986d1ea31e75c8750ae7801d5e97f61ddfac094f58dd031c594b"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1263/complete.json",
+          "bytes": 871,
+          "sha256": "d6c9c2dbf9ac85342babaef093c9c5a4438f042ddcf37463855a05a93d635ff1"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1291/complete.json",
+          "bytes": 871,
+          "sha256": "768e98231758ea7a5f890358eae4592abd3f8e3b1ee3d0844cc52d8281d603f1"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1319/complete.json",
+          "bytes": 871,
+          "sha256": "ac970712e5e8a1f8e1339a742b5261020205688e46dc421682ae5220a187b57f"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1347/complete.json",
+          "bytes": 872,
+          "sha256": "056e45d72e19b49203aa46340bb0def4792959952708ba8e5693e00b4078ac07"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1375/complete.json",
+          "bytes": 872,
+          "sha256": "c9558c19acdfe9e62772605d33d49c42f2118c41a7aabe4462d8ceee2e85b062"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1403/complete.json",
+          "bytes": 872,
+          "sha256": "8cfb1015363d4a44c4154b98f7cce16a4c3bc3372f2ed653c612beae3e256476"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1431/complete.json",
+          "bytes": 872,
+          "sha256": "623ba2b104d511b82a697aa1fbc67eeb01d365d9fe0b195803366306ccb2a47e"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1459/complete.json",
+          "bytes": 872,
+          "sha256": "0848cc89445724682584c4bf57a4811bff06da6282ffc1d3edfc8d70d6d92854"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1487/complete.json",
+          "bytes": 872,
+          "sha256": "bbaa96e0bf64f2077e323e20bfe50892b2403f51097b3c6551a8d9f25d7dfce0"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1515/complete.json",
+          "bytes": 872,
+          "sha256": "1558ad53c7f4c722101cfec5ee2cdaa794ce911c3993339e05e9b8e477185774"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1543/complete.json",
+          "bytes": 872,
+          "sha256": "3e5a804e10f5a2f1d8170c6fa6c1ef0e71514b080aca43956ce741709ac8de6e"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1571/complete.json",
+          "bytes": 872,
+          "sha256": "5198f1fbc4d8efafbf80a3c08c89b7de291379bcc898a368f107f84493399ca7"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1599/complete.json",
+          "bytes": 872,
+          "sha256": "e15722f5be1392edb4f22fb7404ed0a1d019a59e30628eeebc26eb9fb1d66342"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1627/complete.json",
+          "bytes": 872,
+          "sha256": "8545544800edbc8bc275a0dd29031b429c2f4d0c7f499aadb2b229eab1fa1643"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1655/complete.json",
+          "bytes": 873,
+          "sha256": "3aa9facdc9804e025d197f15aadd498baf399be7b97fad223d8ad20acfde41db"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1683/complete.json",
+          "bytes": 872,
+          "sha256": "58cff53a0359031ced33bcbba409ceb73afcc4cf77aea97bbff6c85e82cea53b"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1711/complete.json",
+          "bytes": 872,
+          "sha256": "5155c5d04eb349d8ca3a752425dbb88ebe3ac062c6903656799aed15e435f8c9"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1739/complete.json",
+          "bytes": 872,
+          "sha256": "bc32db29ad537a36913ea8db197725617e1ff946755a16c6c3ad84d611774515"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1767/complete.json",
+          "bytes": 873,
+          "sha256": "3252294224a4a9f40de2a66e90557dda7f01e092283aadfcd38c3f74726cd33a"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c1795/complete.json",
+          "bytes": 874,
+          "sha256": "66d172bb3f20af4ff8f01911cb8f01e170c249067bf3d8fcc2209ea9a6a54e2f"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c731/complete.json",
+          "bytes": 868,
+          "sha256": "595870b17be42b0803619651c4267cd798a4069811a5f1587ffc00aaa1f2ded4"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c759/complete.json",
+          "bytes": 866,
+          "sha256": "5193f8784bd692a2c092eaf9ca198e9aff26c8e49b9b7c2a3afdafd42c7b725c"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c787/complete.json",
+          "bytes": 867,
+          "sha256": "0f7c9903af051ed0d3439443b5704698fe51ad3525f0f4bedfe5b1a6cd489b1c"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c815/complete.json",
+          "bytes": 867,
+          "sha256": "48cd3debc69d42c3c2392f19080451d3ae3405c1dc01c19c39ba6458f0f10194"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c843/complete.json",
+          "bytes": 867,
+          "sha256": "20b9076e57874c9f66fdabc5953c1dc7bf91b9a8765c59217739e8932329eba4"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c871/complete.json",
+          "bytes": 867,
+          "sha256": "faf17e143ee594c18c542db56cd739f294f426981cba4cdfa7e2b0a3dee6ab4f"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c899/complete.json",
+          "bytes": 865,
+          "sha256": "e725623d4713d15666e9d7d35d4310faddecf1b83fa71601399c106196406102"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c927/complete.json",
+          "bytes": 868,
+          "sha256": "872b48a068a27a6408a4b8527a10728ba520f9bc978f94b1d846de236278e099"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c955/complete.json",
+          "bytes": 867,
+          "sha256": "f67c65ff723962f5f4395da4ba354d33f3457af8588678f20c2bee6eb686bae1"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261022/c983/complete.json",
+          "bytes": 867,
+          "sha256": "38b6f57673f4f9f42dcfe795684333181e4b49ebbd3d1f760823ac4411a287ee"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1011/complete.json",
+          "bytes": 872,
+          "sha256": "1022aeda36ef292868f4856260a43432356ff0a2a2b5d85292887e523f1cdedf"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1039/complete.json",
+          "bytes": 869,
+          "sha256": "b774ac518536b3901934d5f31f19435f176586cc6c634835ad00e572aa0434f6"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1067/complete.json",
+          "bytes": 871,
+          "sha256": "1b0cd8cb49a1717bb9839b9165be9462ccee43b7cb1a9de7f049e3f8ea4eba22"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1095/complete.json",
+          "bytes": 871,
+          "sha256": "98149d805d36db6c90b016119f75a4fb2146c9490576838fcf4cb0ad7f8c50b6"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1123/complete.json",
+          "bytes": 870,
+          "sha256": "a0004ac9984978f741a51db9b564e40d369d18ec55452800da97a4dd83dd106f"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1151/complete.json",
+          "bytes": 871,
+          "sha256": "90ff5b2c5b7bb8876eeb060d6f0b50f5055ab456dd2d0ab7c82a761b92e8fed8"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1179/complete.json",
+          "bytes": 870,
+          "sha256": "d4404af3c45d5a8e0187a179081d2afed70ccf48879026bccec1fe07897c44f8"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1207/complete.json",
+          "bytes": 871,
+          "sha256": "24a1971b529dc161e20a4881361b35c050f35a507ec72bafc849567a630aeb4c"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1235/complete.json",
+          "bytes": 871,
+          "sha256": "2f4a32705f515fcc34895f3a9eb1665331db948cc99048619ee2e08b847cf83e"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1263/complete.json",
+          "bytes": 870,
+          "sha256": "be72a10c76197fd8317611f6bf12fadcd4085228066320b069ca93ccd833fcd4"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1291/complete.json",
+          "bytes": 869,
+          "sha256": "2346505ca8062c1f82b3c022dae38572392b2630cfe6239b68ca8ea744af52b5"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1319/complete.json",
+          "bytes": 871,
+          "sha256": "c2f551908e2c16ef12143fe01d1a59e5842b637df7f5eb74b86f32770833a4cf"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1347/complete.json",
+          "bytes": 871,
+          "sha256": "9c74b73480a8c30800975d30f762dcd37e49725211e04630aa7311b117fecbbe"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1375/complete.json",
+          "bytes": 873,
+          "sha256": "a420a663780b0683870b79aa14d7cad71276e67e8abc12715003d98ffec88f5a"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1403/complete.json",
+          "bytes": 872,
+          "sha256": "d359600ce324acdce51226567ec3c0662e866912350813eaa1ca40e70bd19502"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1431/complete.json",
+          "bytes": 872,
+          "sha256": "d13714cb646ab13f7be447d729c91eec3bbd0ce644e2e429f30329a66001c5c7"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1459/complete.json",
+          "bytes": 872,
+          "sha256": "423ff7e5f250c4472e6e11b8ba21e8d00d47a37dc53485bc715308a4187f8e0f"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1487/complete.json",
+          "bytes": 871,
+          "sha256": "9ec491281dd497d3c662858d3c858fe051eb99894c27c70c38de5b2a90423d81"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1515/complete.json",
+          "bytes": 873,
+          "sha256": "819c0443cbe482f595cb73204206e967f1d0a8a38018e28d66fb511d84626f62"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1543/complete.json",
+          "bytes": 871,
+          "sha256": "9cd0a82a1dd8277b95c697e0cde57af09addc05f82055cd07e4aac62de12dcc5"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1571/complete.json",
+          "bytes": 872,
+          "sha256": "805ad0c2d6bfb69ff580cef007ab8e0ae9f77ea1dc9cd4b47103b42cb5b9e2d5"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1599/complete.json",
+          "bytes": 872,
+          "sha256": "bddfde98771915650a306b7bcd5a54722a4f41b818b541c4ede1f8a4436cb235"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1627/complete.json",
+          "bytes": 872,
+          "sha256": "dfb799934770e44ef231ce44fab2b276f9d00f18a935b2dcf5abab3225b914c5"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1655/complete.json",
+          "bytes": 872,
+          "sha256": "19d400dc880b95c8fdca07b72decb410f571ccd1ec542fb5be346906148b9f39"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1683/complete.json",
+          "bytes": 873,
+          "sha256": "aeb3984af2901e724dd5d7ea0c81eecfc08311efd2bc7e17713e624ff6129e65"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1711/complete.json",
+          "bytes": 872,
+          "sha256": "732fa469b03c2dc5b52b44da1a6606366ae7e551240f0a644caeb52177f5bdec"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1739/complete.json",
+          "bytes": 872,
+          "sha256": "090116bdc7bd1ac132cf022d126fb959d63db6c00bf9918773d6e9ff53ac3f2d"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1767/complete.json",
+          "bytes": 871,
+          "sha256": "58b78c12dd5084d37367e9aeadf604cea2c265a95520b0383dfa4572b234544e"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c1795/complete.json",
+          "bytes": 874,
+          "sha256": "c1d00bac88a5660bb1f017b40799aa0dd258ac1e3ac8d2f8e350742e5a8db87e"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c731/complete.json",
+          "bytes": 868,
+          "sha256": "71ea6416d3a09626f170234556ebe7eda1b75b631fafa202bb90b11899a1d410"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c759/complete.json",
+          "bytes": 868,
+          "sha256": "1a5e19372451bce45b5fc66685032495135c7271b489bad09c470cc9d7992aea"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c787/complete.json",
+          "bytes": 867,
+          "sha256": "da6606a1cabb1c59dae1c559a94f324ff5ff2434f5788a4183c1d4e3528ac7a6"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c815/complete.json",
+          "bytes": 868,
+          "sha256": "403fa990be4040d731d8b56f47c2ad558ea89c6c4834f94a86dbdb8c5c2eb4a1"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c843/complete.json",
+          "bytes": 867,
+          "sha256": "7c83befa67b2995feedcfa2abea589f7a3eddedf898e8bca1941117ec92b2266"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c871/complete.json",
+          "bytes": 867,
+          "sha256": "b9690f3c5a9085668c2552bd49e523a79dc57a02543fad007c62e79f0b975852"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c899/complete.json",
+          "bytes": 867,
+          "sha256": "e0260ffc8d7e6675bfb26dd0b0636541e848c0fa6e834a9db54200ffc88934f6"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c927/complete.json",
+          "bytes": 867,
+          "sha256": "ea9c829b3069ab463c4b897db8176519ca823676909c7304f705e32f5beda3e9"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c955/complete.json",
+          "bytes": 867,
+          "sha256": "29f590d1f3c07e772af08d46548bcee77a304f38acf9e3eadb513d87c720d08f"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_lgbm_s20261023/c983/complete.json",
+          "bytes": 867,
+          "sha256": "8766b3878ede04463b5888299478cf00283b3a54f0e6675a4f03a9f842191d22"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1011/complete.json",
+          "bytes": 807,
+          "sha256": "f74879f24b7df777d4894e89c593157c79c071c6f73a2be92c65873f73ddec20"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1039/complete.json",
+          "bytes": 809,
+          "sha256": "54578a9f5aca573e205affb6cbcd5b06c9ea9648938a44c5564eabfbb1bfbc15"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1067/complete.json",
+          "bytes": 807,
+          "sha256": "c5077513dd5ac1d858c82894d2e6d0018e90bd79c36ce1c03040243767c3b622"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1095/complete.json",
+          "bytes": 807,
+          "sha256": "94a7e15cb0fd92f8d988207853d968290b875c83a54221880bad4736c40d6cae"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1123/complete.json",
+          "bytes": 807,
+          "sha256": "e9d126a50ff855d057040063cfc44ce61ccaf4d60b5658c29d0adb6e6469cad7"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1151/complete.json",
+          "bytes": 807,
+          "sha256": "11c27eff63181e91753333b99f31270d40dc71471b63e4024a829b7175199ea2"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1179/complete.json",
+          "bytes": 806,
+          "sha256": "2cd05eccc0360bd8526f13b887e62ee6eedb9170f2a9bc97fdeaab57cf17ea03"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1207/complete.json",
+          "bytes": 808,
+          "sha256": "b560ddb69f670e406bbd4f4454bacdfcb33291a685b90a3a052b97e232dd8f56"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1235/complete.json",
+          "bytes": 805,
+          "sha256": "1dd070fafb9f6b49ac522f62d56fd78f1574bc867abc6514216d3c6b889494e2"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1263/complete.json",
+          "bytes": 807,
+          "sha256": "a776e1eb080373fbd7e0d1b241dd23bade637aa75021cf91138fd23e3a6fb448"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1291/complete.json",
+          "bytes": 808,
+          "sha256": "0a51e7bc5761b37f450dc4ba89074fa44ee3108a8471cf78b057e06676adb8a8"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1319/complete.json",
+          "bytes": 807,
+          "sha256": "550d8d581a077745483e9f39eb4320564d1bba4364e3d7493e4be2084d77d429"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1347/complete.json",
+          "bytes": 806,
+          "sha256": "8049597cde61f5298c246f5deb4b33267b25a238f2c079bd2902e37c4e7a595d"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1375/complete.json",
+          "bytes": 810,
+          "sha256": "60be126e0adc086532b5d25a733556458327a03dd18bd01a844f01fc0738c558"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1403/complete.json",
+          "bytes": 809,
+          "sha256": "b926b22c1e16a3c961e0015af687117684e91ab38402846b56c616988b144ff8"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1431/complete.json",
+          "bytes": 807,
+          "sha256": "0bd5172899ca16d89134c406aa99f5751e5bf731aab1f030e26599362687c1a6"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1459/complete.json",
+          "bytes": 809,
+          "sha256": "d5447253bb88493c30f90250916c0dcaafb1da77ac9421127496c30eeaf8f259"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1487/complete.json",
+          "bytes": 808,
+          "sha256": "6bae4404c1d8645f5f5bcd360a2e6f9276bbc25ecbcd837f800bfc2ebd2f9ab6"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1515/complete.json",
+          "bytes": 809,
+          "sha256": "a83bf8c9b70678e07bd3ff32703b6008ea5d2f7be833053ec8dc674dc6199035"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1543/complete.json",
+          "bytes": 806,
+          "sha256": "62ff8d093c1720a6d0d78a3721dee189316cada4d52e3bca42110574f026ffbc"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1571/complete.json",
+          "bytes": 806,
+          "sha256": "50f64c6b01244d35adef5a9a32cc65b1380de922027b2b7889b63d0b9ee077af"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1599/complete.json",
+          "bytes": 806,
+          "sha256": "c6092372b6b74cb8262b1d121c76a7988219859dd79504c6b461db4739b84191"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1627/complete.json",
+          "bytes": 808,
+          "sha256": "a808ed0d2d440de77b885f1a524cdbab2fbbbed7e66637aa8c91db7a9c109a45"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1655/complete.json",
+          "bytes": 808,
+          "sha256": "c2fdc9dccf6106284ba176bd636a97eb084ece1b15d670a69627bfb19caf4deb"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1683/complete.json",
+          "bytes": 807,
+          "sha256": "cd1c98826b8065df502da02c344183b1686ef21c01ac750ec4905bf45b316204"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1711/complete.json",
+          "bytes": 809,
+          "sha256": "727a551daa85266e94f3effdaaa7dccfcfca803081f786aec70a614e1142176a"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1739/complete.json",
+          "bytes": 809,
+          "sha256": "31812e7ff2c315b1092c67e69ec699485c388b8aa351bd71b35563c3ed0ecd70"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1767/complete.json",
+          "bytes": 809,
+          "sha256": "e97565b3f95632f5a834c9706732a9a7ab027adb10d88e49f025d271d629eb5f"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c1795/complete.json",
+          "bytes": 809,
+          "sha256": "0a92549237dc5a40c0f9365c0410667fe9742f8c6ccc9e16ba4e0c6654d442c5"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c731/complete.json",
+          "bytes": 801,
+          "sha256": "79c93ace924a83a7e6e945a7058871e689b6a7fd685a67cc0faeaa28e41f50b6"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c759/complete.json",
+          "bytes": 803,
+          "sha256": "11ab19d7d4c4b874be9c58f4a3defa9a65a40db9fa016181c39d92bb17b17ab4"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c787/complete.json",
+          "bytes": 804,
+          "sha256": "2c1388e3fb738aac45fa361a3048b8ecc3ebafe4e1206b495d287bc7b38ea3bc"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c815/complete.json",
+          "bytes": 803,
+          "sha256": "e1d0d866da94678577a16ec54c50e67cc1414f20b08f512976a83c2d1351be5b"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c843/complete.json",
+          "bytes": 803,
+          "sha256": "18f8c6dabadba6e72bdfe9ecbfc10db1baa834081d84e65d67d852d6e5406608"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c871/complete.json",
+          "bytes": 800,
+          "sha256": "096f2829709ebdf55198f3bb402949be88dbf9d6ef6502c3e20b592370092812"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c899/complete.json",
+          "bytes": 803,
+          "sha256": "45dad4185414bca801472f1fd491d6fd91b084c80fe9ab0a97a0e87d258daf20"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c927/complete.json",
+          "bytes": 801,
+          "sha256": "5eb483cc4bc5b4df791ce0e8caab6ed7aaa0415579eba66ede725b55049c8750"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c955/complete.json",
+          "bytes": 802,
+          "sha256": "4561e20d817fbce41de6054acb9084f7a3efdbcb53dbc82145779df53f595e1e"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261021/c983/complete.json",
+          "bytes": 802,
+          "sha256": "112310014c8e7cee24a04d80f21c4f5a9b6e4df5bbbbbf88b76c62bd453aba69"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1011/complete.json",
+          "bytes": 807,
+          "sha256": "732d5104493730afb9c28954ace6e3b68c9113c00f78ea824761756c43f83cbc"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1039/complete.json",
+          "bytes": 807,
+          "sha256": "085b96f51e716d8f0a7db8a56b7aba7750acc976a6f1731c25c11640f518f3ef"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1067/complete.json",
+          "bytes": 808,
+          "sha256": "c6b9acbd24cacb2cd4268f1671ff0b61186c6d3513d10af731c08267bbcc7f50"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1095/complete.json",
+          "bytes": 808,
+          "sha256": "d182ee1965a25724504306ec51ce0472b981c7ed26507b131f816c2aa6b6b910"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1123/complete.json",
+          "bytes": 808,
+          "sha256": "8995d0dad5b95c8fae4393584d30516609ddc66658b7d6c6fea63f4047d6e65d"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1151/complete.json",
+          "bytes": 807,
+          "sha256": "0ac6aa63a2835a8bdc42bd485f1e9e69ee4ad8d5a7285e63338216c1ac7f6758"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1179/complete.json",
+          "bytes": 807,
+          "sha256": "2dabffa5527d7292278175a2bf46f44064e97e00c0a53a97b0a25af72757c937"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1207/complete.json",
+          "bytes": 807,
+          "sha256": "7a4b734a3c8b745211e86d786caacddd7911e054b39ef13feb9040d4f91a937e"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1235/complete.json",
+          "bytes": 808,
+          "sha256": "f92805b3c182b191e1b9a1f8db527b5aa41ec83b3083cb2b137f74f3b912a2ae"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1263/complete.json",
+          "bytes": 807,
+          "sha256": "1358595110f5c63f515bc5bf0483e4d3d8860049d3172a37927210922fc1f77b"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1291/complete.json",
+          "bytes": 805,
+          "sha256": "3f857933fecc59d13eb1e45aabf6d37f36b95c4ac9f3545ab89a7d95c3598366"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1319/complete.json",
+          "bytes": 806,
+          "sha256": "ac91544e40bcf7ffb7da26f1b10bbbd1f7480b3d68b1d04a1bedd22c8b8f2c97"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1347/complete.json",
+          "bytes": 807,
+          "sha256": "37b90a09d24d95db6e741a7bf27aaf3754b9aad4ddbef1ee2398d75ead158257"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1375/complete.json",
+          "bytes": 807,
+          "sha256": "1f6fa12854f633f860dcdf373590727efc8338d283203ba3f3855d89f02bc16b"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1403/complete.json",
+          "bytes": 808,
+          "sha256": "fa5cf9457854acbd5431082ec82eb23df2f7ceb775b0dd6d493d39d10f159b09"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1431/complete.json",
+          "bytes": 809,
+          "sha256": "e9958dab7badd164efdd9a8bda8eff33d1727c47847feb8c93fe65f41f185e97"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1459/complete.json",
+          "bytes": 807,
+          "sha256": "b6b92eab056251554242be25d1c5313b5610840f091ce19018d1a913b000d75c"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1487/complete.json",
+          "bytes": 808,
+          "sha256": "991c44d982303f50b902d0d0671f4dd4b380583c172e5911e09e5927fae1b508"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1515/complete.json",
+          "bytes": 807,
+          "sha256": "7538b26929e6e8e3676c12a8ac199fd2313c2710bb864f239e637deab232dd8d"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1543/complete.json",
+          "bytes": 809,
+          "sha256": "6a14a41c369e75b498e08d1ed3674eb9a5b0f303f7f5ec66bc633e7768a50f48"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1571/complete.json",
+          "bytes": 804,
+          "sha256": "0f251259459d8de0a711833b830833be77f5fee5f7b2c65b843aa25cc253a92e"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1599/complete.json",
+          "bytes": 807,
+          "sha256": "ff16bdf22710debe7217904b631034ee7fcf8d3eb633f192560d63a5889a82dd"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1627/complete.json",
+          "bytes": 807,
+          "sha256": "11704e05e012ac7742e1de169bc2658c675d89c9180ccb75f05f29b91deded77"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1655/complete.json",
+          "bytes": 808,
+          "sha256": "542e401e3d0ced37f1984229658436abce87782a4afc2177cf929d113915aadb"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1683/complete.json",
+          "bytes": 807,
+          "sha256": "2fd8f2b04db55059a10de245f1d0e0b8abfb60ad9a787ca7d1141095126f6164"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1711/complete.json",
+          "bytes": 806,
+          "sha256": "002ff2e4faa19da2f36f7c9106d8207e61baa6ee2530e42ce615e3225e793123"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1739/complete.json",
+          "bytes": 809,
+          "sha256": "80019a2a2ee4f5af35419c67b10090ac048397f40d6a29bf0c954497a5078436"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1767/complete.json",
+          "bytes": 808,
+          "sha256": "0f5fb8fc7f51008874bf49ce068b1bd546efba5f76c0a75abafb5656602926e1"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c1795/complete.json",
+          "bytes": 808,
+          "sha256": "0b97e9cf9d03a71562a532ed68b63bf235d51f116fd02dccfea0768b98a05444"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c731/complete.json",
+          "bytes": 802,
+          "sha256": "06bac7140a1c5247d3b81ee34d2260e0002e2b51d71e9a9a64505a16c54cad6c"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c759/complete.json",
+          "bytes": 802,
+          "sha256": "f7d3b687a9c2a856d6c9c8f92510f999ad7ca6ab64dff123b07ba8ee7dbfee87"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c787/complete.json",
+          "bytes": 801,
+          "sha256": "27bcc684953e76ec756b3f079a794338277815bc536baab66cbf58256c679b1d"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c815/complete.json",
+          "bytes": 801,
+          "sha256": "fb611e85518867651c3521d24003ea6ef7dbdfa535a4726e88fe29e3e05be671"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c843/complete.json",
+          "bytes": 803,
+          "sha256": "70ccfecf57ef021678a076c0f138914527334e07414f416c1b367a6b48dddece"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c871/complete.json",
+          "bytes": 803,
+          "sha256": "ed9caae854991a36e6f6ce718ac17dab066b92a4e06a3956d350b5a10b1dc1b8"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c899/complete.json",
+          "bytes": 804,
+          "sha256": "898529d312d6dc4d9996f5f175c40bbdc171da47a99043a74491e7177c454a44"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c927/complete.json",
+          "bytes": 801,
+          "sha256": "2a3a3fb916b73b98e3da923d9c58b0273639e1089ae129338e6017d95766eece"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c955/complete.json",
+          "bytes": 801,
+          "sha256": "dfee19676f7e6c3b70a5227fe580ea97a1777f26c463b8846bc8bf3384415e2d"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261022/c983/complete.json",
+          "bytes": 804,
+          "sha256": "173cbfdca6398f364f30391f3a402f66ece7ebe6d36cfe4c2bb47cae0c6ff0ee"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1011/complete.json",
+          "bytes": 807,
+          "sha256": "da8cb4fd5a917ccf1c6512d25682e86f624c90ec7bb49b495aad40482526dbe4"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1039/complete.json",
+          "bytes": 806,
+          "sha256": "349c80443d7c06d855a8d942497be8f41da96f9525d47a05cc49d06e90a32411"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1067/complete.json",
+          "bytes": 807,
+          "sha256": "a39be9477426eb4bd284987860c6151feb5a91029f039bb9e2be15facd396180"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1095/complete.json",
+          "bytes": 806,
+          "sha256": "efa5f31404138aa5792de3c02fa457449d3cf8755e4879abe14d0e678eaf96b4"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1123/complete.json",
+          "bytes": 807,
+          "sha256": "62b579e3d680df93ae30b7309532ebd940c5ddce1281e9658a9ac55743f17a3c"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1151/complete.json",
+          "bytes": 808,
+          "sha256": "ab0bfc3b2c4e905308ccff169467c352c7330227dfc0724bfd1d07977680bd79"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1179/complete.json",
+          "bytes": 807,
+          "sha256": "03512a1d58538f6e5683439afb4efc7a9096a494e4746aae79c69e5374c0e449"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1207/complete.json",
+          "bytes": 808,
+          "sha256": "2632daa701d414ce6dc5de7d53b3d9c6877cb89638803064237186adaeb09e8f"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1235/complete.json",
+          "bytes": 806,
+          "sha256": "ace8657a251833e987a34333a13e5cb67f8140af9304cc52f9160ef1bbaa7c11"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1263/complete.json",
+          "bytes": 808,
+          "sha256": "8422edfe58280a78e4d68f9855a70fd77841cfa4386536cbda5ec02f09eb386f"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1291/complete.json",
+          "bytes": 806,
+          "sha256": "bba2478c3f1ab4381549141efacc36c6ffb41ed44fb68a594c690318cfb96253"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1319/complete.json",
+          "bytes": 807,
+          "sha256": "fefa43826a47521ba34ab06f2a68833f7e3eb4950db80ba1c41db46cb560d9db"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1347/complete.json",
+          "bytes": 808,
+          "sha256": "29111ac2a97de7dab4a47e238b987ed21ed90519a764cfb2bf06e113d19e4f2d"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1375/complete.json",
+          "bytes": 807,
+          "sha256": "6678eff8fad253da93da733e2626fe622fabca5d8d9b1e4f610d4f1e4a01872d"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1403/complete.json",
+          "bytes": 808,
+          "sha256": "89c12cb2d2f04fbf6f40631587bb3494fcff4228ee037f51ff35385ba346cf65"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1431/complete.json",
+          "bytes": 808,
+          "sha256": "ffc58ea9d52ebf1457946bc380b816033f042d78cf68b9fa3df06a8496367ca9"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1459/complete.json",
+          "bytes": 808,
+          "sha256": "dc6eca5fc96b50690044253c2d26c6662797169233946700884f3a84d65348d0"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1487/complete.json",
+          "bytes": 808,
+          "sha256": "367e9a8d204d98418f663ffd16623d8966c07892d78dd061fa25201baf502508"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1515/complete.json",
+          "bytes": 808,
+          "sha256": "41f58eb0f5968e95c7aa135c1310c278d1e784cef502dbe62c6e9126ae66c9f0"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1543/complete.json",
+          "bytes": 809,
+          "sha256": "2df390196a824659494c54e6d2f01abd41d1b785a19b32cb381e76a7d2694552"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1571/complete.json",
+          "bytes": 809,
+          "sha256": "859329b98f59e03c5f2e91ad21367b8fac64ba621f142cc0e75e89691898a01f"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1599/complete.json",
+          "bytes": 808,
+          "sha256": "ae4b6a43ca7fb88d0bb181a65eab6230a4a1160b56068b877d194a3838a38ed7"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1627/complete.json",
+          "bytes": 807,
+          "sha256": "09f111500902a75167aa4ea444cada991d681c7bbf7675847a6871e44d26c025"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1655/complete.json",
+          "bytes": 809,
+          "sha256": "fb555a9b15d7a410afd4da28fd4d551c07a7a1b7a2925bdc932289cd30ed78ed"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1683/complete.json",
+          "bytes": 808,
+          "sha256": "c3b3b0d345f42ad4a8229931f486f4a22c263f9f01625f8ad618464bb663328f"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1711/complete.json",
+          "bytes": 807,
+          "sha256": "3b483b1326eb39596c85bb628b044f761c9838c49d6fea7ff5ecd2b91519ae18"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1739/complete.json",
+          "bytes": 807,
+          "sha256": "a929e6604be2653449d37bbee7735d031703a5084a315a668acc0416c5d50bb4"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1767/complete.json",
+          "bytes": 807,
+          "sha256": "7227a9a485d21d10dab122c7bd11e010c5ed3164878803c30687a608aa4db81e"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c1795/complete.json",
+          "bytes": 810,
+          "sha256": "d7cc135c49e01871f5521af6599c762650e94908593b3f93499b4dbe6560eba8"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c731/complete.json",
+          "bytes": 802,
+          "sha256": "d7c3f837295d96593bc1c255c380cce243b30508d2f62ae9f0a11e14b93f5df0"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c759/complete.json",
+          "bytes": 802,
+          "sha256": "aa4e0199c1e07539e9168df281cbd228f2558c58abd1353734d6963f36847152"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c787/complete.json",
+          "bytes": 803,
+          "sha256": "85d7dd10b5b81e5a52feaa32c916fb69813030c959ea1a680c4432cee73ba8db"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c815/complete.json",
+          "bytes": 803,
+          "sha256": "7d4c70172da99d57e18f55864521cc1aebbead68069b184b32ca66c856e823b4"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c843/complete.json",
+          "bytes": 804,
+          "sha256": "fc260cb98486363464506e88ddab6a94bb24954bfc730f4ae425fb216639bfca"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c871/complete.json",
+          "bytes": 802,
+          "sha256": "70b162ffd14c117733a207dd827621c996789b23d4424b14b9ca65140cdf7304"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c899/complete.json",
+          "bytes": 802,
+          "sha256": "27562f9db775ba77e838f1fd47849915a29332ff0db5c47fbf82afaf68a218c1"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c927/complete.json",
+          "bytes": 803,
+          "sha256": "39a0704f580f2570c2ae05883318a4d8523013650116d690dc6bbb8fcc790e38"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c955/complete.json",
+          "bytes": 801,
+          "sha256": "ccc68daaea02a9ec6c476856045cafa074c29f06fa1994a8ed2d044c53ba6b3e"
+        },
+        {
+          "path": "italian/audit_bank_records/h7_mlp_s20261023/c983/complete.json",
+          "bytes": 802,
+          "sha256": "23f5995298288fddd0a8cf94ca3a57da3f06331f0670f40ac445536d91af465e"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/admission.json",
+          "bytes": 1236,
+          "sha256": "016ca646c20778bc6bfb6031e3c8bcfc6f7788d99ae8593d9b72ac1ab4f1b06a"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/E1_history_sensitivity.csv",
+          "bytes": 51600,
+          "sha256": "d75d61bb02814e90bc3735cee23a4d113deeb4b5ba2fadc9cc07aaa375907532"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/E3_intervals.csv",
+          "bytes": 4761,
+          "sha256": "6ed37b85ca9f37f6153da0fa4f61f1ebcb5824cc5901445950aeba838cbd8bb7"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/E3_phase_scores.csv",
+          "bytes": 17187,
+          "sha256": "7d0aad2663c93b370b6eb08085006b5a6b960a56b4581264acafc59fb36b125e"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/E3_scores.csv",
+          "bytes": 6112,
+          "sha256": "f6a4bed96ed3eb1d6dabb094b7395d2c83b29fec3e07c081a9d902f3e44fef14"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/bridge_joint_summary.csv",
+          "bytes": 2299,
+          "sha256": "1bc16aacd3304ae5c02c3d1b74685dea75c1f79d3aef204b293f8f2fc256b253"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/cost_accounting.csv",
+          "bytes": 653,
+          "sha256": "125b5e926d2b4c833e76a063ef80ce7f5e7137dffa677565d808946852a9614f"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/decision.json",
+          "bytes": 1076,
+          "sha256": "2d00fff34ef41fa6c9b367677c2daa618aaebc38387b64bce03d956376c37b78"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/effect_intervals.csv",
+          "bytes": 36192,
+          "sha256": "1e8a1b55cae310c0bf36170733ec8ea7ca4f5685b2d6eeecd795e363b1bbc8c9"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/feedback_availability.csv",
+          "bytes": 4054,
+          "sha256": "0a817ab1b8ff1f550603aabad46f3587c435fd22f9c93b3583f51fd201de39c4"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/fit_costs.csv",
+          "bytes": 29854,
+          "sha256": "3ed3088319f8ba3c3b9bcc8da9d02f5b433d68fb1e6ce794c31ac39598fd1fab"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/fixed_grid_scores.csv",
+          "bytes": 45635,
+          "sha256": "dced59690279e47bcca18c6929f49cbcf1c12fa9153d815aed1172a9038a9552"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/interaction_intervals.csv",
+          "bytes": 6894,
+          "sha256": "c5cfe7b56eb8a464927d0be04a7f84593b7f7a4adae7693e8915cf7fdf6551da"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/logical_deployment_cost.csv",
+          "bytes": 1370,
+          "sha256": "8ceba03e118fb7367745e82dbac2042ddaa681737a600bbb0bab8bb0a58232bb"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/nonoverlap_interactions.csv",
+          "bytes": 7398,
+          "sha256": "e34a33e52b1e697474668815dc8b7de4222476905b60d4f2e0f2405429ede3e1"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/primary_arm_scores.csv",
+          "bytes": 851,
+          "sha256": "5b0a7ea31f5ccefebd00eabb971d761fe6888683e87802a143236ceab12b1b75"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/scores.csv",
+          "bytes": 59934,
+          "sha256": "1b25fd75b21c12b98a42c5d5b6f945b38a982d7ada14afadc332d21cf020d6b9"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/seed_scores.csv",
+          "bytes": 189869,
+          "sha256": "b548db9227e50b2db551f50230ee2c5d07de12921645af453dc21e12033f8353"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/year_interactions.csv",
+          "bytes": 1296,
+          "sha256": "f65059bef680d4b3352b9032a3653d1b1f69365a16fe719e665233dcbda31a1b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/analysis/year_scores.csv",
+          "bytes": 145377,
+          "sha256": "a80c458f1e188bc67283c297d65f56c341f6d16e69b03d3075640346e90104f2"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/bank_lgbm.log",
+          "bytes": 12669,
+          "sha256": "90e4a194e0aae2a4c150879c07bb414fc62fdc8498a64d03f4d49a01062ea4ca"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/bank_mlp.log",
+          "bytes": 12439,
+          "sha256": "ee38e0d892e9d781e37dd215ff3b817ee863b8659043cbc5a3830ad45560dda4"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/calendar_audit.csv",
+          "bytes": 31088,
+          "sha256": "a6bcc2a7d70b77094bdcd0d46de03990e726b276c2e28bb44d2c7de429ba4bf4"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u28_lgbm_s20261021/costs.csv",
+          "bytes": 737,
+          "sha256": "1081782cc896833f8e7ca82ee60f15b64aa179d3137d4d5ca0b65468f85200d3"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u28_lgbm_s20261021/feedback.parquet",
+          "bytes": 35343,
+          "sha256": "baeae2617a01f28a9f9907ff8fa2064c0131bd027ea8c513e6e009fbae017570"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u28_lgbm_s20261022/costs.csv",
+          "bytes": 732,
+          "sha256": "1f3aa4dc6107865a686eea404c26a49ab772921ba14790de4fb12246f0a6f20c"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u28_lgbm_s20261022/feedback.parquet",
+          "bytes": 35343,
+          "sha256": "baeae2617a01f28a9f9907ff8fa2064c0131bd027ea8c513e6e009fbae017570"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u28_lgbm_s20261023/costs.csv",
+          "bytes": 735,
+          "sha256": "80a86adb1f856486217350a389408ef07f7ac0d39e6f640314b51eafb60b2c85"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u28_lgbm_s20261023/feedback.parquet",
+          "bytes": 35343,
+          "sha256": "baeae2617a01f28a9f9907ff8fa2064c0131bd027ea8c513e6e009fbae017570"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u28_mlp_s20261021/costs.csv",
+          "bytes": 736,
+          "sha256": "a0ad14c7207030c90edcc8fd2e68325adb16b602cc3bce47e972fec9ce6ad3b4"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u28_mlp_s20261021/feedback.parquet",
+          "bytes": 35343,
+          "sha256": "baeae2617a01f28a9f9907ff8fa2064c0131bd027ea8c513e6e009fbae017570"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u28_mlp_s20261022/costs.csv",
+          "bytes": 738,
+          "sha256": "b31ece6561a1c95152be58c23baa24f9a430019dc63304dcd5f3c82d10bcc43a"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u28_mlp_s20261022/feedback.parquet",
+          "bytes": 35343,
+          "sha256": "baeae2617a01f28a9f9907ff8fa2064c0131bd027ea8c513e6e009fbae017570"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u28_mlp_s20261023/costs.csv",
+          "bytes": 732,
+          "sha256": "e842e8f7e8cd3602329bd9e670ae6fe4bf32e6dbbe2555f71653347bae78e0a4"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u28_mlp_s20261023/feedback.parquet",
+          "bytes": 35343,
+          "sha256": "baeae2617a01f28a9f9907ff8fa2064c0131bd027ea8c513e6e009fbae017570"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u56_lgbm_s20261021/costs.csv",
+          "bytes": 735,
+          "sha256": "133a76cc557b0ae992994b4ba913ea95681858de07deb29d03ccbf569b990461"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u56_lgbm_s20261021/feedback.parquet",
+          "bytes": 35617,
+          "sha256": "642fe7e1aa54f17730517414bef67c83662abbd0f074fe005d5b757be1077095"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u56_lgbm_s20261022/costs.csv",
+          "bytes": 736,
+          "sha256": "4a0ff06b3dd35e722d0153187910583a58dfa4f61028819767a5b420f05a1e73"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u56_lgbm_s20261022/feedback.parquet",
+          "bytes": 35617,
+          "sha256": "642fe7e1aa54f17730517414bef67c83662abbd0f074fe005d5b757be1077095"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u56_lgbm_s20261023/costs.csv",
+          "bytes": 734,
+          "sha256": "7d9ca5f4ce54495e803f5b9b4e82a2eb1f4229be06362032a50fb7ffeebd5e22"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u56_lgbm_s20261023/feedback.parquet",
+          "bytes": 35617,
+          "sha256": "642fe7e1aa54f17730517414bef67c83662abbd0f074fe005d5b757be1077095"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u56_mlp_s20261021/costs.csv",
+          "bytes": 739,
+          "sha256": "053f7601a00c662545165ee76bc39039e1b1356e66877b060f6ef9d5f653edc3"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u56_mlp_s20261021/feedback.parquet",
+          "bytes": 35617,
+          "sha256": "642fe7e1aa54f17730517414bef67c83662abbd0f074fe005d5b757be1077095"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u56_mlp_s20261022/costs.csv",
+          "bytes": 737,
+          "sha256": "fac5e9599566d09f7218ac0347fdb66f369fa4c38883e7190969b35f89bf0d6c"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u56_mlp_s20261022/feedback.parquet",
+          "bytes": 35617,
+          "sha256": "642fe7e1aa54f17730517414bef67c83662abbd0f074fe005d5b757be1077095"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u56_mlp_s20261023/costs.csv",
+          "bytes": 734,
+          "sha256": "84495ab684112627c8f10f8bbd558cad1cfdde3ad2b0f82bbd5df4027e0314bc"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h14_u56_mlp_s20261023/feedback.parquet",
+          "bytes": 35617,
+          "sha256": "642fe7e1aa54f17730517414bef67c83662abbd0f074fe005d5b757be1077095"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u28_lgbm_s20261021/costs.csv",
+          "bytes": 736,
+          "sha256": "9cb9f85c30c0a26e1088248218ac4df01364a4831b20c4d6b475d7f62ed9869e"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u28_lgbm_s20261021/feedback.parquet",
+          "bytes": 45432,
+          "sha256": "d1fdafdef26308ff050c8a7afa8765e7eb9aaf2a41379dc087bb06a9721d4c16"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u28_lgbm_s20261022/costs.csv",
+          "bytes": 738,
+          "sha256": "ce589b9992f65f78b0e46f1bb90b99b53aacdebb121665f8ec3ab7c90f8c066c"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u28_lgbm_s20261022/feedback.parquet",
+          "bytes": 45432,
+          "sha256": "d1fdafdef26308ff050c8a7afa8765e7eb9aaf2a41379dc087bb06a9721d4c16"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u28_lgbm_s20261023/costs.csv",
+          "bytes": 738,
+          "sha256": "d731eea9382a3349e9c9e42cc099d42a6f5b8ca0bba9a44e2d3a6a2d230d4cb4"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u28_lgbm_s20261023/feedback.parquet",
+          "bytes": 45432,
+          "sha256": "d1fdafdef26308ff050c8a7afa8765e7eb9aaf2a41379dc087bb06a9721d4c16"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u28_mlp_s20261021/costs.csv",
+          "bytes": 737,
+          "sha256": "9b24dd32104fa7770392f3d497fb7076d31baea3de6608047f6fcc72721b37dd"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u28_mlp_s20261021/feedback.parquet",
+          "bytes": 45432,
+          "sha256": "d1fdafdef26308ff050c8a7afa8765e7eb9aaf2a41379dc087bb06a9721d4c16"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u28_mlp_s20261022/costs.csv",
+          "bytes": 737,
+          "sha256": "b40c20d60e300e47e63cd9d0e6d0e01ca3aae7be2ee88254bfe6bc0db6ca9fb7"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u28_mlp_s20261022/feedback.parquet",
+          "bytes": 45432,
+          "sha256": "d1fdafdef26308ff050c8a7afa8765e7eb9aaf2a41379dc087bb06a9721d4c16"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u28_mlp_s20261023/costs.csv",
+          "bytes": 737,
+          "sha256": "561d190558d6ecb2c44f6b6c47a3cbf96426216577fdf9aa59e68a1f4b641064"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u28_mlp_s20261023/feedback.parquet",
+          "bytes": 45432,
+          "sha256": "d1fdafdef26308ff050c8a7afa8765e7eb9aaf2a41379dc087bb06a9721d4c16"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u56_lgbm_s20261021/costs.csv",
+          "bytes": 733,
+          "sha256": "f70c47957bdc8674b23fd6be06d0457cf5569609d0b3f9cde54305be0ddbac44"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u56_lgbm_s20261021/feedback.parquet",
+          "bytes": 45383,
+          "sha256": "d741b3300c6d628a859dd0fd47c1b8c3580f55380a0704377014dddd74d2c2af"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u56_lgbm_s20261022/costs.csv",
+          "bytes": 733,
+          "sha256": "16249fe33def4176657b8fe752e734484a13a3b63f4a00d47a4ab03beee72fe0"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u56_lgbm_s20261022/feedback.parquet",
+          "bytes": 45383,
+          "sha256": "d741b3300c6d628a859dd0fd47c1b8c3580f55380a0704377014dddd74d2c2af"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u56_lgbm_s20261023/costs.csv",
+          "bytes": 736,
+          "sha256": "acd063137e950092d2ae41e7d83f6faf5802eb1006082824289f58a46f0424e4"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u56_lgbm_s20261023/feedback.parquet",
+          "bytes": 45383,
+          "sha256": "d741b3300c6d628a859dd0fd47c1b8c3580f55380a0704377014dddd74d2c2af"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u56_mlp_s20261021/costs.csv",
+          "bytes": 736,
+          "sha256": "ed49473c36f994d9ccc7840082caef23dc41b660176d70cdeebf6fe508af3bfb"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u56_mlp_s20261021/feedback.parquet",
+          "bytes": 45383,
+          "sha256": "d741b3300c6d628a859dd0fd47c1b8c3580f55380a0704377014dddd74d2c2af"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u56_mlp_s20261022/costs.csv",
+          "bytes": 735,
+          "sha256": "d1c71eefc75b935eb3a58b68d715ffd046ed813182f18d8fd7637df66ecd7634"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u56_mlp_s20261022/feedback.parquet",
+          "bytes": 45383,
+          "sha256": "d741b3300c6d628a859dd0fd47c1b8c3580f55380a0704377014dddd74d2c2af"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u56_mlp_s20261023/costs.csv",
+          "bytes": 732,
+          "sha256": "95756e996ef03d4e84b3955bfc22a8d81c2db8879e241674aec60d1b57bfc5c8"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/candidates/h7_u56_mlp_s20261023/feedback.parquet",
+          "bytes": 45383,
+          "sha256": "d741b3300c6d628a859dd0fd47c1b8c3580f55380a0704377014dddd74d2c2af"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/cohort.csv",
+          "bytes": 5597,
+          "sha256": "11e92a3fbb75e94508339882bbdeecf599a9425722cbfe557ab147b6682e487d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/cohort_all.csv",
+          "bytes": 5597,
+          "sha256": "11e92a3fbb75e94508339882bbdeecf599a9425722cbfe557ab147b6682e487d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_lgbm_s20261021/daily.parquet",
+          "bytes": 64513,
+          "sha256": "0707b2cf25a3d30cf7155184399750433a567909ee80ae578ebd5fc248096a3f"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_lgbm_s20261021/feedback.parquet",
+          "bytes": 11958,
+          "sha256": "8dbd8bf79aeab102cf86643c8264ca0dcfcbaf92c951738ed69c5f73ae13a3e2"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_lgbm_s20261021/pairs.csv",
+          "bytes": 976,
+          "sha256": "357bbefc18ba87ad24e4147baeae2c4ef2e5d99f75dc9b0762d299c114047b6b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_lgbm_s20261022/daily.parquet",
+          "bytes": 64494,
+          "sha256": "d6bfd7e58b3ffdeb51cca671190d10c89e6ef0fc2b027f430ce9a462537c001c"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_lgbm_s20261022/feedback.parquet",
+          "bytes": 11958,
+          "sha256": "8dbd8bf79aeab102cf86643c8264ca0dcfcbaf92c951738ed69c5f73ae13a3e2"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_lgbm_s20261022/pairs.csv",
+          "bytes": 976,
+          "sha256": "357bbefc18ba87ad24e4147baeae2c4ef2e5d99f75dc9b0762d299c114047b6b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_lgbm_s20261023/daily.parquet",
+          "bytes": 64587,
+          "sha256": "f535a61ed8d1bd65530e9a2d2e336af7fff7ac295a9d283c5eae07f3a5785d38"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_lgbm_s20261023/feedback.parquet",
+          "bytes": 11958,
+          "sha256": "8dbd8bf79aeab102cf86643c8264ca0dcfcbaf92c951738ed69c5f73ae13a3e2"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_lgbm_s20261023/pairs.csv",
+          "bytes": 976,
+          "sha256": "357bbefc18ba87ad24e4147baeae2c4ef2e5d99f75dc9b0762d299c114047b6b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_mlp_s20261021/daily.parquet",
+          "bytes": 64440,
+          "sha256": "8efded4720400e6c0dce8e7d2b0f7ddb3155d3a939a247f63965512114684e36"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_mlp_s20261021/feedback.parquet",
+          "bytes": 11958,
+          "sha256": "8dbd8bf79aeab102cf86643c8264ca0dcfcbaf92c951738ed69c5f73ae13a3e2"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_mlp_s20261021/pairs.csv",
+          "bytes": 976,
+          "sha256": "357bbefc18ba87ad24e4147baeae2c4ef2e5d99f75dc9b0762d299c114047b6b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_mlp_s20261022/daily.parquet",
+          "bytes": 64934,
+          "sha256": "8533e0152fc2ab8d0ff5dd9783a696307d4473695e387fa49684824eaf5c3682"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_mlp_s20261022/feedback.parquet",
+          "bytes": 11958,
+          "sha256": "8dbd8bf79aeab102cf86643c8264ca0dcfcbaf92c951738ed69c5f73ae13a3e2"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_mlp_s20261022/pairs.csv",
+          "bytes": 976,
+          "sha256": "357bbefc18ba87ad24e4147baeae2c4ef2e5d99f75dc9b0762d299c114047b6b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_mlp_s20261023/daily.parquet",
+          "bytes": 64475,
+          "sha256": "14160716d02e097841b01eee8fd8dd08c8e760e1f256bd0266823d7eeb1efae8"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_mlp_s20261023/feedback.parquet",
+          "bytes": 11958,
+          "sha256": "8dbd8bf79aeab102cf86643c8264ca0dcfcbaf92c951738ed69c5f73ae13a3e2"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u28_mlp_s20261023/pairs.csv",
+          "bytes": 976,
+          "sha256": "357bbefc18ba87ad24e4147baeae2c4ef2e5d99f75dc9b0762d299c114047b6b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_lgbm_s20261021/daily.parquet",
+          "bytes": 76147,
+          "sha256": "021255c7afc90c87007991c3b124c80f200d2dd0361621fec71416b94800c3d8"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_lgbm_s20261021/feedback.parquet",
+          "bytes": 11155,
+          "sha256": "a8ddcec773ec857820cccc1b818dad927ac776f98c15732bae0159fb96df7b22"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_lgbm_s20261021/pairs.csv",
+          "bytes": 530,
+          "sha256": "b66d6b05f5350d2a963c60100249808285c8d2484e93d45b64ad546feb08b61d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_lgbm_s20261022/daily.parquet",
+          "bytes": 76405,
+          "sha256": "fcffd96abbedc86a6058f634f98a6bf4fc0ebcd949c91ec27d0819b8a96b66dd"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_lgbm_s20261022/feedback.parquet",
+          "bytes": 11155,
+          "sha256": "a8ddcec773ec857820cccc1b818dad927ac776f98c15732bae0159fb96df7b22"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_lgbm_s20261022/pairs.csv",
+          "bytes": 530,
+          "sha256": "b66d6b05f5350d2a963c60100249808285c8d2484e93d45b64ad546feb08b61d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_lgbm_s20261023/daily.parquet",
+          "bytes": 76328,
+          "sha256": "e8ae54d7c26048ecf777856f4e12b05e69dd0f8ad922303767e37217f979b712"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_lgbm_s20261023/feedback.parquet",
+          "bytes": 11155,
+          "sha256": "a8ddcec773ec857820cccc1b818dad927ac776f98c15732bae0159fb96df7b22"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_lgbm_s20261023/pairs.csv",
+          "bytes": 530,
+          "sha256": "b66d6b05f5350d2a963c60100249808285c8d2484e93d45b64ad546feb08b61d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_mlp_s20261021/daily.parquet",
+          "bytes": 76241,
+          "sha256": "708f7d33a837321e868ea5aec278aed86fcfc9de4ff9dd5521899f1ac1360f1a"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_mlp_s20261021/feedback.parquet",
+          "bytes": 11155,
+          "sha256": "a8ddcec773ec857820cccc1b818dad927ac776f98c15732bae0159fb96df7b22"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_mlp_s20261021/pairs.csv",
+          "bytes": 530,
+          "sha256": "b66d6b05f5350d2a963c60100249808285c8d2484e93d45b64ad546feb08b61d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_mlp_s20261022/daily.parquet",
+          "bytes": 76223,
+          "sha256": "4616d95b7c45040591127a15bc6ea08a5c967726f06a25950e98aabad26fedef"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_mlp_s20261022/feedback.parquet",
+          "bytes": 11155,
+          "sha256": "a8ddcec773ec857820cccc1b818dad927ac776f98c15732bae0159fb96df7b22"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_mlp_s20261022/pairs.csv",
+          "bytes": 530,
+          "sha256": "b66d6b05f5350d2a963c60100249808285c8d2484e93d45b64ad546feb08b61d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_mlp_s20261023/daily.parquet",
+          "bytes": 76409,
+          "sha256": "d24d4812684a146c52919f0d40dbcfa612b87406fc715ac3dedca43acad07bda"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_mlp_s20261023/feedback.parquet",
+          "bytes": 11155,
+          "sha256": "a8ddcec773ec857820cccc1b818dad927ac776f98c15732bae0159fb96df7b22"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h14_u56_mlp_s20261023/pairs.csv",
+          "bytes": 530,
+          "sha256": "b66d6b05f5350d2a963c60100249808285c8d2484e93d45b64ad546feb08b61d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_lgbm_s20261021/daily.parquet",
+          "bytes": 84210,
+          "sha256": "c833510eb5ccbff52ee5840176371b25f6f019575c3ea00dde0be0a92e04d6f4"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_lgbm_s20261021/feedback.parquet",
+          "bytes": 12824,
+          "sha256": "a17d397b49119734c1f5904a17a722876185b7ec762f48bfe7baf8235f4eef2a"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_lgbm_s20261021/pairs.csv",
+          "bytes": 976,
+          "sha256": "357bbefc18ba87ad24e4147baeae2c4ef2e5d99f75dc9b0762d299c114047b6b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_lgbm_s20261022/daily.parquet",
+          "bytes": 84198,
+          "sha256": "73571b3da23662d92e75f4c89a830f69e63dec7f25f8c1a48e674185480c36d2"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_lgbm_s20261022/feedback.parquet",
+          "bytes": 12824,
+          "sha256": "a17d397b49119734c1f5904a17a722876185b7ec762f48bfe7baf8235f4eef2a"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_lgbm_s20261022/pairs.csv",
+          "bytes": 976,
+          "sha256": "357bbefc18ba87ad24e4147baeae2c4ef2e5d99f75dc9b0762d299c114047b6b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_lgbm_s20261023/daily.parquet",
+          "bytes": 84115,
+          "sha256": "03ae50d9618b112f86a8c2bcc167fb6d9d13afaa9a4180934869f3b28bcbc486"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_lgbm_s20261023/feedback.parquet",
+          "bytes": 12824,
+          "sha256": "a17d397b49119734c1f5904a17a722876185b7ec762f48bfe7baf8235f4eef2a"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_lgbm_s20261023/pairs.csv",
+          "bytes": 976,
+          "sha256": "357bbefc18ba87ad24e4147baeae2c4ef2e5d99f75dc9b0762d299c114047b6b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_mlp_s20261021/daily.parquet",
+          "bytes": 85056,
+          "sha256": "5400548303eb8311db695ffb85e856d30c515a63aeb6aa5f1f5a1063c9fb651d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_mlp_s20261021/feedback.parquet",
+          "bytes": 12824,
+          "sha256": "a17d397b49119734c1f5904a17a722876185b7ec762f48bfe7baf8235f4eef2a"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_mlp_s20261021/pairs.csv",
+          "bytes": 976,
+          "sha256": "357bbefc18ba87ad24e4147baeae2c4ef2e5d99f75dc9b0762d299c114047b6b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_mlp_s20261022/daily.parquet",
+          "bytes": 84042,
+          "sha256": "a687e84e19bb67a6e34587ca046234a1af09ea2bddaeac0d7e2e9536557a68e3"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_mlp_s20261022/feedback.parquet",
+          "bytes": 12824,
+          "sha256": "a17d397b49119734c1f5904a17a722876185b7ec762f48bfe7baf8235f4eef2a"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_mlp_s20261022/pairs.csv",
+          "bytes": 976,
+          "sha256": "357bbefc18ba87ad24e4147baeae2c4ef2e5d99f75dc9b0762d299c114047b6b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_mlp_s20261023/daily.parquet",
+          "bytes": 84006,
+          "sha256": "ef7d9f872a22e666c286d6a5b2e9e39bd5d00b96d9592a206f04ea0077980d92"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_mlp_s20261023/feedback.parquet",
+          "bytes": 12824,
+          "sha256": "a17d397b49119734c1f5904a17a722876185b7ec762f48bfe7baf8235f4eef2a"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u28_mlp_s20261023/pairs.csv",
+          "bytes": 976,
+          "sha256": "357bbefc18ba87ad24e4147baeae2c4ef2e5d99f75dc9b0762d299c114047b6b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_lgbm_s20261021/daily.parquet",
+          "bytes": 90352,
+          "sha256": "f71bf68f09c1c8a396534c0116f8e4db9852d49f891a17aae976cf62bb4b4808"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_lgbm_s20261021/feedback.parquet",
+          "bytes": 11595,
+          "sha256": "68c2b9cc7e939e517583f2aff519f3aed321c6c30ceaf89f7a8047a804511a16"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_lgbm_s20261021/pairs.csv",
+          "bytes": 530,
+          "sha256": "b66d6b05f5350d2a963c60100249808285c8d2484e93d45b64ad546feb08b61d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_lgbm_s20261022/daily.parquet",
+          "bytes": 90371,
+          "sha256": "59e643f942d8dd9234cba1b8e016d376351b0b11c1b141eff5c24e6f420c938c"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_lgbm_s20261022/feedback.parquet",
+          "bytes": 11595,
+          "sha256": "68c2b9cc7e939e517583f2aff519f3aed321c6c30ceaf89f7a8047a804511a16"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_lgbm_s20261022/pairs.csv",
+          "bytes": 530,
+          "sha256": "b66d6b05f5350d2a963c60100249808285c8d2484e93d45b64ad546feb08b61d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_lgbm_s20261023/daily.parquet",
+          "bytes": 90171,
+          "sha256": "d6db41169d14b21279816c43bc0fcc88ce36593badd763e3fc33a778f6f1fa09"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_lgbm_s20261023/feedback.parquet",
+          "bytes": 11595,
+          "sha256": "68c2b9cc7e939e517583f2aff519f3aed321c6c30ceaf89f7a8047a804511a16"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_lgbm_s20261023/pairs.csv",
+          "bytes": 530,
+          "sha256": "b66d6b05f5350d2a963c60100249808285c8d2484e93d45b64ad546feb08b61d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_mlp_s20261021/daily.parquet",
+          "bytes": 90211,
+          "sha256": "48983fb76e72a17acd3af615895e1506fc2b87de9d2bd18c4b2d35eec8ae565b"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_mlp_s20261021/feedback.parquet",
+          "bytes": 11595,
+          "sha256": "68c2b9cc7e939e517583f2aff519f3aed321c6c30ceaf89f7a8047a804511a16"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_mlp_s20261021/pairs.csv",
+          "bytes": 530,
+          "sha256": "b66d6b05f5350d2a963c60100249808285c8d2484e93d45b64ad546feb08b61d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_mlp_s20261022/daily.parquet",
+          "bytes": 90196,
+          "sha256": "463c6807958e1dbc4ff1b1b89b61d2b62d8e990341718660331f98907446fb51"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_mlp_s20261022/feedback.parquet",
+          "bytes": 11595,
+          "sha256": "68c2b9cc7e939e517583f2aff519f3aed321c6c30ceaf89f7a8047a804511a16"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_mlp_s20261022/pairs.csv",
+          "bytes": 530,
+          "sha256": "b66d6b05f5350d2a963c60100249808285c8d2484e93d45b64ad546feb08b61d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_mlp_s20261023/daily.parquet",
+          "bytes": 90876,
+          "sha256": "396438f740f530461f81f03332817f2062c82ca99c2c3f597bf07551c50d3e17"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_mlp_s20261023/feedback.parquet",
+          "bytes": 11595,
+          "sha256": "68c2b9cc7e939e517583f2aff519f3aed321c6c30ceaf89f7a8047a804511a16"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/e3/h7_u56_mlp_s20261023/pairs.csv",
+          "bytes": 530,
+          "sha256": "b66d6b05f5350d2a963c60100249808285c8d2484e93d45b64ad546feb08b61d"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/early_panel.npy",
+          "bytes": 1723872,
+          "sha256": "6727dc5b147e70dca90dfc134f13eddd86e9715c8d580642f604e28f7e375c16"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/early_selection.log",
+          "bytes": 378,
+          "sha256": "0dbf5b5965633f6fe1d581cfbc1f63156e6eecfc419ad0c6736c958059591cf5"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/environment.json",
+          "bytes": 568,
+          "sha256": "e0e015b45f4a2c61dc9adab0df8e5c7f91118809686f2db875deec01c8c1fdd1"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/freeze_manifest.json",
+          "bytes": 10297,
+          "sha256": "3749d12b1cfc4e2fd3e81deea440f80f10db983d2c930097f82ea47a1a89c3f5"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/orchestrator.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/orchestrator_error.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/protected_access.json",
+          "bytes": 238,
+          "sha256": "e1051d23085bdfaa9780fe3719c198e8a62a2a3bdc7e2e936c7ed788f042672c"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/quick_recompute.json",
+          "bytes": 413,
+          "sha256": "d0e55af229cfc08f9beef72f13ec316ad43427c276fac9c0956e24f3f5bd38e2"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/replay_lgbm.log",
+          "bytes": 1068,
+          "sha256": "b499c6e860f5d730f97e3e44c4e954a19e0375be7870a6ae650ff6da6dfca447"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/replay_mlp.log",
+          "bytes": 1044,
+          "sha256": "5044ef3b17769400068302fa6ef3ad40aa3c71aad7c49a1233a751bcef7dc38c"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/report_release.log",
+          "bytes": 117,
+          "sha256": "732a53eebb5d2ac2bdd8420fe722b056f9f719853b90049b6a0b16c35c92c116"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/review_checks/audit_summary.json",
+          "bytes": 186,
+          "sha256": "dd1e7b5f3a68724f0379b0a5be259577bd4cf4b4de8a7b8c9a4d2972885ad2f4"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/review_checks/fixed_parameter_interactions_posthoc.csv",
+          "bytes": 6066,
+          "sha256": "ca0bcff9030521f6cafad264cfa4224adfe5d707cee486729aa42b861e3bdcfe"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/review_checks/primary_arms_with_raw_comparison.csv",
+          "bytes": 1041,
+          "sha256": "366ce4fff29755d585e7e2a3cf309a5f14b1f02c2b69ad57b2b9e589346a9ff1"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/run_complete.json",
+          "bytes": 179,
+          "sha256": "0e87202b7aeaeb10c83d87a7de5042c902e7ea3fb3aac6a03ca95f5673d47792"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/selected/daily.parquet",
+          "bytes": 3888594,
+          "sha256": "94b8eb64eaec791f3e1ad000b104af4ec59ed22d6c8bc6ba58bad46f925e03bc"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/selected/selections.csv",
+          "bytes": 95690,
+          "sha256": "2c7e73b526f2ec42c1848bf6d002ab01448b55fb9918f0bd5c0d8e8db37849bd"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/selected/validation.csv",
+          "bytes": 585698,
+          "sha256": "8ddcd39c466409a836e0a6d7944c485151d87895d4553e54c2662c62a44253bb"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/selection.log",
+          "bytes": 1152,
+          "sha256": "69ff059c073c54dbc62a2c45f9c2348656e2ebdcdb799e25be775cde945c7226"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/selection/h14_lgbm/candidates.csv",
+          "bytes": 65,
+          "sha256": "057351916406288c38dd0fddc7add8a4f80786bd578497b706f7e46934ff0515"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/selection/h14_lgbm/selected.json",
+          "bytes": 497,
+          "sha256": "bb6b38349e712d04421b477c4832e61571af248c3d2744e964cb8fb6bcdd9be6"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/selection/h14_mlp/candidates.csv",
+          "bytes": 184,
+          "sha256": "b4745a7104e252c2e62ed75acf19abfc704761fe8d19c01467a9295e55f2d621"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/selection/h14_mlp/selected.json",
+          "bytes": 514,
+          "sha256": "bbe190f6b6bc54c78fe2e3add5130ae56d570897dd1c9c378cd4eb3043a9e09c"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/selection/h7_lgbm/candidates.csv",
+          "bytes": 66,
+          "sha256": "f78e65da0e6fd0b428a13f56a68bb1004d30a0d960fd2efb7f901d4bd0049823"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/selection/h7_lgbm/selected.json",
+          "bytes": 496,
+          "sha256": "e050d9a5bcbf66489b6631271bc63361ad6f25bd2d990dcb3bd3e76e689d2760"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/selection/h7_mlp/candidates.csv",
+          "bytes": 182,
+          "sha256": "86a820cde356267718872ff0a25f059ab14abcff80f3fa6ddd4b6e6dd6e7b486"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/selection/h7_mlp/selected.json",
+          "bytes": 513,
+          "sha256": "ba2f65bca1d42ddc3562abe2f62718b256489d54a56cc38b127eec34dd20ec6f"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/statistics.log",
+          "bytes": 568,
+          "sha256": "ce1626147efb5829a6317c6213cf793c96bdb8246fe672dbf117715daa6ce255"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/tests_pre_freeze.txt",
+          "bytes": 1284,
+          "sha256": "a841347f96733cb17de60a948125bd8da73eef8e29331b9a7a7f56c361ac93f0"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/verification.json",
+          "bytes": 1920,
+          "sha256": "0dd85568b8c9cf33ea4d8e0fae0d96aa288aad887a136a94f6b4494662dfa294"
+        },
+        {
+          "path": "italian/outputs/sr_external_italy_20261028/verification.log",
+          "bytes": 24,
+          "sha256": "8a4d2f81bc9d15838ebaf1f5ef004a2bda4e01bd6df5926d258609863e9b071a"
+        },
+        {
+          "path": "italian/requirements-models.txt",
+          "bytes": 158,
+          "sha256": "2a8f858ab8c71f52b7086757c8568a0c33938e083ebb64d9ce896d453b53a137"
+        },
+        {
+          "path": "italian/requirements-review.txt",
+          "bytes": 46,
+          "sha256": "f49b26d009cbaf00218705bfc49efa25dfd1c770b25165ad36456dd3802a4cb2"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/analysis.py",
+          "bytes": 6804,
+          "sha256": "08ca3e3b31a85ff94ec109d5ab5cd499087b8dfeeaff5be6fd1427d86cca5f97"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/audit_italian.py",
+          "bytes": 8336,
+          "sha256": "f55d11342193c8717ea06584a7606ef0c862632fb1440da30af6ade85130af59"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/common.py",
+          "bytes": 2394,
+          "sha256": "ef8fbbebee8057d8a3ae703e7e78bf81ee55a592df50ed29f9cff86469691f33"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/data/hierarchical_sales_data.csv",
+          "bytes": 888985,
+          "sha256": "0dfd4a5bf801bf79ddb5fb1f6bc8d023487c36dd6a2a70b312cdfa9fa6568d83"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/fitters.py",
+          "bytes": 3288,
+          "sha256": "b72a67a159cf4cba69af0b53183392db9dece582a8df59acfdc5da1834dd7d58"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/freeze.py",
+          "bytes": 6932,
+          "sha256": "6cb82b9c8a4326cf49701de705e2eb2f44c786cdfd9baed9a5a014b7d3570fad"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/intake.py",
+          "bytes": 3265,
+          "sha256": "a861853b4dbde3b32718261cbefdae9c2a558993d30b99518b9e61683793efbc"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/kernels.py",
+          "bytes": 4949,
+          "sha256": "ff89baa788feaf286019472eff8be8f00cd9ca8573776df7d7f5400fb56badbd"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/legacy.py",
+          "bytes": 4613,
+          "sha256": "7b694da0eab3af998bbd7d0d82c588a2ddb53c17cf2a4dc1194bc504d10cd394"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/model_bank.py",
+          "bytes": 6166,
+          "sha256": "59c8541d8708e0502614991768d439b7a7294a82b5fb0f398ea4adf5d04faeb4"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/plot_release.py",
+          "bytes": 5684,
+          "sha256": "904c52d03e76618ee8e70b6932f261c594b003b100bf4f364e0f6336a098a6cf"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/portable_review.py",
+          "bytes": 1694,
+          "sha256": "4f6904e819f88058c8699c6cae80712003afa60407c5449a4036edb8144e3902"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/recompute_review.py",
+          "bytes": 2678,
+          "sha256": "5e1c2cd85630ad0856795dca18bce7883d381b826eeef24e671fbd3bf6777b8b"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/replay.py",
+          "bytes": 7784,
+          "sha256": "631c872ef0bd6e32978f256e0ffcda35acccce1196f11a4d18929cc4858dc838"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/report_release.py",
+          "bytes": 21312,
+          "sha256": "ae318bce3473fcd6ca2b5b064050597880226e1108e9070ba8b14a4e5d748106"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/run_all.py",
+          "bytes": 1156,
+          "sha256": "fe33bdafc65a8b1eb8e06e1d5ad8b7dc3668d16f96bf404633ed1db1fb15b2d8"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/test_protocol.py",
+          "bytes": 4137,
+          "sha256": "5904b2fa838f756b4fec4f8b18a94f06792debc930a6c9afb6966e1d7526b4d1"
+        },
+        {
+          "path": "italian/work/sr_external_italy_20261028/verify_run.py",
+          "bytes": 3751,
+          "sha256": "ea3558896366b7ff76f563c1976a62f8046adb87329cf62586ad905229aa44a2"
+        }
+      ]
+    },
+    {
+      "archive": "model_weights.tar.xz",
+      "bytes": 2761364,
+      "sha256": "f25b83973896a3b6475cf41279808c3910cb7483a19404af7488297541961547",
+      "files": [
+        {
+          "path": "models/dominicks_h1_lgbm_c262/inference_anchor.npz",
+          "bytes": 3164,
+          "sha256": "2953dffa161cb3d305b84ce400a6edda733fe8bb1f003b52cc94d06158ca733e"
+        },
+        {
+          "path": "models/dominicks_h1_lgbm_c262/q90.txt",
+          "bytes": 790646,
+          "sha256": "b3950c861b36feb653934c981807329b910bac73d68ce1039751d804a3ef2193"
+        },
+        {
+          "path": "models/dominicks_h1_lgbm_c262/q95.txt",
+          "bytes": 792999,
+          "sha256": "34b83ebc72c6da64ec76ad043317acb7a81b369fa477065e18d5e30825946a92"
+        },
+        {
+          "path": "models/dominicks_h1_lgbm_c262/training_record.json",
+          "bytes": 862,
+          "sha256": "92bb803e0950c7de01627309661dda9d2499a5eb04b2eaa3dac6f586e1299efe"
+        },
+        {
+          "path": "models/dominicks_h1_mlp_c262/inference_anchor.npz",
+          "bytes": 3202,
+          "sha256": "562f06437cbc7d1e2fd3a6afeda06dd521079b3525dc776ebee9b8fd56367943"
+        },
+        {
+          "path": "models/dominicks_h1_mlp_c262/model.pt",
+          "bytes": 52925,
+          "sha256": "4a439c25706718b905626574ee9b0d21f0712f47b698f20ab10cd74fa932f0c7"
+        },
+        {
+          "path": "models/dominicks_h1_mlp_c262/training_record.json",
+          "bytes": 791,
+          "sha256": "ad6ad4b69d6b0f0adbcdfbc2eb7ec45bfe830c22ce048b5ab1bec9d3c556a6dc"
+        },
+        {
+          "path": "models/dominicks_h1_mlp_c262/weights.npz",
+          "bytes": 47507,
+          "sha256": "60e573cb822297f42c655faf27ba0268eac33f146d6af96d04176ede32576beb"
+        },
+        {
+          "path": "models/italian_h14_lgbm_c1095/inference_anchor.npz",
+          "bytes": 5131,
+          "sha256": "da79a7ff08395db80da433c5d91ae91f524963105f4ab6b8327a5be1671e02b4"
+        },
+        {
+          "path": "models/italian_h14_lgbm_c1095/q90.txt",
+          "bytes": 770468,
+          "sha256": "92091abc211919cb3cb6d1db9aa8746e9ac4d6d7ee43063be7da4493912cc342"
+        },
+        {
+          "path": "models/italian_h14_lgbm_c1095/q95.txt",
+          "bytes": 776386,
+          "sha256": "ae1279a2d989a11d4844df4048adf4dc23911274042876ae0ac9566da2f12b97"
+        },
+        {
+          "path": "models/italian_h14_lgbm_c1095/training_record.json",
+          "bytes": 871,
+          "sha256": "237ea0c82c594de67c0f88919d6d1d84e82e82210b42acd30ae02207fd8297ae"
+        },
+        {
+          "path": "models/italian_h14_mlp_c1095/inference_anchor.npz",
+          "bytes": 5124,
+          "sha256": "0143d71a4a6ad1e47da3aa7fd66de3ac76518fa4f6d44764674deb8474d0eec7"
+        },
+        {
+          "path": "models/italian_h14_mlp_c1095/model.pt",
+          "bytes": 91453,
+          "sha256": "e61054ec40d65d0ec434b8a4c8591bfa5adcbf4579998b44581bd2912a78e1f7"
+        },
+        {
+          "path": "models/italian_h14_mlp_c1095/training_record.json",
+          "bytes": 807,
+          "sha256": "8a937d5667579fa3e38074cf32e140f8e8e4d280bda9aac2ceae694e602c15aa"
+        },
+        {
+          "path": "models/italian_h14_mlp_c1095/weights.npz",
+          "bytes": 83559,
+          "sha256": "ef7c5e518211731fd7449da2bc471e16eb80aa258f0f731a7ea53022ed67aa92"
+        },
+        {
+          "path": "models/m5_h7_lgbm_c1492/inference_anchor.npz",
+          "bytes": 3860,
+          "sha256": "7b7624bf17134c9315aa3f189d3895628e57a32672fec03ccfe911dc8751dd78"
+        },
+        {
+          "path": "models/m5_h7_lgbm_c1492/q90.txt",
+          "bytes": 799539,
+          "sha256": "3c089e10bf33190e38ac7afde7c01a839d0720e3f31ce5f4ada73229e2db6454"
+        },
+        {
+          "path": "models/m5_h7_lgbm_c1492/q95.txt",
+          "bytes": 794166,
+          "sha256": "d2cb96080d8e5875375b2c372dbaeb043eedd149b871a9a3fc5f6f0f7d8e5330"
+        },
+        {
+          "path": "models/m5_h7_lgbm_c1492/training_record.json",
+          "bytes": 861,
+          "sha256": "a4249510441228ee0cd82f8b05225715d6ea7d9b36b4fb1dbf7093f263d28cae"
+        },
+        {
+          "path": "models/m5_h7_mlp_c1492/inference_anchor.npz",
+          "bytes": 3858,
+          "sha256": "1fc994450af1de13cdaf62ef709fbb2bbefcc91e06140a75bc777f52bbb6acd6"
+        },
+        {
+          "path": "models/m5_h7_mlp_c1492/model.pt",
+          "bytes": 92541,
+          "sha256": "9e77899f35d0e6934419bf9a536fceb15dc455d84f0e6c6ade25ac05f5df5ce7"
+        },
+        {
+          "path": "models/m5_h7_mlp_c1492/training_record.json",
+          "bytes": 795,
+          "sha256": "3cddb690497f5dc90e3f00e9195c08477caaa0d1d19988cc57146d5f9e8aca20"
+        },
+        {
+          "path": "models/m5_h7_mlp_c1492/weights.npz",
+          "bytes": 84833,
+          "sha256": "3e6d04ca470a217c811c38bdde877475a3fc4e9b364e64691ea8eaf78e9b884b"
+        },
+        {
+          "path": "models/retail_h7_lgbm_c365/inference_anchor.npz",
+          "bytes": 3830,
+          "sha256": "62c599e03c1fd51ce2df507d80f6d4daa65e36ee25db67fdd0286141ba1961db"
+        },
+        {
+          "path": "models/retail_h7_lgbm_c365/q90.txt",
+          "bytes": 1558964,
+          "sha256": "0e1fd34b6fd88b6f47999a76ce31b2aa0d372303fb021d5fc1527f8b49aaf9f4"
+        },
+        {
+          "path": "models/retail_h7_lgbm_c365/q95.txt",
+          "bytes": 1550404,
+          "sha256": "93cafbb692a5ad23c4d8ab50d73ca5b6c40f9bafdc594af45d0a22fa166e0e4e"
+        },
+        {
+          "path": "models/retail_h7_lgbm_c365/training_record.json",
+          "bytes": 857,
+          "sha256": "a4bb9cd4b35a0ef7c46bd442a2ce812fffd2ddcc482bb494f2862d353154d110"
+        },
+        {
+          "path": "models/retail_h7_mlp_c365/inference_anchor.npz",
+          "bytes": 3829,
+          "sha256": "e7e83e2baa5eb4b9861a43c7944370075a79a3d17beb4268ae1ac26f6d16cff2"
+        },
+        {
+          "path": "models/retail_h7_mlp_c365/model.pt",
+          "bytes": 90429,
+          "sha256": "33913017122085840907a365f2009c9074ebb82c6c15c23e673b79c6f68eaf65"
+        },
+        {
+          "path": "models/retail_h7_mlp_c365/training_record.json",
+          "bytes": 791,
+          "sha256": "9e17b395f0388d1937413504f770e6a17ed5cd618352271097dedc0cb74d1c38"
+        },
+        {
+          "path": "models/retail_h7_mlp_c365/weights.npz",
+          "bytes": 82985,
+          "sha256": "fc99e69fbb3d959a467e56517bedd257ab5908e558903569fdd028df5e6f30fa"
+        }
+      ]
+    }
+  ],
+  "transformations": [
+    {
+      "path": "score_data/enhanced_daily.parquet",
+      "source_sha256": "31a82519ae6d59a448adbd4d9ba27153245c8d31a03ef677c0a7b20def85ffcc",
+      "source_rows": 956736,
+      "retained_rows": 291168,
+      "rule": "mode == 'core'; exact original-unit pinball column joined by original row_index; values not rounded"
+    },
+    {
+      "path": "italian/outputs/sr_external_italy_20261028/selected/daily.parquet",
+      "source_sha256": "2425720c2ce5ff0d47567804fb0b53325df6c6a156b4b87762dbffb5a796921a",
+      "source_rows": 929232,
+      "retained_rows": 240912,
+      "rule": "All H/U/family/seed selected E2 group/series arms plus Raw, reuse and isolation; unrounded values; other selected-arm summaries retained"
+    },
+    {
+      "archive": "controlled_analyses.tar.xz",
+      "removed": [
+        "controlled/E2/strata.parquet",
+        "controlled/E3/strata.parquet"
+      ],
+      "note": "Only supplementary stratum arrays omitted; original daily tables unchanged, original controlled manifest adapted to included payload."
+    }
+  ]
+}

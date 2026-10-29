@@ -1,0 +1,5 @@
+source,series,stores,categories,historical_groups,eval_origins,eval_first_origin_date,eval_last_origin_date,initial_cutoff,evidence
+m5,3000,3,3,"{""0"": 722, ""1"": 1280, ""2"": 998}",323,2015-06-21,2016-05-08,1492,"New prespecified development analysis of original three M5 stores, not independent confirmation"
+retail,1692,1,1,"{""0"": 546, ""1"": 876, ""2"": 270}",248,2011-03-22,2011-11-24,365,Online Retail II positive-sales development; prior enterprise already used
+dominicks,2000,86,4,"{""0"": 8, ""1"": 502, ""2"": 1490}",103,1995-05-10,1997-04-23,262,"Reserved target weeks296..399, common103origins. Initial protocol before protected numeric read; startup implementation erratum AFTER that read but BEFORE external fits/scoring. See original amendment_01.json. Not an untouched preregistration."
+m5_weekly,3000,3,3,"{""0"": 27, ""1"": 393, ""2"": 2580}",46,2015-06-26,2016-05-06,214,Weekly aggregation bridge on the SAME M5 sampled series; not another enterprise

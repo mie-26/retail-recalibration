@@ -1,0 +1,684 @@
+{
+  "title": "Controlled calibration-delay and cross-source maintenance study",
+  "status": "FROZEN",
+  "frozen_at": "2026-10-21T11:10:36.113758+08:00",
+  "code_sha256": {
+    "common.py": "b6f2dc914203b0f29439892513c9b97aba98658d6939892e2025947b5f4b7fa7",
+    "models.py": "69a874ba467c4f9e0dba6d398fc2d612121de834ee3d29ba0207b1ee74d7e32d",
+    "train.py": "1cd2ffd15e86588e41d8a3feca2516a0716401a2c38fd89bc41d7e1090d1f6fe",
+    "prepare_data.py": "2a196e0d975c29cd37824b77e0462cd693f33986f85094bc51b4a951c58e7c71",
+    "calibration.py": "3ff0a8b7fb522713c6a4e76f63b6a8ec9fbe4e3d66f7eb2392eba667fad1c73b",
+    "replay.py": "4c6f8ab31dcb39545496eb0de45d73dcbd89b3abf8662a9b0603e6b7bb2c2975",
+    "test_core.py": "9806e9e9d58db3f733584d73f7f1c129046030aa00a8260f9a6269c1c8f4135e"
+  },
+  "selected": {
+    "selection\\m5_h7_lgbm\\selected.json": {
+      "sha256": "c2e68a634e76c6cea60909f440394a0aff8a68483b93426531d6093b4f3e0da0",
+      "selected": {
+        "source": "m5",
+        "H": 7,
+        "family": "lgbm",
+        "configuration": {
+          "rounds": 256
+        },
+        "selection_loss": 0.14743479886647398,
+        "measured_fit_seconds": 21.02878709998913,
+        "validation_origins": [
+          1493,
+          1548
+        ],
+        "validation_last_target": 1555,
+        "training": {
+          "train_rows": 1095000,
+          "candidate_rows": 1095000,
+          "first_origin": 1121,
+          "last_origin": 1485,
+          "last_target": 1492,
+          "cutoff": 1492,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:02:58.820556+08:00",
+        "feature_columns": 42
+      }
+    },
+    "selection\\m5_h7_mlp\\selected.json": {
+      "sha256": "a981b25bf76197813a36d47b63756d22a1c2ca92589e5d935a376d5071b5b3ae",
+      "selected": {
+        "source": "m5",
+        "H": 7,
+        "family": "mlp",
+        "configuration": {
+          "width": 128,
+          "epochs": 10
+        },
+        "selection_loss": 0.14318468877531587,
+        "measured_fit_seconds": 18.993929900112562,
+        "validation_origins": [
+          1493,
+          1548
+        ],
+        "validation_last_target": 1555,
+        "training": {
+          "train_rows": 1095000,
+          "candidate_rows": 1095000,
+          "first_origin": 1121,
+          "last_origin": 1485,
+          "last_target": 1492,
+          "cutoff": 1492,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:03:19.890896+08:00",
+        "feature_columns": 42
+      }
+    },
+    "selection\\m5_h14_lgbm\\selected.json": {
+      "sha256": "caf5fec7b8ffa897308d2902baf110944855984047cc8f0a1b4e0c64b203bf9b",
+      "selected": {
+        "source": "m5",
+        "H": 14,
+        "family": "lgbm",
+        "configuration": {
+          "rounds": 256
+        },
+        "selection_loss": 0.13758309764451376,
+        "measured_fit_seconds": 21.169867899967358,
+        "validation_origins": [
+          1493,
+          1548
+        ],
+        "validation_last_target": 1562,
+        "training": {
+          "train_rows": 1095000,
+          "candidate_rows": 1095000,
+          "first_origin": 1114,
+          "last_origin": 1478,
+          "last_target": 1492,
+          "cutoff": 1492,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:04:28.108040+08:00",
+        "feature_columns": 42
+      }
+    },
+    "selection\\m5_h14_mlp\\selected.json": {
+      "sha256": "c918b17fe7368c6595da9f6459c2ce67ee6aec3fc93a15ef86876e0d8102d19a",
+      "selected": {
+        "source": "m5",
+        "H": 14,
+        "family": "mlp",
+        "configuration": {
+          "width": 128,
+          "epochs": 5
+        },
+        "selection_loss": 0.1286451177630485,
+        "measured_fit_seconds": 21.50386840000283,
+        "validation_origins": [
+          1493,
+          1548
+        ],
+        "validation_last_target": 1562,
+        "training": {
+          "train_rows": 1095000,
+          "candidate_rows": 1095000,
+          "first_origin": 1114,
+          "last_origin": 1478,
+          "last_target": 1492,
+          "cutoff": 1492,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:04:43.479113+08:00",
+        "feature_columns": 42
+      }
+    },
+    "selection\\retail_h7_lgbm\\selected.json": {
+      "sha256": "898afc09786e98f18c9466135adf440179dbd5a618530d07909905cd574c7781",
+      "selected": {
+        "source": "retail",
+        "H": 7,
+        "family": "lgbm",
+        "configuration": {
+          "rounds": 512
+        },
+        "selection_loss": 0.4173858433936014,
+        "measured_fit_seconds": 10.739200599957258,
+        "validation_origins": [
+          366,
+          421
+        ],
+        "validation_last_target": 428,
+        "training": {
+          "train_rows": 512676,
+          "candidate_rows": 512676,
+          "first_origin": 56,
+          "last_origin": 358,
+          "last_target": 365,
+          "cutoff": 365,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:04:40.533027+08:00",
+        "feature_columns": 38
+      }
+    },
+    "selection\\retail_h7_mlp\\selected.json": {
+      "sha256": "e60a1ea250c550c49b19a230a8182911f80d0f767c2e28c9497f20ca057aa7b7",
+      "selected": {
+        "source": "retail",
+        "H": 7,
+        "family": "mlp",
+        "configuration": {
+          "width": 128,
+          "epochs": 10
+        },
+        "selection_loss": 0.40167601767682315,
+        "measured_fit_seconds": 9.850919599994086,
+        "validation_origins": [
+          366,
+          421
+        ],
+        "validation_last_target": 428,
+        "training": {
+          "train_rows": 512676,
+          "candidate_rows": 512676,
+          "first_origin": 56,
+          "last_origin": 358,
+          "last_target": 365,
+          "cutoff": 365,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:04:54.774128+08:00",
+        "feature_columns": 38
+      }
+    },
+    "selection\\retail_h14_lgbm\\selected.json": {
+      "sha256": "86b1b9dfd72a974e11e910d5fb877a4349d44f1de8e09fce4ccd9bcc9ca90136",
+      "selected": {
+        "source": "retail",
+        "H": 14,
+        "family": "lgbm",
+        "configuration": {
+          "rounds": 512
+        },
+        "selection_loss": 0.3855812577686979,
+        "measured_fit_seconds": 9.795520299929194,
+        "validation_origins": [
+          366,
+          421
+        ],
+        "validation_last_target": 435,
+        "training": {
+          "train_rows": 500832,
+          "candidate_rows": 500832,
+          "first_origin": 56,
+          "last_origin": 351,
+          "last_target": 365,
+          "cutoff": 365,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:04:52.016975+08:00",
+        "feature_columns": 38
+      }
+    },
+    "selection\\retail_h14_mlp\\selected.json": {
+      "sha256": "b69035b347a1d2dd2836abf3df029e89fd0ae1992e4b82a0847ee009f526fc81",
+      "selected": {
+        "source": "retail",
+        "H": 14,
+        "family": "mlp",
+        "configuration": {
+          "width": 128,
+          "epochs": 20
+        },
+        "selection_loss": 0.3627786860160809,
+        "measured_fit_seconds": 8.658888699952513,
+        "validation_origins": [
+          366,
+          421
+        ],
+        "validation_last_target": 435,
+        "training": {
+          "train_rows": 500832,
+          "candidate_rows": 500832,
+          "first_origin": 56,
+          "last_origin": 351,
+          "last_target": 365,
+          "cutoff": 365,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:05:04.771311+08:00",
+        "feature_columns": 38
+      }
+    },
+    "selection\\dominicks_h1_lgbm\\selected.json": {
+      "sha256": "d31d175c1684e50b23c500c5cab7ab9ebebfaaa55b9970e8d9f3d77608259a7b",
+      "selected": {
+        "source": "dominicks",
+        "H": 1,
+        "family": "lgbm",
+        "configuration": {
+          "rounds": 256
+        },
+        "selection_loss": 0.23236171751612056,
+        "measured_fit_seconds": 3.973672099993564,
+        "validation_origins": [
+          263,
+          278
+        ],
+        "validation_last_target": 279,
+        "training": {
+          "train_rows": 204405,
+          "candidate_rows": 208000,
+          "first_origin": 158,
+          "last_origin": 261,
+          "last_target": 262,
+          "cutoff": 262,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:07:44.621537+08:00",
+        "feature_columns": 122
+      }
+    },
+    "selection\\dominicks_h1_mlp\\selected.json": {
+      "sha256": "fa7974fc04da7fd25d3ee2460941f25dc38495aadbe028a61eece22af221b36c",
+      "selected": {
+        "source": "dominicks",
+        "H": 1,
+        "family": "mlp",
+        "configuration": {
+          "width": 64,
+          "epochs": 5
+        },
+        "selection_loss": 0.23017189366060037,
+        "measured_fit_seconds": 3.726368699921295,
+        "validation_origins": [
+          263,
+          278
+        ],
+        "validation_last_target": 279,
+        "training": {
+          "train_rows": 204405,
+          "candidate_rows": 208000,
+          "first_origin": 158,
+          "last_origin": 261,
+          "last_target": 262,
+          "cutoff": 262,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:07:58.395014+08:00",
+        "feature_columns": 122
+      }
+    },
+    "selection\\dominicks_h2_lgbm\\selected.json": {
+      "sha256": "14b80a3bd105ca46e05320057e69991e9528b2b1a65af572c5efd914bcf48f66",
+      "selected": {
+        "source": "dominicks",
+        "H": 2,
+        "family": "lgbm",
+        "configuration": {
+          "rounds": 256
+        },
+        "selection_loss": 0.183959733941778,
+        "measured_fit_seconds": 4.262232500012033,
+        "validation_origins": [
+          263,
+          278
+        ],
+        "validation_last_target": 280,
+        "training": {
+          "train_rows": 202276,
+          "candidate_rows": 208000,
+          "first_origin": 157,
+          "last_origin": 260,
+          "last_target": 262,
+          "cutoff": 262,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:07:49.526596+08:00",
+        "feature_columns": 122
+      }
+    },
+    "selection\\dominicks_h2_mlp\\selected.json": {
+      "sha256": "721c268606b9f05b096d6ad2a153e33a3285b2c90c6c211f810551caeb505aed",
+      "selected": {
+        "source": "dominicks",
+        "H": 2,
+        "family": "mlp",
+        "configuration": {
+          "width": 128,
+          "epochs": 5
+        },
+        "selection_loss": 0.17857793781108655,
+        "measured_fit_seconds": 3.4236837999196723,
+        "validation_origins": [
+          263,
+          278
+        ],
+        "validation_last_target": 280,
+        "training": {
+          "train_rows": 202276,
+          "candidate_rows": 208000,
+          "first_origin": 157,
+          "last_origin": 260,
+          "last_target": 262,
+          "cutoff": 262,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:08:02.612047+08:00",
+        "feature_columns": 122
+      }
+    },
+    "selection\\m5_weekly_h1_lgbm\\selected.json": {
+      "sha256": "40b5eeb14b12d1337041d2061f76a615f7d3aac6448e26664db8bf3187b6db94",
+      "selected": {
+        "source": "m5_weekly",
+        "H": 1,
+        "family": "lgbm",
+        "configuration": {
+          "rounds": 256
+        },
+        "selection_loss": 0.14359109132222533,
+        "measured_fit_seconds": 3.2503274999326095,
+        "validation_origins": [
+          215,
+          222
+        ],
+        "validation_last_target": 223,
+        "training": {
+          "train_rows": 156000,
+          "candidate_rows": 156000,
+          "first_origin": 162,
+          "last_origin": 213,
+          "last_target": 214,
+          "cutoff": 214,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:04:55.672700+08:00",
+        "feature_columns": 38
+      }
+    },
+    "selection\\m5_weekly_h1_mlp\\selected.json": {
+      "sha256": "97218712741a35b5730bbc4866e70e0f150cfecc306b54428cf5bc399aa89603",
+      "selected": {
+        "source": "m5_weekly",
+        "H": 1,
+        "family": "mlp",
+        "configuration": {
+          "width": 128,
+          "epochs": 20
+        },
+        "selection_loss": 0.14085423500850255,
+        "measured_fit_seconds": 2.6977430999977514,
+        "validation_origins": [
+          215,
+          222
+        ],
+        "validation_last_target": 223,
+        "training": {
+          "train_rows": 156000,
+          "candidate_rows": 156000,
+          "first_origin": 162,
+          "last_origin": 213,
+          "last_target": 214,
+          "cutoff": 214,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:05:07.747591+08:00",
+        "feature_columns": 38
+      }
+    },
+    "selection\\m5_weekly_h2_lgbm\\selected.json": {
+      "sha256": "7231bd342d98c7a7d9cd5272a0296af3cb66d1014451282e84f328dfec526f35",
+      "selected": {
+        "source": "m5_weekly",
+        "H": 2,
+        "family": "lgbm",
+        "configuration": {
+          "rounds": 256
+        },
+        "selection_loss": 0.1298532242190681,
+        "measured_fit_seconds": 2.9877364999847487,
+        "validation_origins": [
+          215,
+          222
+        ],
+        "validation_last_target": 224,
+        "training": {
+          "train_rows": 156000,
+          "candidate_rows": 156000,
+          "first_origin": 161,
+          "last_origin": 212,
+          "last_target": 214,
+          "cutoff": 214,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:04:59.054184+08:00",
+        "feature_columns": 38
+      }
+    },
+    "selection\\m5_weekly_h2_mlp\\selected.json": {
+      "sha256": "b52584567805eb9590191d5a847ab955fb3559f9f0bd6af3677576b9ce0a9512",
+      "selected": {
+        "source": "m5_weekly",
+        "H": 2,
+        "family": "mlp",
+        "configuration": {
+          "width": 128,
+          "epochs": 20
+        },
+        "selection_loss": 0.1263812821876258,
+        "measured_fit_seconds": 2.6965071000158787,
+        "validation_origins": [
+          215,
+          222
+        ],
+        "validation_last_target": 224,
+        "training": {
+          "train_rows": 156000,
+          "candidate_rows": 156000,
+          "first_origin": 161,
+          "last_origin": 212,
+          "last_target": 214,
+          "cutoff": 214,
+          "whole_chain_delay": 0
+        },
+        "created": "2026-10-21T11:05:10.729430+08:00",
+        "feature_columns": 38
+      }
+    }
+  },
+  "sources": {
+    "m5": {
+      "initial_cutoff": 1492,
+      "eval_start": 1605,
+      "eval_end": 1927,
+      "history": 365,
+      "lookback": 56,
+      "unit": "day",
+      "Hs": [
+        7,
+        14
+      ],
+      "Us": [
+        14,
+        28,
+        56
+      ],
+      "delays": [
+        0,
+        7,
+        14,
+        28
+      ],
+      "window": 56,
+      "mature_window": 28,
+      "evidence": "New prespecified development analysis of original three M5 stores, not independent confirmation",
+      "cohort": "1000 per original store, SHA256 order from V15 d1492 historical cohort; no score-based sampling",
+      "source_y_sha256": "7274d362f116757de6a170334dc20413281ec0bee888020fa45797adafd93b28",
+      "source": "m5",
+      "series": 3000,
+      "sha256": {
+        "y.npy": "dc0fb8d841fb244d54032be17507d6c4684a0e9ae8fcd2c6ecbaf230f3ff2cde",
+        "cohort.csv": "d8f5309ef773d80360a79c81e80a55e896cf321959fc05a6dc6f24fcd531fbc7",
+        "calendar.csv": "22000345b0156ffa34dbb5d46f379dfddc1d388adee219c9cb3bb654c48e0759"
+      }
+    },
+    "retail": {
+      "initial_cutoff": 365,
+      "eval_start": 477,
+      "eval_end": 724,
+      "history": 365,
+      "lookback": 56,
+      "unit": "day",
+      "Hs": [
+        7,
+        14
+      ],
+      "Us": [
+        14,
+        28,
+        56
+      ],
+      "delays": [
+        0,
+        7,
+        14,
+        28
+      ],
+      "window": 56,
+      "mature_window": 28,
+      "evidence": "Online Retail II positive-sales development; prior enterprise already used",
+      "cohort": "At d365: sale before185 and20 positive days185..364; all eligible retained",
+      "missing": "No qualifying UK positive transaction on an observed calendar day means zero positive sales, not net demand; returns excluded",
+      "source": "retail",
+      "series": 1692,
+      "sha256": {
+        "y.npy": "d07103c3a2ebab09826fbb0f730e3231da43eb0bf4654f0264ba28c151590b01",
+        "cohort.csv": "9a8d9999f0b6bfd8ec0063e700a0040e84966b6e1d3e2a490a5817a911a8f793",
+        "calendar.csv": "87758d07488e6a7ebd3da2c43b872fcb61a797e5f43b856ba5ff542ef74ffe59"
+      }
+    },
+    "dominicks": {
+      "initial_cutoff": 262,
+      "eval_start": 295,
+      "eval_end": 397,
+      "history": 104,
+      "lookback": 8,
+      "unit": "week",
+      "Hs": [
+        1,
+        2
+      ],
+      "Us": [
+        2,
+        4,
+        8
+      ],
+      "delays": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "window": 8,
+      "mature_window": 4,
+      "evidence": "External confirmation reserved targets weeks296..399; common H1/H2 origins295..397 (103); no protected MOVE parsed before final freeze",
+      "cohort": "At week262 only,>=94 valid of preceding104 weeks,>=20 positive, at least1 of latest8 weeks observed; fixed500 per category store-round-robin hash sample, never future survival",
+      "missing": "Absent rows, OK0 or negative MOVE remain NaN; explicit valid MOVE0 is zero. Features use observed-value means, missing masks/counts; targets require all H weeks observed. All methods share support.",
+      "categories": [
+        "cer",
+        "frd",
+        "lnd",
+        "tti"
+      ],
+      "protected_unlocked": false,
+      "source": "dominicks",
+      "series": 2000,
+      "sha256": {
+        "y.npy": "8d36ca3bb15a90485d9a1dad0c0712633d69e770202bb671ce2a7dea55ca8ec5",
+        "cohort.csv": "b2ff66cbc603d95fc204e5ced1295c465316457837dbcb5d43ff94bea572261f",
+        "calendar.csv": "15491032f2e69c653ba1aee565b5fcfa219d15a40cac2766b8b9e8ae2bd9ce95"
+      }
+    },
+    "m5_weekly": {
+      "initial_cutoff": 214,
+      "eval_start": 230,
+      "eval_end": 275,
+      "history": 52,
+      "lookback": 8,
+      "unit": "week",
+      "Hs": [
+        1,
+        2
+      ],
+      "Us": [
+        2,
+        4,
+        8
+      ],
+      "delays": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "window": 8,
+      "mature_window": 4,
+      "evidence": "Weekly aggregation bridge on the SAME M5 sampled series; not another enterprise",
+      "cohort": "1000 per original store, SHA256 order from V15 d1492 historical cohort; no score-based sampling",
+      "weekly_rule": "nonoverlapping7 days from d1; final partial week omitted; dates label last day",
+      "source": "m5_weekly",
+      "series": 3000,
+      "sha256": {
+        "y.npy": "534b5c490d65d3fb59ecee621e30713d6c356f901ceb69a5ca1db618ba66f613",
+        "cohort.csv": "3a506b2531ff1d01a3ad0d3fc7dfb606b6ce1aa8f86ada7fa6014dee01c9f86d",
+        "calendar.csv": "2c12010de2c294c379518084f7127af6e32a4cac1a1e6ee2702ef763d353f451"
+      }
+    }
+  },
+  "core": {
+    "sources": [
+      "m5",
+      "retail",
+      "dominicks"
+    ],
+    "families": [
+      "lgbm",
+      "mlp"
+    ],
+    "seeds": [
+      20261021,
+      20261022,
+      20261023
+    ],
+    "horizons": "7/14 daily or1/2 weekly",
+    "updates": "14/28/56 daily or2/4/8 weekly",
+    "deployments": 108,
+    "strategies": 6,
+    "score_trajectories": 648
+  },
+  "scope": "M5 historical sampled3stores and Retail are development. Dominicks reserved targets296..399 external confirmation under this lock. M5 weekly bridge is same enterprise,36additional deployments; not another data source.",
+  "cohort": "M5 hash1000 per store; Retail all1692; Dominicks500 per prespecified category,store-round-robin hash; eligibility only past. No future survival. Explicit OK1 zeros retained, missing/OK0 are NaN. H labels require every target unit observed; all methods identical finite target mask.",
+  "model": "Identical log normalized lag, rolling mean/std/frequency/observation-count, calendar and onehot store/category features. Scales and frequency groups fixed using initial history. Targets divided by fixed mean H historical demand floor1. No future price/promotion. LGBM separate .90/.95; MLP joint2heads softplus. finite historical validation selects256/512 rounds or64/128 width x5/10/20 epochs,firstseed only; then fixed for all3seeds.",
+  "calendar": "Initial fit at initial_cutoff, warmup issue initial+1. All U first update eval_start, before forecast; candidate fitting uses targets ending<=cutoff. Bank at minimumU shared for all coarser calendars; never use candidate predictions before fit. Refit independently from scratch; no online SGD inheritance.",
+  "methods": {
+    "R0": "Clip nonnegative and sort raw model slots; common raw reference b_s for all calibrators.",
+    "R1": "Global rolling empirical residual quantile, reuse old mature residuals.",
+    "R2": "Frequency-group rolling residual quantile, reuse all mature feedback.",
+    "R3": "Identical R2 but retain only same-model-version residuals.",
+    "R4": "Identical group/window with old residual weight0.5 and current1; empirical weighted inverseCDF at tau+(1-tau)/n, uniform weights reproduce higher quantile.",
+    "R5": "Published MultiQT Procedure1 and delayed update6, per SKU; hidden state updated from played coverage,2-slot isotonic projection (averaging crossings, not sorting), author adaptive+ lr on last50 available residuals: max(.1,.1*q90(abs normalized residuals)). Add nonnegative output clamp and use clamped feedback, explicitly label MultiQT+nonnegative; no inherited theoretical guarantee."
+  },
+  "feedback": "Only logged raw reference issued at historical origin s by its then-active model; r=(Y-b_s)/scale, not current-model hindcast or final calibrated forecast residual. b_s is nonnegative sorted raw reference. Labels release at s+H+d<=t. Mature feedback with missing targets excluded scalarwise; groups may pool other series. Calibration does not alter model training.",
+  "mechanism": "Both families,all3sources,allH/U,first fixed optimization seed only; d0/7/14/28 daily or0/1/2/4 weekly; last56/8 calendar origins vs last28/4 mature origins; Raw/R2/R3 only. Same base hash for all delays and common scored origins, also original7801-series cached M5 analysis may be reported separately.",
+  "history": "M5 only:42,84,365 training-label origin windows,all2families/2H/3seeds,U28 only. Samefeatures/scales/cohort/calendar,logactualrows; history length changes recency and sample number, not a pure model-quality manipulation.",
+  "phase": "M5 and Retail,all2families/2H/3seeds,U28/U56,phase0 and14 days. minimumU14bank supplies both. Both reported, no phase choice.",
+  "primary": [
+    "R2-minus-R0 within source/model/H/U",
+    "R3-minus-R2 within source/model/H/U",
+    "at fixed H, delay differences vs d0 on same base and origin support"
+  ],
+  "statistics": "Joint equal-q loss,rawunit andSKU-scaled pinball; strict/weak coverage,equality andzero ties. Paired circular time-block percentile95% intervals,3000 draws fixedseed20261021,lengths H/2H/4H and56daily or8weekly,unique,T>=4L. Common resampledtime for all methods/stores/optimizationseeds; average daily numerators across3seeds before time resampling,seedspread descriptive. Ratio denominator resampled. No cross-source absoluteloss averaging,enterprise-independent pvalues,or new noninferiority claim. reference2H. Existing3000drawV15-V17 outputs retained untouched.",
+  "diagnosis": "Posthoc quantile isotonic score decomposition on normalized (Y/scale,q/scale),sameweights andsupport for total/MCB/DSC/UNC; fullscores allcases,diagnosis firstseed U28/U4 for3sourcesandbridge. Conditional coverage by training-fixed group and prediction bins,early/middle/late time thirds. Curves fit using evaluationtargets are diagnostic only and excluded from deployment rankings. FreshRetailNet unit-invariant sensitivity=sum pinball/sum observed cumulative target; keep original metrics,no parameter reselection.",
+  "extras": "Optional controlled count simulation100seeds,four fixed driftmechanisms,shared paths; no external enterprise claim. Conditional whole-chain sensitivity must have separately frozen causal cohort/scales/features,not relabel calibration-channel results.",
+  "costs": "Actual new fit/inference/feature/replay time measured separately; count real learned artifacts (twoLGBM quantilemodels,one jointMLP),logical deployment references and shared banks separately. Prior costs and inventory assumptions retained,not newly measured or cost savings.",
+  "stopping": "Finish prespecified core/mechanism/history/phase/bridge anddiagnostics irrespective of winners. No HVRC/COSA/ELF tuning. No external score-driven parameter edits. Any implementation correction requires dated erratum and rerun affected outputs."
+}

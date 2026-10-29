@@ -1,0 +1,9 @@
+# Representative fitted weights
+
+This light package includes **eight original checkpoints (twelve logical models)**: one LightGBM pair (q90/q95) and one joint-quantile MLP for each of M5, Online Retail II, Dominick’s and the Italian grocery store. Seed 20261021 is used. The first three sources use the representative initial H7/H7/H1 fits; Italy uses H14 at cutoff 1095. These were selected for compact reproducibility coverage, not for favorable performance.
+
+Original `q90.txt`, `q95.txt` and `model.pt` bytes are preserved and checked against their original training records. MLP `weights.npz` contains the exact tensor and normalization arrays exported from `model.pt`, permitting a CPU NumPy inference check without installing PyTorch. No quantization, retraining or numerical rounding was applied.
+
+Each anchor contains features, scale and saved base predictions for three origins and sixteen series. `python code/check_models.py` checks all eight checkpoints against these saved predictions (`rtol=atol=1e-5`). It is also run by the default `python reproduce.py` entry point. Tree inference uses LightGBM 4.6.0; the MLP is Linear/ReLU/Linear/ReLU/Linear/Softplus with the recorded normalization. The original architecture and feature construction are retained under `cold_fit/code/portable_vendor/` and the Italian scientific source archive.
+
+**This is not the full rolling-retraining model bank.** It cannot regenerate all paper trajectories by loading only these eight checkpoints. The default paper-result audit uses all supplied core daily scores; its scope is independent of these small weight samples. Checkpoint hashes, original cutoffs, configurations and anchor sizes are in INDEX.json and each training_record.json. Full raw sales are obtained from the providers; these anchors are small derived-feature records, not a redistribution of the full raw panel.

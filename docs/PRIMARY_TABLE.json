@@ -1,0 +1,10 @@
+{
+  "file": "figure_source_data/table2_primary_summary.csv",
+  "source": "supplementary_data/Data1_primary_contrasts.csv",
+  "rows": 12,
+  "unit_of_summary": "Six related H/U configurations within a source/model/contrast; seed scores already averaged upstream",
+  "loss_units": "relative percent",
+  "coverage_units": "percentage points",
+  "uncertainty": "minimum/maximum ranges are descriptive, not confidence intervals; paired intervals remain in main Figure 2",
+  "numerical_source_unchanged": true
+}

@@ -1,0 +1,284 @@
+{
+  "passed": true,
+  "mode": "clean-directory compact core run",
+  "run": {
+    "started_utc": "2026-10-29T05:53:58.465913+00:00",
+    "mode": "compact-core",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "3.0.1",
+      "matplotlib": "3.11.2"
+    },
+    "steps": [
+      {
+        "name": "integrity",
+        "command": [
+          "python",
+          "code/verify_package.py"
+        ],
+        "returncode": 0,
+        "seconds": 0.38102259999141097,
+        "log": "reproduced/logs/integrity.txt"
+      },
+      {
+        "name": "restore_data",
+        "command": [
+          "python",
+          "code/prepare_data.py"
+        ],
+        "returncode": 0,
+        "seconds": 1.863396400003694,
+        "log": "reproduced/logs/restore_data.txt"
+      },
+      {
+        "name": "feedback_tests",
+        "command": [
+          "python",
+          "code/test_methods.py"
+        ],
+        "returncode": 0,
+        "seconds": 0.5855106000090018,
+        "log": "reproduced/logs/feedback_tests.txt"
+      },
+      {
+        "name": "representative_models",
+        "command": [
+          "python",
+          "code/check_models.py"
+        ],
+        "returncode": 0,
+        "seconds": 2.0687705999880563,
+        "log": "reproduced/logs/representative_models.txt"
+      },
+      {
+        "name": "core_scores_and_reference_intervals",
+        "command": [
+          "python",
+          "code/audit_scores.py"
+        ],
+        "returncode": 0,
+        "seconds": 8.009578500001226,
+        "log": "reproduced/logs/core_scores_and_reference_intervals.txt"
+      },
+      {
+        "name": "main_figures",
+        "command": [
+          "python",
+          "code/plot_figures.py"
+        ],
+        "returncode": 0,
+        "seconds": 4.423933999991277,
+        "log": "reproduced/logs/main_figures.txt"
+      },
+      {
+        "name": "supplement_figures",
+        "command": [
+          "python",
+          "robustness/code/plot_supplement.py",
+          "--root",
+          "robustness"
+        ],
+        "returncode": 0,
+        "seconds": 3.150497599999653,
+        "log": "reproduced/logs/supplement_figures.txt"
+      },
+      {
+        "name": "controlled_analyses",
+        "command": [
+          "python",
+          "code/controlled_analysis.py"
+        ],
+        "returncode": 0,
+        "seconds": 13.820281300024362,
+        "log": "reproduced/logs/controlled_analyses.txt"
+      },
+      {
+        "name": "italian_confirmation",
+        "command": [
+          "python",
+          "code/italian_confirmation.py"
+        ],
+        "returncode": 0,
+        "seconds": 5.680491599981906,
+        "log": "reproduced/logs/italian_confirmation.txt"
+      },
+      {
+        "name": "output_consistency",
+        "command": [
+          "python",
+          "code/verify_results.py"
+        ],
+        "returncode": 0,
+        "seconds": 0.8587719999777619,
+        "log": "reproduced/logs/output_consistency.txt"
+      }
+    ],
+    "passed": true,
+    "new_model_fits": 0,
+    "seconds": 40.848825499997474
+  },
+  "figure_comparison": [
+    {
+      "file": "Figure_1.png",
+      "sha256": "943a21f333b5b64d85ccc25206c04e694fc320da9a5c8b8969b9912e251f59e5",
+      "matches_submission": true
+    },
+    {
+      "file": "Figure_2.png",
+      "sha256": "987188e743a2d238a577288852899c76e1468f89a5aaae5d2190c7c4463b95e6",
+      "matches_submission": true
+    },
+    {
+      "file": "Figure_3.png",
+      "sha256": "233c2f7adbaa7b29ca29bb591b740f75a6e69bf1d60e3bacf0928493c6f138ee",
+      "matches_submission": true
+    },
+    {
+      "file": "Figure_4.png",
+      "sha256": "a595b433575295ddf463310ee3804a3f6c57d26ba2a829c4684bc72b21ba3d7d",
+      "matches_submission": true
+    },
+    {
+      "file": "S10_external_interactions.png",
+      "sha256": "2734fd10c76ab3ea02671441f819ca3a630878601396c1d63a2de740725cdb23",
+      "matches_submission": true
+    },
+    {
+      "file": "S11_external_feedback.png",
+      "sha256": "0bca749370841793a9ea734ee3e4ac4f45d597227bbf443309896407e122a197",
+      "matches_submission": true
+    },
+    {
+      "file": "S1_complete_policy_effects.png",
+      "sha256": "5eae0b5e8f71094fdc73dc482c03ba6f43fb983a06360b21874a1750dfb80bdf",
+      "matches_submission": true
+    },
+    {
+      "file": "S2_parameter_sensitivity.png",
+      "sha256": "b3db2e9b853fac02ec1f7b3481004d3b8cf70e7999737992487731c0dee068d1",
+      "matches_submission": true
+    },
+    {
+      "file": "S3_coverage.png",
+      "sha256": "693ca0f0b69d94766cdb848f9e0669f6a5b79b399b9ed10e784e02d8cfa65f49",
+      "matches_submission": true
+    },
+    {
+      "file": "S4_training_budget.png",
+      "sha256": "9492a65db946d52ca0b8f92253a04e845d6b974cd81d20db40a11273a300cee3",
+      "matches_submission": true
+    },
+    {
+      "file": "S5_three_seed_feedback.png",
+      "sha256": "09a2045fc2c9810a3fa60e00c73cd46b2206475c201febfeabdfdafa26ed3b11",
+      "matches_submission": true
+    },
+    {
+      "file": "S6_simulation.png",
+      "sha256": "10713b5794f54ad02fdce0e99e2319cfd6d0dff8205f4d09370b1cd5939d2282",
+      "matches_submission": true
+    },
+    {
+      "file": "S7_selection_history.png",
+      "sha256": "083d3492cbbda597b40005e3b739e9afd00b15cb3e12956f454563e3f6a6f399",
+      "matches_submission": true
+    },
+    {
+      "file": "S8_residual_reference.png",
+      "sha256": "be4ac70775c0dc15eda7a945ed44e7522177163710aab6a1c46c21b9eaa38630",
+      "matches_submission": true
+    },
+    {
+      "file": "S9_discovery_sharing.png",
+      "sha256": "862b331a5e390fcf3e9d5031c714281bb433c72c6bdd6d8359ad5149f758db39",
+      "matches_submission": true
+    }
+  ],
+  "models": {
+    "passed": true,
+    "checkpoints": 8,
+    "logical_models": 12,
+    "checks": [
+      {
+        "id": "m5_h7_lgbm_c1492",
+        "rows": 48,
+        "max_absolute_error": 3.7426678716201423e-06,
+        "passed": true
+      },
+      {
+        "id": "m5_h7_mlp_c1492",
+        "rows": 48,
+        "max_absolute_error": 1.52587890625e-05,
+        "passed": true
+      },
+      {
+        "id": "retail_h7_lgbm_c365",
+        "rows": 48,
+        "max_absolute_error": 3.011815499576187e-05,
+        "passed": true
+      },
+      {
+        "id": "retail_h7_mlp_c365",
+        "rows": 48,
+        "max_absolute_error": 0.00018310546875,
+        "passed": true
+      },
+      {
+        "id": "dominicks_h1_lgbm_c262",
+        "rows": 48,
+        "max_absolute_error": 1.3324275300874433e-05,
+        "passed": true
+      },
+      {
+        "id": "dominicks_h1_mlp_c262",
+        "rows": 48,
+        "max_absolute_error": 7.62939453125e-06,
+        "passed": true
+      },
+      {
+        "id": "italian_h14_lgbm_c1095",
+        "rows": 48,
+        "max_absolute_error": 0.0,
+        "passed": true
+      },
+      {
+        "id": "italian_h14_mlp_c1095",
+        "rows": 48,
+        "max_absolute_error": 2.3929883298023924e-05,
+        "passed": true
+      }
+    ],
+    "new_model_fits": 0,
+    "rtol": 1e-05,
+    "atol": 1e-05,
+    "scope": "Four sources x two model families, one original checkpoint each, seed 20261021. Twelve logical fitted models; not the full retraining bank. Anchors contain three origins and sixteen series per checkpoint. NumPy MLP weights are exact tensor/normalization exports of the included original model.pt; no quantization or refitting."
+  },
+  "scope": {
+    "identifier": "paper-core-20261029",
+    "full_package_sha256": "f8b6199ee14035abcc7a22aacc9136fd2f00c7e84a072530f374b137fa2d82a0",
+    "included": [
+      "Core primary daily scores including original-unit loss",
+      "All controlled E1/E2/E3 daily scores and result tables",
+      "All Italian selected co-primary and feedback-bridge arms, all seeds/configurations",
+      "Italian E3 daily scores and feedback-availability arrays",
+      "All archived final numerical result tables, including negative and fixed-grid results",
+      "Four main and eleven supplementary figure inputs, plotting sources and Figure 1 PPT",
+      "Eight representative original checkpoints (twelve logical models), exact MLP array export and prediction anchors"
+    ],
+    "omitted": [
+      "Complete original-model banks",
+      "Robustness full-grid daily scores",
+      "Daily original-unit extended arrays outside core",
+      "Full daily-stratum arrays",
+      "Non-core old-source history/mechanism/phase daily arrays",
+      "Italian fixed-candidate daily arrays and selected E1/global/sorted daily arms",
+      "Training-budget and MultiQT control daily-score arrays",
+      "Complete per-stratum summary rows used for subgroup reaggregation",
+      "Controlled E2/E3 stratum arrays; final subgroup summary tables retained"
+    ],
+    "exclusions_note": "Final summary tables for omitted daily arrays are retained. They can be inspected and plotted but their daily-score aggregation/resampling is not independently repeated by this compact package. Full submitted Supplementary_Code.zip supports those additional audits. No new fits, reselection or result changes."
+  },
+  "limitations": "No complete model-bank inference, candidate-grid reaggregation or raw-panel cold fit was performed. See SCOPE.json."
+}

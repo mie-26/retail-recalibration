@@ -1,0 +1,44 @@
+[
+  {
+    "file": "cold_fit/code/portable_vendor/common.py",
+    "source_sha256": "0ae9121ff86a63355a8adedd1c90218871f9e2f0e9dccd5c78dd81ef96d27441",
+    "published_sha256": "31dc07bdbc10aeddcc8544133033e68db87171f3b253fbe5bd3ead6f67d011c6",
+    "change": "Use installed torch only; no historical environment path. The cold entry point already uses this import convention."
+  },
+  {
+    "file": "code/audit_scores.py",
+    "source_sha256": "8afdeff097b5d42da047b6ccecc042d375d7582ae92133cb894874c58e783e8c",
+    "published_sha256": "1d65f79700cebe10135a33877e760ab140991bc7240ef6f1dd05deddd193aefd",
+    "change": "Output-directory change only; numerical audit unchanged."
+  },
+  {
+    "file": "code/plot_figures.py",
+    "source_sha256": "b3fd3b7842ba8c88842368b90fbcbdb943d8490fd1e82c967eb47337900002c9",
+    "published_sha256": "f6b4d95a4b3b677e49923f72997c7af874436351b1676cf41b985a814516da26",
+    "change": "Output-directory change only; all six final figure definitions unchanged."
+  },
+  {
+    "file": "robustness/code/audit.py",
+    "source_sha256": "51e17beaf24a8d26c6fa16dc5d42014552e92c944d60fd3af21fcb79705eabde",
+    "published_sha256": "1e0ba0f649b034ea8c6923ceb97ab089c0c5a71bfd93cce3a00cdad60a49218c",
+    "change": "Output-directory change only; score, selection and interval formulas unchanged."
+  },
+  {
+    "file": "robustness/code/plot_supplement.py",
+    "source_sha256": "ec6b9c6fe80ed5bb3b1d9ea108972d308929a897268d29890f92c3a75a2f9ca5",
+    "published_sha256": "f1fcb95a5b6315fda64677a3d47e6ef2551146e9ace8c8f828da73a2f39fe68a",
+    "change": "Retain numerical table and S10-S12 plotting code; remove internal narrative/report generation; write generated files separately."
+  },
+  {
+    "file": "code/test_methods.py",
+    "source_sha256": "865628b1102d6dec11242934cc6df077c01db66650c7725aed98fef45ded63b6",
+    "published_sha256": "bacb1e25c5072dbd2650bb422a261e84010edf890bdd9ec93754add64a2d9369",
+    "change": "Import the same extracted kernels through the portable module."
+  },
+  {
+    "change": "Consolidate final-paper numerical inputs and cold-fit references in analysis_data.tar.xz. Gzip CSV inputs become plain CSV with byte-identical decoded text. No numerical rounding, row filtering or statistical changes. Audits read the restored CSV paths; code/prepare_data.py validates every member."
+  },
+  {
+    "change": "Compact edition: exact-value Parquet conversion of two score streams after omission of their per-origin pinball column; remove unused daily-stratum intermediate; retain all final result/coverage/interval tables and all per-origin rows in the two primary streams."
+  }
+]

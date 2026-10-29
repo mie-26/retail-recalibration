@@ -1,0 +1,32 @@
+[
+  {
+    "path": "code/audit_italian_core.py",
+    "source_sha256": null,
+    "compact_sha256": "c0bf03e2bfbc3de76150603cc43d93d9f1dbeea89e0e89b85b8843be38ab51c7",
+    "purpose": "Packaging, explicit daily-input subset dispatch, or representative inference check; no reselection or changes to scientific estimates."
+  },
+  {
+    "path": "code/audit_scores.py",
+    "source_sha256": "46d8ebe1ead91e2ba748c58fd760a54d8a21ccf17d9bab5b97685870fd173f25",
+    "compact_sha256": "c628928dea5498d98c99c7eb9733761f86638263272b5bc7fa7f05d18ca5b9a8",
+    "purpose": "Packaging, explicit daily-input subset dispatch, or representative inference check; no reselection or changes to scientific estimates."
+  },
+  {
+    "path": "code/check_models.py",
+    "source_sha256": null,
+    "compact_sha256": "905c7d8c25fc018bb3090ae6cdc73353b789cc5803fa2732a7e8a136fbc75193",
+    "purpose": "Packaging, explicit daily-input subset dispatch, or representative inference check; no reselection or changes to scientific estimates."
+  },
+  {
+    "path": "code/italian_confirmation.py",
+    "source_sha256": "890ee210c86a5854efde220b683ec0f5ae903c9caa654ab8db658862c9aaf3d4",
+    "compact_sha256": "c3483d6c25cf659fccf7c2d06c19fe3e9c2ba37185d2b02c277c3f403aa6bcd4",
+    "purpose": "Packaging, explicit daily-input subset dispatch, or representative inference check; no reselection or changes to scientific estimates."
+  },
+  {
+    "path": "code/prepare_data.py",
+    "source_sha256": "e6b0792ddc1d4a5afea7710388adab1944bcc615a67245bae99dd59d08ce115e",
+    "compact_sha256": "36a883829e316a3106794172698ea04077976a3720a977bc16dc4036f902ed49",
+    "purpose": "Packaging, explicit daily-input subset dispatch, or representative inference check; no reselection or changes to scientific estimates."
+  }
+]

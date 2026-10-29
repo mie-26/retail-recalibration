@@ -1,0 +1,10 @@
+{
+  "checked": "2026-10-21T11:39:54.404696+08:00",
+  "commit": "3300f75c5cedb7f888af4058032a94940b682ccb",
+  "url": "https://raw.githubusercontent.com/tiffanyding/multiQT/3300f75c5cedb7f888af4058032a94940b682ccb/utils.py",
+  "sha256": "2144374f05b5987fe043d73699a85be7f8b248e8dfe9b7ff36f8ae220f9d0673",
+  "local_reference_sha256": "2144374f05b5987fe043d73699a85be7f8b248e8dfe9b7ff36f8ae220f9d0673",
+  "paper": "https://arxiv.org/html/2512.23671v2",
+  "numerical_test": "test_core.py compares unclamped isotonic played-feedback adaptive+ recursion; deployed clamp explicitly additional",
+  "license_note": "Source retained as an audit reference; consult upstream repository for licensing before redistribution."
+}

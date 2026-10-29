@@ -1,0 +1,73 @@
+Current manuscript reference list. Numbers follow first appearance in the manuscript and are editorial identifiers, not scientific result versions. This list contains cited research authors only; no manuscript author information is included.
+
+[1] R. Fildes, S. Ma, and S. Kolassa, “Retail forecasting: Research and practice,” Int. J. Forecast., vol. 38, no. 4, pp. 1283–1318, 2022, doi: 10.1016/j.ijforecast.2019.06.004.
+
+[2] R. Fildes, S. Kolassa, and S. Ma, “Post-script—Retail forecasting: Research and practice,” Int. J. Forecast., vol. 38, no. 4, pp. 1319–1324, 2022, doi: 10.1016/j.ijforecast.2021.09.012.
+
+[3] S. Makridakis, E. Spiliotis, and V. Assimakopoulos, “M5 accuracy competition: Results, findings, and conclusions,” Int. J. Forecast., vol. 38, no. 4, pp. 1346–1364, 2022, doi: 10.1016/j.ijforecast.2021.11.013.
+
+[4] S. Makridakis et al., “The M5 uncertainty competition: Results, findings and conclusions,” Int. J. Forecast., vol. 38, no. 4, pp. 1365–1385, 2022, doi: 10.1016/j.ijforecast.2021.10.009.
+
+[5] M. Zanotti, “On the retraining frequency of global models in retail demand forecasting,” Mach. Learn. Appl., vol. 22, Art. no. 100769, 2025, doi: 10.1016/j.mlwa.2025.100769.
+
+[6] T. Gneiting et al., “Model diagnostics and forecast evaluation for quantiles,” Annu. Rev. Stat. Appl., vol. 10, no. 1, pp. 597–621, 2023, doi: 10.1146/annurev-statistics-032921-020240.
+
+[7] T. Januschowski, Y. Wang, K. Torkkola, T. Erkkilä, H. Hasson, and J. Gasthaus, “Forecasting with trees,” Int. J. Forecast., vol. 38, no. 4, pp. 1473–1481, 2022, doi: 10.1016/j.ijforecast.2021.10.004.
+
+[8] K. Benidis et al., “Deep learning for time series forecasting: Tutorial and literature survey,” ACM Comput. Surv., vol. 55, no. 6, pp. 1–36, 2023, doi: 10.1145/3533382.
+
+[9] H. Werner, L. Carlsson, E. Ahlberg, and H. Boström, “Evaluation of updating strategies for conformal predictive systems in the presence of extreme events,” in Proc. 10th Symp. Conformal Probabilistic Prediction Appl. (Proc. Mach. Learn. Res.), vol. 152, pp. 229–242, 2021. [Online]. Available: https://proceedings.mlr.press/v152/werner21a.html
+
+[10] H. Löfström, “Conformal Repair on a Budget: An Empirical Protocol for Retraining Decisions,” in Proc. 15th Symp. Conformal Probabilistic Prediction Appl. (Proc. Mach. Learn. Res.), vol. 329, pp. 576–591, 2026. [Online]. Available: https://proceedings.mlr.press/v329/lofstrom26b.html
+
+[11] P. Montero-Manso and R. J. Hyndman, “Principles and algorithms for forecasting groups of time series: Locality and globality,” Int. J. Forecast., vol. 37, no. 4, pp. 1632–1653, 2021, doi: 10.1016/j.ijforecast.2021.03.004.
+
+[12] A. N. Angelopoulos and S. Bates, “Conformal prediction: A gentle introduction,” Found. Trends Mach. Learn., vol. 16, no. 4, pp. 494–591, 2023, doi: 10.1561/2200000101.
+
+[13] R. F. Barber, E. J. Candès, A. Ramdas, and R. J. Tibshirani, “Conformal prediction beyond exchangeability,” Ann. Statist., vol. 51, no. 2, pp. 816–845, 2023, doi: 10.1214/23-AOS2276.
+
+[14] C. Xu and Y. Xie, “Conformal prediction for time series,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 45, no. 10, pp. 11575–11587, 2023, doi: 10.1109/TPAMI.2023.3272339.
+
+[15] I. Gibbs and E. J. Candès, “Adaptive conformal inference under distribution shift,” in Adv. Neural Inf. Process. Syst., vol. 34, pp. 1660–1672, 2021. [Online]. Available: https://papers.neurips.cc/paper_files/paper/2021/hash/0d441de75945e5acbc865406fc9a2559-Abstract.html
+
+[16] M. Zaffran, O. Féron, Y. Goude, J. Josse, and A. Dieuleveut, “Adaptive conformal predictions for time series,” in Proc. 39th Int. Conf. Mach. Learn. (Proc. Mach. Learn. Res.), vol. 162, pp. 25834–25866, 2022. [Online]. Available: https://proceedings.mlr.press/v162/zaffran22a.html
+
+[17] I. Gibbs and E. J. Candès, “Conformal inference for online prediction with arbitrary distribution shifts,” J. Mach. Learn. Res., vol. 25, no. 162, pp. 1–36, 2024. [Online]. Available: https://jmlr.org/papers/v25/22-1218.html
+
+[18] A. Bhatnagar, H. Wang, C. Xiong, and Y. Bai, “Improved online conformal prediction via strongly adaptive online learning,” in Proc. 40th Int. Conf. Mach. Learn. (Proc. Mach. Learn. Res.), vol. 202, pp. 2337–2363, 2023. [Online]. Available: https://proceedings.mlr.press/v202/bhatnagar23a.html
+
+[19] C. Xu and Y. Xie, “Sequential predictive conformal inference for time series,” in Proc. 40th Int. Conf. Mach. Learn. (Proc. Mach. Learn. Res.), vol. 202, pp. 38707–38727, 2023. [Online]. Available: https://proceedings.mlr.press/v202/xu23r.html
+
+[20] A. N. Angelopoulos, E. J. Candès, and R. J. Tibshirani, “Conformal PID control for time series prediction,” in Adv. Neural Inf. Process. Syst., vol. 36, pp. 23047–23074, 2023, doi: 10.52202/075280-1000.
+
+[21] A. N. Angelopoulos, R. F. Barber, and S. Bates, “Online conformal prediction with decaying step sizes,” in Proc. 41st Int. Conf. Mach. Learn. (Proc. Mach. Learn. Res.), vol. 235, pp. 1616–1630, 2024. [Online]. Available: https://proceedings.mlr.press/v235/angelopoulos24a.html
+
+[22] J. Hallberg Szabadváry, “Adaptive conformal inference for multi-step ahead time-series forecasting online,” in Proc. 13th Symp. Conformal Probabilistic Prediction Appl. (Proc. Mach. Learn. Res.), vol. 230, pp. 250–263, 2024. [Online]. Available: https://proceedings.mlr.press/v230/hallberg-szabadvary24a.html
+
+[23] B. Wang, M. Zecchin, and O. Simeone, “Mirror online conformal prediction with intermittent feedback,” IEEE Signal Process. Lett., vol. 32, pp. 2888–2892, 2025, doi: 10.1109/LSP.2025.3588085.
+
+[24] T. Ding, I. Gibbs, and R. J. Tibshirani, “Calibrated multi-level quantile forecasting,” arXiv:2512.23671, ver. 2, 2026. [Online]. Available: https://arxiv.org/abs/2512.23671v2
+
+[25] T. Gneiting and J. Resin, “Regression diagnostics meets forecast evaluation: conditional calibration, reliability diagrams, and coefficient of determination,” Electron. J. Stat., vol. 17, no. 2, pp. 3226–3286, 2023, doi: 10.1214/23-EJS2180.
+
+[26] I. Gibbs, J. J. Cherian, and E. J. Candès, “Conformal prediction with conditional guarantees,” J. R. Stat. Soc. Ser. B Stat. Methodol., vol. 87, no. 4, pp. 1100–1126, 2025, doi: 10.1093/jrsssb/qkaf008.
+
+[27] H. Hewamalage, K. Ackermann, and C. Bergmeir, “Forecast evaluation for data scientists: common pitfalls and best practices,” Data Min. Knowl. Discov., vol. 37, no. 2, pp. 788–832, 2023, doi: 10.1007/s10618-022-00894-5.
+
+[28] V. Chernozhukov, I. Fernández-Val, and A. Galichon, “Quantile and probability curves without crossing,” Econometrica, vol. 78, no. 3, pp. 1093–1125, 2010, doi: 10.3982/ECTA7880.
+
+[29] D. Chen, “Online Retail II,” UCI Machine Learning Repository, 2012, doi: 10.24432/C5CG6D. [Data set].
+
+[30] Kilts Center for Marketing, “Dominick’s dataset,” University of Chicago Booth School of Business. Accessed: Oct. 25, 2026. [Online]. Available: https://www.chicagobooth.edu/research/kilts/research-data/dominicks
+
+[31] P. Mancuso, V. Piccialli, and A. M. Sudoso, “Hierarchical sales data of an Italian grocery store,” Mendeley Data, ver. 1, 2021, doi: 10.17632/s8dgbs3rng.1. [Data set].
+
+[32] R. Koenker and G. Bassett, Jr., “Regression quantiles,” Econometrica, vol. 46, no. 1, pp. 33–50, 1978, doi: 10.2307/1913643.
+
+[33] G. Ke et al., “LightGBM: A highly efficient gradient boosting decision tree,” in Adv. Neural Inf. Process. Syst., vol. 30, 2017. [Online]. Available: https://proceedings.neurips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html
+
+[34] I. Loshchilov and F. Hutter, “Decoupled weight decay regularization,” in Proc. Int. Conf. Learn. Represent., 2019. [Online]. Available: https://arxiv.org/abs/1711.05101
+
+[35] D. N. Politis and J. P. Romano, “A circular block-resampling procedure for stationary data,” in Exploring the Limits of Bootstrap, R. LePage and L. Billard, Eds. New York, NY, USA: Wiley, 1992, pp. 263–270.
+
+[36] C. Lorentzen and model-diagnostics contributors, “model-diagnostics,” ver. 1.5.0. Accessed: Oct. 27, 2026. [Online]. Available: https://github.com/lorentzenchr/model-diagnostics/releases/tag/v1.5.0
