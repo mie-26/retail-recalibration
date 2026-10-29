@@ -38,6 +38,6 @@ Small representative weight files and their inference check are described in `mo
 
 ## Distribution and rights
 
-Repository: https://github.com/mie-26/retail-recalibration. The single outer ZIP can be uploaded as a repository file; reviewers download and extract it locally before running. The ZIP does not unpack itself on GitHub. Local packaging has not created a remote release or pushed any changes.
+Repository: https://github.com/mie-26/retail-recalibration. This repository contains the extracted core reproduction files. Download it with **Code → Download ZIP**, extract the downloaded folder, then run the commands above from the folder containing `reproduce.py`. Keep the four `.tar.xz` archives compressed: the entry point restores them automatically. The optional `.gitignore` and `.gitattributes` files are Git configuration only; their absence does not prevent reproduction. Every scientific input, program and required archive remains mandatory and hash-checked. This README does not assert a published release or tag.
 
 The Italian source CSV retains its provider's CC BY-NC 3.0 notice. Full raw M5, Online Retail II and Dominick’s sales are not redistributed. See `LICENSE_STATUS.txt`; no unselected code licence is implied. SHA256 manifests protect file integrity; they are not scientific certification. Citation metadata remain in `CITATION.txt`.

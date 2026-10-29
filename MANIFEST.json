@@ -4,12 +4,14 @@
     {
       "path": ".gitattributes",
       "bytes": 66,
-      "sha256": "85aebfb76a3cc52dd16c3081b5d7055a7ecbdad261f36c3c07df7b6f61971f60"
+      "sha256": "85aebfb76a3cc52dd16c3081b5d7055a7ecbdad261f36c3c07df7b6f61971f60",
+      "optional": true
     },
     {
       "path": ".gitignore",
       "bytes": 235,
-      "sha256": "a282e486c74d6b76fd57111e9f17e6b1e86c6409ff0cc43eda96ac5b26acc52a"
+      "sha256": "a282e486c74d6b76fd57111e9f17e6b1e86c6409ff0cc43eda96ac5b26acc52a",
+      "optional": true
     },
     {
       "path": "CITATION.txt",
@@ -368,8 +370,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4417,
-      "sha256": "3ca0956920ad9b45fd21f80c6a403b3f0cc4005604b646a3a5948438474eb51f"
+      "bytes": 4757,
+      "sha256": "6a521ee743d06abb2b2297d7f65d6cc4fd5536f5e0bdb423cb6fd7ba72964ed6"
     },
     {
       "path": "RELEASE.json",
